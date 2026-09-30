@@ -1,0 +1,4 @@
+{ "name": "llm-grid3-1000-main",
+  "fixed": {"final-product-name": "Widget", "style": "narrative", "echelons": 7},
+  "factors": {"nodes": [1000]},
+  "seeds": [1] }

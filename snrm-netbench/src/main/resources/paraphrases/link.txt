@@ -1,0 +1,6 @@
+{source} ships to {target} with {clauses}.
+{source} delivers to {target} with {clauses}.
+{source} sends goods to {target} with {clauses}.
+The lane from {source} to {target} has {clauses}.
+The link from {source} to {target} has {clauses}.
+Shipments from {source} to {target} have {clauses}.

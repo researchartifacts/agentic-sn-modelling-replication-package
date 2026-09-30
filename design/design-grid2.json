@@ -1,0 +1,4 @@
+{ "name": "llm-grid2-noise",
+  "fixed": {"final-product-name": "Widget", "style": "narrative", "echelons": 5, "noise-ratio": 0.3},
+  "factors": {"nodes": [6, 25, 100, 500], "noise-type": ["topical", "adversarial"]},
+  "seeds": [1] }

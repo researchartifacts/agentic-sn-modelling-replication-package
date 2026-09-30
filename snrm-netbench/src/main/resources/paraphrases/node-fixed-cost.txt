@@ -1,0 +1,5 @@
+a fixed cost of {value} per period
+a fixed operating cost of {value} per period
+fixed costs of {value} per period
+a fixed cost amounting to {value} per period
+a fixed charge of {value} per period

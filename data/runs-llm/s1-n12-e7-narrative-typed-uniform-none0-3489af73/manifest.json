@@ -1,0 +1,131 @@
+{
+  "tool_version": "0.1.0",
+  "generated_at": null,
+  "run_id": "s1-n12-e7-narrative-typed-uniform-none0-3489af73",
+  "seed": 1,
+  "params": {
+    "seed": 1,
+    "nodes": 12,
+    "echelons": 7,
+    "final-product-name": "Widget",
+    "products": 1,
+    "naming": "typed",
+    "style": "narrative",
+    "order": "by-tier",
+    "units": "uniform",
+    "period-unit": "DAY",
+    "period-value": 1,
+    "horizon": 90,
+    "inbound-links": "1,2",
+    "lateral-links": 0,
+    "attribute-coverage": 1,
+    "noise-type": "none",
+    "noise-ratio": 0,
+    "geo": false,
+    "distance-mode": "none",
+    "locale": "plain"
+  },
+  "tiers": [
+    {
+      "index": 0,
+      "role": "tier-2 supplier",
+      "type": "SUPPLIER",
+      "nodes": [
+        "SP2-01",
+        "SP2-02"
+      ]
+    },
+    {
+      "index": 1,
+      "role": "tier-1 supplier",
+      "type": "SUPPLIER",
+      "nodes": [
+        "SP1-01",
+        "SP1-02"
+      ]
+    },
+    {
+      "index": 2,
+      "role": "component plant",
+      "type": "PLANT",
+      "nodes": [
+        "PLC-01",
+        "PLC-02"
+      ]
+    },
+    {
+      "index": 3,
+      "role": "assembly plant",
+      "type": "PLANT",
+      "nodes": [
+        "PLA-01"
+      ]
+    },
+    {
+      "index": 4,
+      "role": "central distribution centre",
+      "type": "DC",
+      "nodes": [
+        "DCC-01"
+      ]
+    },
+    {
+      "index": 5,
+      "role": "regional distribution centre",
+      "type": "DC",
+      "nodes": [
+        "DCR-01"
+      ]
+    },
+    {
+      "index": 6,
+      "role": "customer",
+      "type": "CUSTOMER",
+      "nodes": [
+        "CUS-01",
+        "CUS-02",
+        "CUS-03"
+      ]
+    }
+  ],
+  "counts": {
+    "nodes": 12,
+    "links": 13,
+    "products": 1,
+    "node_products": 12,
+    "facts_total": 182,
+    "facts_stated": 182,
+    "sentences_header": 4,
+    "sentences_fact": 44,
+    "sentences_noise": 0,
+    "noise_ratio_actual": 0,
+    "words": 1323,
+    "token_estimate": 1720
+  },
+  "expected_import": {
+    "errors": 0,
+    "warnings": {
+      "LATERAL_LINK": 6
+    }
+  },
+  "decoy_entities": [],
+  "notes": [],
+  "files": {
+    "description": "description/description.md",
+    "truth": "truth",
+    "facts": "facts.jsonl",
+    "decoys": "decoys.jsonl",
+    "full_network": "network.full.json"
+  },
+  "sha256": {
+    "decoys.jsonl": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "description/description.md": "980bffb5fe2e6c0a8f679f04c5c321c3b5de3670a31d0fb5329e04f228a9787f",
+    "facts.jsonl": "14b2c165132cfb4ca79812941e4221dd724c6dc62c91dc7d4057d15cbc2195c8",
+    "network.full.json": "258297520a21b7b4a9998f0dbdb6284fac70cf0e67003175e0aa69c25250cffb",
+    "truth/links.csv": "0b2d125b12fef61526ceaa44de53aeed519d7ae2b26e9cac042cabc1c410ce75",
+    "truth/network_meta.csv": "20077f515a8711933fe0150c5cb6da877759bb3fa1e068a344fe459031c863d6",
+    "truth/node_products.csv": "9fc4e5b9a05f7fcf9aa701f1cc092276e92af9b17f1b0f6b4672c946ebaf8ddd",
+    "truth/nodes.csv": "dec2f22db2c75e30808ea6a31c9d0b6beb2d0ab708325dbac21e4bda1fd03db6",
+    "truth/products.csv": "ee431ecf6022c8fcd9200d72c2ff2d2664f25864f8e8595e1d5dfc6d95b9bbd2"
+  }
+}

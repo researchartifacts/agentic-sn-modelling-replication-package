@@ -1,0 +1,29 @@
+{
+  "task": "Supply network extraction benchmark",
+  "scenario": "s1-n500-e3-narrative-typed-uniform-none0-228c9248",
+  "reported_model": "haiku",
+  "model_id": "claude-haiku-4-5-20251001",
+  "files_read": [
+    "protocol/llm-instructions-v1.md",
+    "data/runs-llm/s1-n500-e3-narrative-typed-uniform-none0-228c9248/description/description.md"
+  ],
+  "files_written": [
+    "network_meta.csv",
+    "nodes.csv",
+    "links.csv",
+    "products.csv",
+    "node_products.csv"
+  ],
+  "data_summary": {
+    "suppliers": 126,
+    "plants": 125,
+    "customers": 249,
+    "total_nodes": 500,
+    "products": 1,
+    "supplier_plant_links": 126,
+    "plant_customer_links": 623,
+    "total_links": 749,
+    "network_horizon_periods": 90,
+    "period_length": "1 DAY"
+  }
+}

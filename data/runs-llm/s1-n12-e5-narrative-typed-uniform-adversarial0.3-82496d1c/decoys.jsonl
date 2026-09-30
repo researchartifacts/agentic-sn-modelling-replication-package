@@ -1,0 +1,18 @@
+{"id":1,"marker":"Under the proposed expansion,","kind":"demand","entity":"CUS-04|Widget","field":"demand","value":"6","unit":"DAY","decoy_entity":false,"sentence":5}
+{"id":2,"marker":"It was originally planned that","kind":"inventory","entity":"SUP-01|Widget","field":"safety_stock","value":"425","unit":null,"decoy_entity":false,"sentence":8}
+{"id":3,"marker":"In the competitor's network,","kind":"node","entity":"DCR-01","field":"fixed_cost","value":"1333","unit":null,"decoy_entity":false,"sentence":9}
+{"id":4,"marker":"It was originally planned that","kind":"node","entity":"DCC-03","field":"exists","value":"DC","unit":null,"decoy_entity":true,"sentence":12}
+{"id":5,"marker":"Until 2013,","kind":"inventory","entity":"DCC-01|Widget","field":"initial_inventory","value":"575","unit":null,"decoy_entity":false,"sentence":13}
+{"id":6,"marker":"In the discontinued Widget Classic network,","kind":"node","entity":"DCR-03","field":"exists","value":"DC","unit":null,"decoy_entity":true,"sentence":15}
+{"id":7,"marker":"It was originally planned that","kind":"inventory","entity":"SUP-01|Widget","field":"safety_stock","value":"151","unit":null,"decoy_entity":false,"sentence":16}
+{"id":8,"marker":"In the discontinued Widget Classic network,","kind":"demand","entity":"CUS-05|Widget","field":"demand","value":"11","unit":"DAY","decoy_entity":true,"sentence":17}
+{"id":9,"marker":"In the discontinued Widget Classic network,","kind":"node","entity":"CUS-03","field":"region","value":"EU-South","unit":null,"decoy_entity":false,"sentence":21}
+{"id":10,"marker":"In the discontinued Widget Classic network,","kind":"inventory","entity":"DCC-01|Widget","field":"holding_cost","value":"0.68","unit":"DAY","decoy_entity":false,"sentence":22}
+{"id":11,"marker":"Before the 2015 restructuring,","kind":"demand","entity":"CUS-03|Widget","field":"demand","value":"9","unit":"DAY","decoy_entity":false,"sentence":26}
+{"id":12,"marker":"Until 2011,","kind":"demand","entity":"CUS-06|Widget","field":"demand","value":"44","unit":"DAY","decoy_entity":true,"sentence":31}
+{"id":13,"marker":"In the competitor's network,","kind":"link","entity":"DCR-02->CUS-02","field":"lead_time","value":"5","unit":"DAY","decoy_entity":false,"sentence":35}
+{"id":14,"marker":"In the discontinued Widget Classic network,","kind":"inventory","entity":"SUP-03|Widget","field":"initial_inventory","value":"730","unit":null,"decoy_entity":true,"sentence":38}
+{"id":15,"marker":"Under the proposed expansion,","kind":"inventory","entity":"PLT-03|Widget","field":"initial_inventory","value":"560","unit":null,"decoy_entity":true,"sentence":41}
+{"id":16,"marker":"It was originally planned that","kind":"link","entity":"SUP-02->PLT-04","field":"lead_time","value":"3","unit":"DAY","decoy_entity":true,"sentence":46}
+{"id":17,"marker":"Until 2017,","kind":"inventory","entity":"DCC-04|Widget","field":"initial_inventory","value":"640","unit":null,"decoy_entity":true,"sentence":52}
+{"id":18,"marker":"In the discontinued Widget Classic network,","kind":"node","entity":"CUS-04","field":"region","value":"AMER","unit":null,"decoy_entity":false,"sentence":56}

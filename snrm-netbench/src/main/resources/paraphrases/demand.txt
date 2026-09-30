@@ -1,0 +1,6 @@
+{name} demands {value} units of {product} per {unit}.
+{name} requires {value} units of {product} per {unit}.
+{name} orders {value} units of {product} every {unit}.
+{name} needs {value} units of {product} each {unit}.
+Every {unit}, {name} requires {value} units of {product}.
+The demand at {name} is {value} units of {product} per {unit}.

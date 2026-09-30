@@ -1,0 +1,2336 @@
+{
+  "tool_version": "0.1.0",
+  "verified_at": "2026-09-28T08:05:30Z",
+  "truth": "runs-llm/s1-n50-e5-template-typed-uniform-none0-7cf91e25/truth",
+  "candidate": "responses/haiku/s1-n50-e5-template-typed-uniform-none0-7cf91e25/1/candidate",
+  "run_id": "s1-n50-e5-template-typed-uniform-none0-7cf91e25",
+  "manifest": {
+    "seed": 1,
+    "params": {
+      "seed": 1,
+      "nodes": 50,
+      "echelons": 5,
+      "final-product-name": "Widget",
+      "products": 1,
+      "naming": "typed",
+      "style": "template",
+      "order": "by-tier",
+      "units": "uniform",
+      "period-unit": "DAY",
+      "period-value": 1,
+      "horizon": 90,
+      "inbound-links": "1,2",
+      "lateral-links": 0,
+      "attribute-coverage": 1,
+      "noise-type": "none",
+      "noise-ratio": 0,
+      "geo": false,
+      "distance-mode": "none",
+      "locale": "plain"
+    },
+    "counts": {
+      "nodes": 50,
+      "links": 64,
+      "products": 1,
+      "node_products": 50,
+      "facts_total": 715,
+      "facts_stated": 715,
+      "sentences_header": 4,
+      "sentences_fact": 164,
+      "sentences_noise": 0,
+      "noise_ratio_actual": 0,
+      "words": 4540,
+      "token_estimate": 5902
+    }
+  },
+  "envelope": {
+    "source": "directory",
+    "files_found": [
+      "network_meta.csv",
+      "nodes.csv",
+      "links.csv",
+      "products.csv",
+      "node_products.csv"
+    ],
+    "files_missing": [],
+    "findings": []
+  },
+  "l0": {
+    "import_valid": false,
+    "error_count": 71,
+    "warning_count": 38,
+    "findings": [
+      {
+        "code": "ROW_WIDTH_MISMATCH",
+        "severity": "WARNING",
+        "file": "nodes.csv",
+        "line": 2,
+        "message": "nodes.csv line 2: has 15 cells but the header has 16; missing trailing cells read as blank"
+      },
+      {
+        "code": "ROW_WIDTH_MISMATCH",
+        "severity": "WARNING",
+        "file": "nodes.csv",
+        "line": 3,
+        "message": "nodes.csv line 3: has 15 cells but the header has 16; missing trailing cells read as blank"
+      },
+      {
+        "code": "ROW_WIDTH_MISMATCH",
+        "severity": "WARNING",
+        "file": "nodes.csv",
+        "line": 4,
+        "message": "nodes.csv line 4: has 15 cells but the header has 16; missing trailing cells read as blank"
+      },
+      {
+        "code": "ROW_WIDTH_MISMATCH",
+        "severity": "WARNING",
+        "file": "nodes.csv",
+        "line": 5,
+        "message": "nodes.csv line 5: has 15 cells but the header has 16; missing trailing cells read as blank"
+      },
+      {
+        "code": "ROW_WIDTH_MISMATCH",
+        "severity": "WARNING",
+        "file": "nodes.csv",
+        "line": 6,
+        "message": "nodes.csv line 6: has 15 cells but the header has 16; missing trailing cells read as blank"
+      },
+      {
+        "code": "ROW_WIDTH_MISMATCH",
+        "severity": "WARNING",
+        "file": "nodes.csv",
+        "line": 7,
+        "message": "nodes.csv line 7: has 15 cells but the header has 16; missing trailing cells read as blank"
+      },
+      {
+        "code": "ROW_WIDTH_MISMATCH",
+        "severity": "WARNING",
+        "file": "nodes.csv",
+        "line": 8,
+        "message": "nodes.csv line 8: has 15 cells but the header has 16; missing trailing cells read as blank"
+      },
+      {
+        "code": "ROW_WIDTH_MISMATCH",
+        "severity": "WARNING",
+        "file": "nodes.csv",
+        "line": 9,
+        "message": "nodes.csv line 9: has 15 cells but the header has 16; missing trailing cells read as blank"
+      },
+      {
+        "code": "ROW_WIDTH_MISMATCH",
+        "severity": "WARNING",
+        "file": "nodes.csv",
+        "line": 10,
+        "message": "nodes.csv line 10: has 15 cells but the header has 16; missing trailing cells read as blank"
+      },
+      {
+        "code": "ROW_WIDTH_MISMATCH",
+        "severity": "WARNING",
+        "file": "nodes.csv",
+        "line": 11,
+        "message": "nodes.csv line 11: has 15 cells but the header has 16; missing trailing cells read as blank"
+      },
+      {
+        "code": "ROW_WIDTH_MISMATCH",
+        "severity": "WARNING",
+        "file": "nodes.csv",
+        "line": 12,
+        "message": "nodes.csv line 12: has 15 cells but the header has 16; missing trailing cells read as blank"
+      },
+      {
+        "code": "ROW_WIDTH_MISMATCH",
+        "severity": "WARNING",
+        "file": "nodes.csv",
+        "line": 13,
+        "message": "nodes.csv line 13: has 15 cells but the header has 16; missing trailing cells read as blank"
+      },
+      {
+        "code": "ROW_WIDTH_MISMATCH",
+        "severity": "WARNING",
+        "file": "nodes.csv",
+        "line": 14,
+        "message": "nodes.csv line 14: has 15 cells but the header has 16; missing trailing cells read as blank"
+      },
+      {
+        "code": "ROW_WIDTH_MISMATCH",
+        "severity": "WARNING",
+        "file": "nodes.csv",
+        "line": 15,
+        "message": "nodes.csv line 15: has 15 cells but the header has 16; missing trailing cells read as blank"
+      },
+      {
+        "code": "ROW_WIDTH_MISMATCH",
+        "severity": "WARNING",
+        "file": "nodes.csv",
+        "line": 16,
+        "message": "nodes.csv line 16: has 15 cells but the header has 16; missing trailing cells read as blank"
+      },
+      {
+        "code": "ROW_WIDTH_MISMATCH",
+        "severity": "WARNING",
+        "file": "nodes.csv",
+        "line": 17,
+        "message": "nodes.csv line 17: has 15 cells but the header has 16; missing trailing cells read as blank"
+      },
+      {
+        "code": "ROW_WIDTH_MISMATCH",
+        "severity": "WARNING",
+        "file": "nodes.csv",
+        "line": 18,
+        "message": "nodes.csv line 18: has 15 cells but the header has 16; missing trailing cells read as blank"
+      },
+      {
+        "code": "ROW_WIDTH_MISMATCH",
+        "severity": "WARNING",
+        "file": "nodes.csv",
+        "line": 19,
+        "message": "nodes.csv line 19: has 15 cells but the header has 16; missing trailing cells read as blank"
+      },
+      {
+        "code": "ROW_WIDTH_MISMATCH",
+        "severity": "WARNING",
+        "file": "nodes.csv",
+        "line": 20,
+        "message": "nodes.csv line 20: has 15 cells but the header has 16; missing trailing cells read as blank"
+      },
+      {
+        "code": "ROW_WIDTH_MISMATCH",
+        "severity": "WARNING",
+        "file": "nodes.csv",
+        "line": 21,
+        "message": "nodes.csv line 21: has 15 cells but the header has 16; missing trailing cells read as blank"
+      },
+      {
+        "code": "ROW_WIDTH_MISMATCH",
+        "severity": "WARNING",
+        "file": "nodes.csv",
+        "line": 22,
+        "message": "nodes.csv line 22: has 15 cells but the header has 16; missing trailing cells read as blank"
+      },
+      {
+        "code": "ROW_WIDTH_MISMATCH",
+        "severity": "WARNING",
+        "file": "nodes.csv",
+        "line": 23,
+        "message": "nodes.csv line 23: has 15 cells but the header has 16; missing trailing cells read as blank"
+      },
+      {
+        "code": "ROW_WIDTH_MISMATCH",
+        "severity": "WARNING",
+        "file": "nodes.csv",
+        "line": 24,
+        "message": "nodes.csv line 24: has 15 cells but the header has 16; missing trailing cells read as blank"
+      },
+      {
+        "code": "ROW_WIDTH_MISMATCH",
+        "severity": "WARNING",
+        "file": "nodes.csv",
+        "line": 25,
+        "message": "nodes.csv line 25: has 15 cells but the header has 16; missing trailing cells read as blank"
+      },
+      {
+        "code": "ROW_WIDTH_MISMATCH",
+        "severity": "WARNING",
+        "file": "nodes.csv",
+        "line": 26,
+        "message": "nodes.csv line 26: has 15 cells but the header has 16; missing trailing cells read as blank"
+      },
+      {
+        "code": "ROW_WIDTH_MISMATCH",
+        "severity": "WARNING",
+        "file": "nodes.csv",
+        "line": 27,
+        "message": "nodes.csv line 27: has 15 cells but the header has 16; missing trailing cells read as blank"
+      },
+      {
+        "code": "ROW_WIDTH_MISMATCH",
+        "severity": "WARNING",
+        "file": "nodes.csv",
+        "line": 28,
+        "message": "nodes.csv line 28: has 15 cells but the header has 16; missing trailing cells read as blank"
+      },
+      {
+        "code": "UNKNOWN_TIME_UNIT",
+        "severity": "ERROR",
+        "file": "nodes.csv",
+        "line": 29,
+        "column": "processing_time_unit",
+        "message": "nodes.csv line 29: processing_time_unit \"0\" is not a time unit"
+      },
+      {
+        "code": "NOT_A_NUMBER",
+        "severity": "ERROR",
+        "file": "nodes.csv",
+        "line": 29,
+        "column": "fixed_cost",
+        "message": "nodes.csv line 29: fixed_cost \"DAY\" is not a number"
+      },
+      {
+        "code": "NOT_A_NUMBER",
+        "severity": "ERROR",
+        "file": "nodes.csv",
+        "line": 29,
+        "column": "lat",
+        "message": "nodes.csv line 29: lat \"EU-East\" is not a number"
+      },
+      {
+        "code": "UNKNOWN_TIME_UNIT",
+        "severity": "ERROR",
+        "file": "nodes.csv",
+        "line": 30,
+        "column": "processing_time_unit",
+        "message": "nodes.csv line 30: processing_time_unit \"0\" is not a time unit"
+      },
+      {
+        "code": "NOT_A_NUMBER",
+        "severity": "ERROR",
+        "file": "nodes.csv",
+        "line": 30,
+        "column": "fixed_cost",
+        "message": "nodes.csv line 30: fixed_cost \"DAY\" is not a number"
+      },
+      {
+        "code": "NOT_A_NUMBER",
+        "severity": "ERROR",
+        "file": "nodes.csv",
+        "line": 30,
+        "column": "lat",
+        "message": "nodes.csv line 30: lat \"EU-North\" is not a number"
+      },
+      {
+        "code": "UNKNOWN_TIME_UNIT",
+        "severity": "ERROR",
+        "file": "nodes.csv",
+        "line": 31,
+        "column": "processing_time_unit",
+        "message": "nodes.csv line 31: processing_time_unit \"0\" is not a time unit"
+      },
+      {
+        "code": "NOT_A_NUMBER",
+        "severity": "ERROR",
+        "file": "nodes.csv",
+        "line": 31,
+        "column": "fixed_cost",
+        "message": "nodes.csv line 31: fixed_cost \"DAY\" is not a number"
+      },
+      {
+        "code": "NOT_A_NUMBER",
+        "severity": "ERROR",
+        "file": "nodes.csv",
+        "line": 31,
+        "column": "lat",
+        "message": "nodes.csv line 31: lat \"EU-West\" is not a number"
+      },
+      {
+        "code": "UNKNOWN_TIME_UNIT",
+        "severity": "ERROR",
+        "file": "nodes.csv",
+        "line": 32,
+        "column": "processing_time_unit",
+        "message": "nodes.csv line 32: processing_time_unit \"0\" is not a time unit"
+      },
+      {
+        "code": "NOT_A_NUMBER",
+        "severity": "ERROR",
+        "file": "nodes.csv",
+        "line": 32,
+        "column": "fixed_cost",
+        "message": "nodes.csv line 32: fixed_cost \"DAY\" is not a number"
+      },
+      {
+        "code": "NOT_A_NUMBER",
+        "severity": "ERROR",
+        "file": "nodes.csv",
+        "line": 32,
+        "column": "lat",
+        "message": "nodes.csv line 32: lat \"EU-Central\" is not a number"
+      },
+      {
+        "code": "UNKNOWN_TIME_UNIT",
+        "severity": "ERROR",
+        "file": "nodes.csv",
+        "line": 33,
+        "column": "processing_time_unit",
+        "message": "nodes.csv line 33: processing_time_unit \"0\" is not a time unit"
+      },
+      {
+        "code": "NOT_A_NUMBER",
+        "severity": "ERROR",
+        "file": "nodes.csv",
+        "line": 33,
+        "column": "fixed_cost",
+        "message": "nodes.csv line 33: fixed_cost \"DAY\" is not a number"
+      },
+      {
+        "code": "NOT_A_NUMBER",
+        "severity": "ERROR",
+        "file": "nodes.csv",
+        "line": 33,
+        "column": "lat",
+        "message": "nodes.csv line 33: lat \"EU-East\" is not a number"
+      },
+      {
+        "code": "UNKNOWN_TIME_UNIT",
+        "severity": "ERROR",
+        "file": "nodes.csv",
+        "line": 34,
+        "column": "processing_time_unit",
+        "message": "nodes.csv line 34: processing_time_unit \"0\" is not a time unit"
+      },
+      {
+        "code": "NOT_A_NUMBER",
+        "severity": "ERROR",
+        "file": "nodes.csv",
+        "line": 34,
+        "column": "fixed_cost",
+        "message": "nodes.csv line 34: fixed_cost \"DAY\" is not a number"
+      },
+      {
+        "code": "NOT_A_NUMBER",
+        "severity": "ERROR",
+        "file": "nodes.csv",
+        "line": 34,
+        "column": "lat",
+        "message": "nodes.csv line 34: lat \"EU-North\" is not a number"
+      },
+      {
+        "code": "UNKNOWN_TIME_UNIT",
+        "severity": "ERROR",
+        "file": "nodes.csv",
+        "line": 35,
+        "column": "processing_time_unit",
+        "message": "nodes.csv line 35: processing_time_unit \"0\" is not a time unit"
+      },
+      {
+        "code": "NOT_A_NUMBER",
+        "severity": "ERROR",
+        "file": "nodes.csv",
+        "line": 35,
+        "column": "fixed_cost",
+        "message": "nodes.csv line 35: fixed_cost \"DAY\" is not a number"
+      },
+      {
+        "code": "NOT_A_NUMBER",
+        "severity": "ERROR",
+        "file": "nodes.csv",
+        "line": 35,
+        "column": "lat",
+        "message": "nodes.csv line 35: lat \"EU-Central\" is not a number"
+      },
+      {
+        "code": "UNKNOWN_TIME_UNIT",
+        "severity": "ERROR",
+        "file": "nodes.csv",
+        "line": 36,
+        "column": "processing_time_unit",
+        "message": "nodes.csv line 36: processing_time_unit \"0\" is not a time unit"
+      },
+      {
+        "code": "NOT_A_NUMBER",
+        "severity": "ERROR",
+        "file": "nodes.csv",
+        "line": 36,
+        "column": "fixed_cost",
+        "message": "nodes.csv line 36: fixed_cost \"DAY\" is not a number"
+      },
+      {
+        "code": "NOT_A_NUMBER",
+        "severity": "ERROR",
+        "file": "nodes.csv",
+        "line": 36,
+        "column": "lat",
+        "message": "nodes.csv line 36: lat \"EU-North\" is not a number"
+      },
+      {
+        "code": "UNKNOWN_TIME_UNIT",
+        "severity": "ERROR",
+        "file": "nodes.csv",
+        "line": 37,
+        "column": "processing_time_unit",
+        "message": "nodes.csv line 37: processing_time_unit \"0\" is not a time unit"
+      },
+      {
+        "code": "NOT_A_NUMBER",
+        "severity": "ERROR",
+        "file": "nodes.csv",
+        "line": 37,
+        "column": "fixed_cost",
+        "message": "nodes.csv line 37: fixed_cost \"DAY\" is not a number"
+      },
+      {
+        "code": "NOT_A_NUMBER",
+        "severity": "ERROR",
+        "file": "nodes.csv",
+        "line": 37,
+        "column": "lat",
+        "message": "nodes.csv line 37: lat \"EU-East\" is not a number"
+      },
+      {
+        "code": "UNKNOWN_TIME_UNIT",
+        "severity": "ERROR",
+        "file": "nodes.csv",
+        "line": 38,
+        "column": "processing_time_unit",
+        "message": "nodes.csv line 38: processing_time_unit \"0\" is not a time unit"
+      },
+      {
+        "code": "NOT_A_NUMBER",
+        "severity": "ERROR",
+        "file": "nodes.csv",
+        "line": 38,
+        "column": "fixed_cost",
+        "message": "nodes.csv line 38: fixed_cost \"DAY\" is not a number"
+      },
+      {
+        "code": "NOT_A_NUMBER",
+        "severity": "ERROR",
+        "file": "nodes.csv",
+        "line": 38,
+        "column": "lat",
+        "message": "nodes.csv line 38: lat \"EU-Central\" is not a number"
+      },
+      {
+        "code": "UNKNOWN_TIME_UNIT",
+        "severity": "ERROR",
+        "file": "nodes.csv",
+        "line": 39,
+        "column": "processing_time_unit",
+        "message": "nodes.csv line 39: processing_time_unit \"0\" is not a time unit"
+      },
+      {
+        "code": "NOT_A_NUMBER",
+        "severity": "ERROR",
+        "file": "nodes.csv",
+        "line": 39,
+        "column": "fixed_cost",
+        "message": "nodes.csv line 39: fixed_cost \"DAY\" is not a number"
+      },
+      {
+        "code": "NOT_A_NUMBER",
+        "severity": "ERROR",
+        "file": "nodes.csv",
+        "line": 39,
+        "column": "lat",
+        "message": "nodes.csv line 39: lat \"EU-North\" is not a number"
+      },
+      {
+        "code": "UNKNOWN_TIME_UNIT",
+        "severity": "ERROR",
+        "file": "nodes.csv",
+        "line": 40,
+        "column": "processing_time_unit",
+        "message": "nodes.csv line 40: processing_time_unit \"0\" is not a time unit"
+      },
+      {
+        "code": "NOT_A_NUMBER",
+        "severity": "ERROR",
+        "file": "nodes.csv",
+        "line": 40,
+        "column": "fixed_cost",
+        "message": "nodes.csv line 40: fixed_cost \"DAY\" is not a number"
+      },
+      {
+        "code": "NOT_A_NUMBER",
+        "severity": "ERROR",
+        "file": "nodes.csv",
+        "line": 40,
+        "column": "lat",
+        "message": "nodes.csv line 40: lat \"EU-Central\" is not a number"
+      },
+      {
+        "code": "UNKNOWN_TIME_UNIT",
+        "severity": "ERROR",
+        "file": "nodes.csv",
+        "line": 41,
+        "column": "processing_time_unit",
+        "message": "nodes.csv line 41: processing_time_unit \"0\" is not a time unit"
+      },
+      {
+        "code": "NOT_A_NUMBER",
+        "severity": "ERROR",
+        "file": "nodes.csv",
+        "line": 41,
+        "column": "fixed_cost",
+        "message": "nodes.csv line 41: fixed_cost \"DAY\" is not a number"
+      },
+      {
+        "code": "NOT_A_NUMBER",
+        "severity": "ERROR",
+        "file": "nodes.csv",
+        "line": 41,
+        "column": "lat",
+        "message": "nodes.csv line 41: lat \"EU-East\" is not a number"
+      },
+      {
+        "code": "UNKNOWN_TIME_UNIT",
+        "severity": "ERROR",
+        "file": "nodes.csv",
+        "line": 42,
+        "column": "processing_time_unit",
+        "message": "nodes.csv line 42: processing_time_unit \"0\" is not a time unit"
+      },
+      {
+        "code": "NOT_A_NUMBER",
+        "severity": "ERROR",
+        "file": "nodes.csv",
+        "line": 42,
+        "column": "fixed_cost",
+        "message": "nodes.csv line 42: fixed_cost \"DAY\" is not a number"
+      },
+      {
+        "code": "NOT_A_NUMBER",
+        "severity": "ERROR",
+        "file": "nodes.csv",
+        "line": 42,
+        "column": "lat",
+        "message": "nodes.csv line 42: lat \"EU-Central\" is not a number"
+      },
+      {
+        "code": "UNKNOWN_TIME_UNIT",
+        "severity": "ERROR",
+        "file": "nodes.csv",
+        "line": 43,
+        "column": "processing_time_unit",
+        "message": "nodes.csv line 43: processing_time_unit \"0\" is not a time unit"
+      },
+      {
+        "code": "NOT_A_NUMBER",
+        "severity": "ERROR",
+        "file": "nodes.csv",
+        "line": 43,
+        "column": "fixed_cost",
+        "message": "nodes.csv line 43: fixed_cost \"DAY\" is not a number"
+      },
+      {
+        "code": "NOT_A_NUMBER",
+        "severity": "ERROR",
+        "file": "nodes.csv",
+        "line": 43,
+        "column": "lat",
+        "message": "nodes.csv line 43: lat \"EU-West\" is not a number"
+      },
+      {
+        "code": "UNKNOWN_TIME_UNIT",
+        "severity": "ERROR",
+        "file": "nodes.csv",
+        "line": 44,
+        "column": "processing_time_unit",
+        "message": "nodes.csv line 44: processing_time_unit \"0\" is not a time unit"
+      },
+      {
+        "code": "NOT_A_NUMBER",
+        "severity": "ERROR",
+        "file": "nodes.csv",
+        "line": 44,
+        "column": "fixed_cost",
+        "message": "nodes.csv line 44: fixed_cost \"DAY\" is not a number"
+      },
+      {
+        "code": "NOT_A_NUMBER",
+        "severity": "ERROR",
+        "file": "nodes.csv",
+        "line": 44,
+        "column": "lat",
+        "message": "nodes.csv line 44: lat \"EU-Central\" is not a number"
+      },
+      {
+        "code": "UNKNOWN_TIME_UNIT",
+        "severity": "ERROR",
+        "file": "nodes.csv",
+        "line": 45,
+        "column": "processing_time_unit",
+        "message": "nodes.csv line 45: processing_time_unit \"0\" is not a time unit"
+      },
+      {
+        "code": "NOT_A_NUMBER",
+        "severity": "ERROR",
+        "file": "nodes.csv",
+        "line": 45,
+        "column": "fixed_cost",
+        "message": "nodes.csv line 45: fixed_cost \"DAY\" is not a number"
+      },
+      {
+        "code": "NOT_A_NUMBER",
+        "severity": "ERROR",
+        "file": "nodes.csv",
+        "line": 45,
+        "column": "lat",
+        "message": "nodes.csv line 45: lat \"EU-South\" is not a number"
+      },
+      {
+        "code": "UNKNOWN_TIME_UNIT",
+        "severity": "ERROR",
+        "file": "nodes.csv",
+        "line": 46,
+        "column": "processing_time_unit",
+        "message": "nodes.csv line 46: processing_time_unit \"0\" is not a time unit"
+      },
+      {
+        "code": "NOT_A_NUMBER",
+        "severity": "ERROR",
+        "file": "nodes.csv",
+        "line": 46,
+        "column": "fixed_cost",
+        "message": "nodes.csv line 46: fixed_cost \"DAY\" is not a number"
+      },
+      {
+        "code": "NOT_A_NUMBER",
+        "severity": "ERROR",
+        "file": "nodes.csv",
+        "line": 46,
+        "column": "lat",
+        "message": "nodes.csv line 46: lat \"EU-Central\" is not a number"
+      },
+      {
+        "code": "UNKNOWN_TIME_UNIT",
+        "severity": "ERROR",
+        "file": "nodes.csv",
+        "line": 47,
+        "column": "processing_time_unit",
+        "message": "nodes.csv line 47: processing_time_unit \"0\" is not a time unit"
+      },
+      {
+        "code": "NOT_A_NUMBER",
+        "severity": "ERROR",
+        "file": "nodes.csv",
+        "line": 47,
+        "column": "fixed_cost",
+        "message": "nodes.csv line 47: fixed_cost \"DAY\" is not a number"
+      },
+      {
+        "code": "NOT_A_NUMBER",
+        "severity": "ERROR",
+        "file": "nodes.csv",
+        "line": 47,
+        "column": "lat",
+        "message": "nodes.csv line 47: lat \"EU-East\" is not a number"
+      },
+      {
+        "code": "UNKNOWN_TIME_UNIT",
+        "severity": "ERROR",
+        "file": "nodes.csv",
+        "line": 48,
+        "column": "processing_time_unit",
+        "message": "nodes.csv line 48: processing_time_unit \"0\" is not a time unit"
+      },
+      {
+        "code": "NOT_A_NUMBER",
+        "severity": "ERROR",
+        "file": "nodes.csv",
+        "line": 48,
+        "column": "fixed_cost",
+        "message": "nodes.csv line 48: fixed_cost \"DAY\" is not a number"
+      },
+      {
+        "code": "NOT_A_NUMBER",
+        "severity": "ERROR",
+        "file": "nodes.csv",
+        "line": 48,
+        "column": "lat",
+        "message": "nodes.csv line 48: lat \"EU-South\" is not a number"
+      },
+      {
+        "code": "UNKNOWN_TIME_UNIT",
+        "severity": "ERROR",
+        "file": "nodes.csv",
+        "line": 49,
+        "column": "processing_time_unit",
+        "message": "nodes.csv line 49: processing_time_unit \"0\" is not a time unit"
+      },
+      {
+        "code": "NOT_A_NUMBER",
+        "severity": "ERROR",
+        "file": "nodes.csv",
+        "line": 49,
+        "column": "fixed_cost",
+        "message": "nodes.csv line 49: fixed_cost \"DAY\" is not a number"
+      },
+      {
+        "code": "NOT_A_NUMBER",
+        "severity": "ERROR",
+        "file": "nodes.csv",
+        "line": 49,
+        "column": "lat",
+        "message": "nodes.csv line 49: lat \"EU-North\" is not a number"
+      },
+      {
+        "code": "UNKNOWN_TIME_UNIT",
+        "severity": "ERROR",
+        "file": "nodes.csv",
+        "line": 50,
+        "column": "processing_time_unit",
+        "message": "nodes.csv line 50: processing_time_unit \"0\" is not a time unit"
+      },
+      {
+        "code": "NOT_A_NUMBER",
+        "severity": "ERROR",
+        "file": "nodes.csv",
+        "line": 50,
+        "column": "fixed_cost",
+        "message": "nodes.csv line 50: fixed_cost \"DAY\" is not a number"
+      },
+      {
+        "code": "NOT_A_NUMBER",
+        "severity": "ERROR",
+        "file": "nodes.csv",
+        "line": 50,
+        "column": "lat",
+        "message": "nodes.csv line 50: lat \"EU-North\" is not a number"
+      },
+      {
+        "code": "UNKNOWN_TIME_UNIT",
+        "severity": "ERROR",
+        "file": "nodes.csv",
+        "line": 51,
+        "column": "processing_time_unit",
+        "message": "nodes.csv line 51: processing_time_unit \"0\" is not a time unit"
+      },
+      {
+        "code": "NOT_A_NUMBER",
+        "severity": "ERROR",
+        "file": "nodes.csv",
+        "line": 51,
+        "column": "fixed_cost",
+        "message": "nodes.csv line 51: fixed_cost \"DAY\" is not a number"
+      },
+      {
+        "code": "NOT_A_NUMBER",
+        "severity": "ERROR",
+        "file": "nodes.csv",
+        "line": 51,
+        "column": "lat",
+        "message": "nodes.csv line 51: lat \"EU-East\" is not a number"
+      },
+      {
+        "code": "NO_CUSTOMER_NODE",
+        "severity": "ERROR",
+        "file": "nodes.csv",
+        "message": "the network has no CUSTOMER node"
+      },
+      {
+        "code": "NO_DEMAND_DECLARED",
+        "severity": "ERROR",
+        "file": "node_products.csv",
+        "message": "no node-product row declares a demand_value above 0"
+      },
+      {
+        "code": "LATERAL_LINK",
+        "severity": "WARNING",
+        "file": "links.csv",
+        "line": 21,
+        "element": "DCC-01->DCR-01",
+        "message": "link DCC-01 -> DCR-01 joins two DC nodes (lateral)"
+      },
+      {
+        "code": "LATERAL_LINK",
+        "severity": "WARNING",
+        "file": "links.csv",
+        "line": 22,
+        "element": "DCC-02->DCR-04",
+        "message": "link DCC-02 -> DCR-04 joins two DC nodes (lateral)"
+      },
+      {
+        "code": "LATERAL_LINK",
+        "severity": "WARNING",
+        "file": "links.csv",
+        "line": 23,
+        "element": "DCC-02->DCR-05",
+        "message": "link DCC-02 -> DCR-05 joins two DC nodes (lateral)"
+      },
+      {
+        "code": "LATERAL_LINK",
+        "severity": "WARNING",
+        "file": "links.csv",
+        "line": 24,
+        "element": "DCC-03->DCR-03",
+        "message": "link DCC-03 -> DCR-03 joins two DC nodes (lateral)"
+      },
+      {
+        "code": "LATERAL_LINK",
+        "severity": "WARNING",
+        "file": "links.csv",
+        "line": 25,
+        "element": "DCC-04->DCR-05",
+        "message": "link DCC-04 -> DCR-05 joins two DC nodes (lateral)"
+      },
+      {
+        "code": "LATERAL_LINK",
+        "severity": "WARNING",
+        "file": "links.csv",
+        "line": 26,
+        "element": "DCC-05->DCR-04",
+        "message": "link DCC-05 -> DCR-04 joins two DC nodes (lateral)"
+      },
+      {
+        "code": "LATERAL_LINK",
+        "severity": "WARNING",
+        "file": "links.csv",
+        "line": 27,
+        "element": "DCC-05->DCR-06",
+        "message": "link DCC-05 -> DCR-06 joins two DC nodes (lateral)"
+      },
+      {
+        "code": "LATERAL_LINK",
+        "severity": "WARNING",
+        "file": "links.csv",
+        "line": 28,
+        "element": "DCC-06->DCR-02",
+        "message": "link DCC-06 -> DCR-02 joins two DC nodes (lateral)"
+      },
+      {
+        "code": "LATERAL_LINK",
+        "severity": "WARNING",
+        "file": "links.csv",
+        "line": 29,
+        "element": "DCC-06->DCR-06",
+        "message": "link DCC-06 -> DCR-06 joins two DC nodes (lateral)"
+      },
+      {
+        "code": "LATERAL_LINK",
+        "severity": "WARNING",
+        "file": "links.csv",
+        "line": 30,
+        "element": "DCC-07->DCR-01",
+        "message": "link DCC-07 -> DCR-01 joins two DC nodes (lateral)"
+      },
+      {
+        "code": "NETWORK_CHECKS_ON_PARTIAL_GRAPH",
+        "severity": "WARNING",
+        "message": "rows with errors were dropped; the network-level findings describe the graph without them"
+      }
+    ],
+    "snrm": null,
+    "import_valid_snrm": null,
+    "disagreements": []
+  },
+  "l1": {
+    "nodes": {
+      "truth": 50,
+      "candidate": 50,
+      "matched": 50,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "links": {
+      "truth": 64,
+      "candidate": 64,
+      "matched": 64,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "recall_conditional": 1.0
+    },
+    "products": {
+      "truth": 1,
+      "candidate": 1,
+      "matched": 1,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "node_products": {
+      "truth": 50,
+      "candidate": 50,
+      "matched": 50,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "node_type_accuracy": 1.0,
+    "structure_f1": 1.0,
+    "missing_nodes": [],
+    "extra_nodes": [],
+    "missing_links": [],
+    "extra_links": [],
+    "reversed_links": []
+  },
+  "l2": {
+    "fact_recall": 0.9664335664335665,
+    "fact_precision": 0.9363143631436315,
+    "per_field": {
+      "network_meta.name": {
+        "stated": 1,
+        "correct": 0,
+        "correct_blank": 0,
+        "convention_ok": 0,
+        "omitted": 0,
+        "wrong": 1,
+        "wrong_unit": 0,
+        "wrong_type": 0,
+        "wrong_direction": 0,
+        "filled_unstated": 0,
+        "convention_violation": 0,
+        "decoy_absorbed": 0
+      },
+      "network_meta.period_length": {
+        "stated": 1,
+        "correct": 1,
+        "correct_blank": 0,
+        "convention_ok": 0,
+        "omitted": 0,
+        "wrong": 0,
+        "wrong_unit": 0,
+        "wrong_type": 0,
+        "wrong_direction": 0,
+        "filled_unstated": 0,
+        "convention_violation": 0,
+        "decoy_absorbed": 0
+      },
+      "network_meta.horizon_periods": {
+        "stated": 1,
+        "correct": 1,
+        "correct_blank": 0,
+        "convention_ok": 0,
+        "omitted": 0,
+        "wrong": 0,
+        "wrong_unit": 0,
+        "wrong_type": 0,
+        "wrong_direction": 0,
+        "filled_unstated": 0,
+        "convention_violation": 0,
+        "decoy_absorbed": 0
+      },
+      "network_meta.rounding_policy": {
+        "stated": 1,
+        "correct": 1,
+        "correct_blank": 0,
+        "convention_ok": 0,
+        "omitted": 0,
+        "wrong": 0,
+        "wrong_unit": 0,
+        "wrong_type": 0,
+        "wrong_direction": 0,
+        "filled_unstated": 0,
+        "convention_violation": 0,
+        "decoy_absorbed": 0
+      },
+      "products.exists": {
+        "stated": 1,
+        "correct": 1,
+        "correct_blank": 0,
+        "convention_ok": 0,
+        "omitted": 0,
+        "wrong": 0,
+        "wrong_unit": 0,
+        "wrong_type": 0,
+        "wrong_direction": 0,
+        "filled_unstated": 0,
+        "convention_violation": 0,
+        "decoy_absorbed": 0
+      },
+      "products.unit_value": {
+        "stated": 1,
+        "correct": 1,
+        "correct_blank": 0,
+        "convention_ok": 0,
+        "omitted": 0,
+        "wrong": 0,
+        "wrong_unit": 0,
+        "wrong_type": 0,
+        "wrong_direction": 0,
+        "filled_unstated": 0,
+        "convention_violation": 0,
+        "decoy_absorbed": 0
+      },
+      "nodes.exists": {
+        "stated": 50,
+        "correct": 50,
+        "correct_blank": 0,
+        "convention_ok": 0,
+        "omitted": 0,
+        "wrong": 0,
+        "wrong_unit": 0,
+        "wrong_type": 0,
+        "wrong_direction": 0,
+        "filled_unstated": 0,
+        "convention_violation": 0,
+        "decoy_absorbed": 0
+      },
+      "nodes.region": {
+        "stated": 50,
+        "correct": 27,
+        "correct_blank": 0,
+        "convention_ok": 0,
+        "omitted": 0,
+        "wrong": 23,
+        "wrong_unit": 0,
+        "wrong_type": 0,
+        "wrong_direction": 0,
+        "filled_unstated": 0,
+        "convention_violation": 0,
+        "decoy_absorbed": 0
+      },
+      "nodes.capacity": {
+        "stated": 27,
+        "correct": 27,
+        "correct_blank": 0,
+        "convention_ok": 23,
+        "omitted": 0,
+        "wrong": 0,
+        "wrong_unit": 0,
+        "wrong_type": 0,
+        "wrong_direction": 0,
+        "filled_unstated": 0,
+        "convention_violation": 0,
+        "decoy_absorbed": 0
+      },
+      "nodes.processing_time": {
+        "stated": 27,
+        "correct": 27,
+        "correct_blank": 0,
+        "convention_ok": 23,
+        "omitted": 0,
+        "wrong": 0,
+        "wrong_unit": 0,
+        "wrong_type": 0,
+        "wrong_direction": 0,
+        "filled_unstated": 0,
+        "convention_violation": 0,
+        "decoy_absorbed": 0
+      },
+      "nodes.fixed_cost": {
+        "stated": 27,
+        "correct": 27,
+        "correct_blank": 0,
+        "convention_ok": 0,
+        "omitted": 0,
+        "wrong": 0,
+        "wrong_unit": 0,
+        "wrong_type": 0,
+        "wrong_direction": 0,
+        "filled_unstated": 0,
+        "convention_violation": 23,
+        "decoy_absorbed": 0
+      },
+      "nodes.var_cost": {
+        "stated": 27,
+        "correct": 27,
+        "correct_blank": 0,
+        "convention_ok": 23,
+        "omitted": 0,
+        "wrong": 0,
+        "wrong_unit": 0,
+        "wrong_type": 0,
+        "wrong_direction": 0,
+        "filled_unstated": 0,
+        "convention_violation": 0,
+        "decoy_absorbed": 0
+      },
+      "nodes.failure_prob": {
+        "stated": 27,
+        "correct": 27,
+        "correct_blank": 0,
+        "convention_ok": 23,
+        "omitted": 0,
+        "wrong": 0,
+        "wrong_unit": 0,
+        "wrong_type": 0,
+        "wrong_direction": 0,
+        "filled_unstated": 0,
+        "convention_violation": 0,
+        "decoy_absorbed": 0
+      },
+      "nodes.geo": {
+        "stated": 0,
+        "correct": 0,
+        "correct_blank": 27,
+        "convention_ok": 0,
+        "omitted": 0,
+        "wrong": 0,
+        "wrong_unit": 0,
+        "wrong_type": 0,
+        "wrong_direction": 0,
+        "filled_unstated": 23,
+        "convention_violation": 0,
+        "decoy_absorbed": 0
+      },
+      "links.exists": {
+        "stated": 64,
+        "correct": 64,
+        "correct_blank": 0,
+        "convention_ok": 0,
+        "omitted": 0,
+        "wrong": 0,
+        "wrong_unit": 0,
+        "wrong_type": 0,
+        "wrong_direction": 0,
+        "filled_unstated": 0,
+        "convention_violation": 0,
+        "decoy_absorbed": 0
+      },
+      "links.lead_time": {
+        "stated": 64,
+        "correct": 64,
+        "correct_blank": 0,
+        "convention_ok": 0,
+        "omitted": 0,
+        "wrong": 0,
+        "wrong_unit": 0,
+        "wrong_type": 0,
+        "wrong_direction": 0,
+        "filled_unstated": 0,
+        "convention_violation": 0,
+        "decoy_absorbed": 0
+      },
+      "links.capacity": {
+        "stated": 64,
+        "correct": 64,
+        "correct_blank": 0,
+        "convention_ok": 0,
+        "omitted": 0,
+        "wrong": 0,
+        "wrong_unit": 0,
+        "wrong_type": 0,
+        "wrong_direction": 0,
+        "filled_unstated": 0,
+        "convention_violation": 0,
+        "decoy_absorbed": 0
+      },
+      "links.unit_cost": {
+        "stated": 64,
+        "correct": 64,
+        "correct_blank": 0,
+        "convention_ok": 0,
+        "omitted": 0,
+        "wrong": 0,
+        "wrong_unit": 0,
+        "wrong_type": 0,
+        "wrong_direction": 0,
+        "filled_unstated": 0,
+        "convention_violation": 0,
+        "decoy_absorbed": 0
+      },
+      "links.failure_prob": {
+        "stated": 64,
+        "correct": 64,
+        "correct_blank": 0,
+        "convention_ok": 0,
+        "omitted": 0,
+        "wrong": 0,
+        "wrong_unit": 0,
+        "wrong_type": 0,
+        "wrong_direction": 0,
+        "filled_unstated": 0,
+        "convention_violation": 0,
+        "decoy_absorbed": 0
+      },
+      "node_products.exists": {
+        "stated": 50,
+        "correct": 50,
+        "correct_blank": 0,
+        "convention_ok": 0,
+        "omitted": 0,
+        "wrong": 0,
+        "wrong_unit": 0,
+        "wrong_type": 0,
+        "wrong_direction": 0,
+        "filled_unstated": 0,
+        "convention_violation": 0,
+        "decoy_absorbed": 0
+      },
+      "node_products.demand": {
+        "stated": 23,
+        "correct": 23,
+        "correct_blank": 0,
+        "convention_ok": 27,
+        "omitted": 0,
+        "wrong": 0,
+        "wrong_unit": 0,
+        "wrong_type": 0,
+        "wrong_direction": 0,
+        "filled_unstated": 0,
+        "convention_violation": 0,
+        "decoy_absorbed": 0
+      },
+      "node_products.initial_inventory": {
+        "stated": 27,
+        "correct": 27,
+        "correct_blank": 0,
+        "convention_ok": 23,
+        "omitted": 0,
+        "wrong": 0,
+        "wrong_unit": 0,
+        "wrong_type": 0,
+        "wrong_direction": 0,
+        "filled_unstated": 0,
+        "convention_violation": 0,
+        "decoy_absorbed": 0
+      },
+      "node_products.safety_stock": {
+        "stated": 27,
+        "correct": 27,
+        "correct_blank": 0,
+        "convention_ok": 23,
+        "omitted": 0,
+        "wrong": 0,
+        "wrong_unit": 0,
+        "wrong_type": 0,
+        "wrong_direction": 0,
+        "filled_unstated": 0,
+        "convention_violation": 0,
+        "decoy_absorbed": 0
+      },
+      "node_products.holding_cost": {
+        "stated": 27,
+        "correct": 27,
+        "correct_blank": 0,
+        "convention_ok": 23,
+        "omitted": 0,
+        "wrong": 0,
+        "wrong_unit": 0,
+        "wrong_type": 0,
+        "wrong_direction": 0,
+        "filled_unstated": 0,
+        "convention_violation": 0,
+        "decoy_absorbed": 0
+      }
+    },
+    "fabricated": {
+      "nodes": [],
+      "links": [],
+      "products": [],
+      "node_products": []
+    },
+    "convention_violations": [
+      {
+        "kind": "node",
+        "entity": "CUS-01",
+        "field": "fixed_cost",
+        "class": "convention_violation",
+        "truth": "0",
+        "truth_unit": null,
+        "candidate": "DAY",
+        "candidate_unit": null,
+        "sentence": null
+      },
+      {
+        "kind": "node",
+        "entity": "CUS-02",
+        "field": "fixed_cost",
+        "class": "convention_violation",
+        "truth": "0",
+        "truth_unit": null,
+        "candidate": "DAY",
+        "candidate_unit": null,
+        "sentence": null
+      },
+      {
+        "kind": "node",
+        "entity": "CUS-03",
+        "field": "fixed_cost",
+        "class": "convention_violation",
+        "truth": "0",
+        "truth_unit": null,
+        "candidate": "DAY",
+        "candidate_unit": null,
+        "sentence": null
+      },
+      {
+        "kind": "node",
+        "entity": "CUS-04",
+        "field": "fixed_cost",
+        "class": "convention_violation",
+        "truth": "0",
+        "truth_unit": null,
+        "candidate": "DAY",
+        "candidate_unit": null,
+        "sentence": null
+      },
+      {
+        "kind": "node",
+        "entity": "CUS-05",
+        "field": "fixed_cost",
+        "class": "convention_violation",
+        "truth": "0",
+        "truth_unit": null,
+        "candidate": "DAY",
+        "candidate_unit": null,
+        "sentence": null
+      },
+      {
+        "kind": "node",
+        "entity": "CUS-06",
+        "field": "fixed_cost",
+        "class": "convention_violation",
+        "truth": "0",
+        "truth_unit": null,
+        "candidate": "DAY",
+        "candidate_unit": null,
+        "sentence": null
+      },
+      {
+        "kind": "node",
+        "entity": "CUS-07",
+        "field": "fixed_cost",
+        "class": "convention_violation",
+        "truth": "0",
+        "truth_unit": null,
+        "candidate": "DAY",
+        "candidate_unit": null,
+        "sentence": null
+      },
+      {
+        "kind": "node",
+        "entity": "CUS-08",
+        "field": "fixed_cost",
+        "class": "convention_violation",
+        "truth": "0",
+        "truth_unit": null,
+        "candidate": "DAY",
+        "candidate_unit": null,
+        "sentence": null
+      },
+      {
+        "kind": "node",
+        "entity": "CUS-09",
+        "field": "fixed_cost",
+        "class": "convention_violation",
+        "truth": "0",
+        "truth_unit": null,
+        "candidate": "DAY",
+        "candidate_unit": null,
+        "sentence": null
+      },
+      {
+        "kind": "node",
+        "entity": "CUS-10",
+        "field": "fixed_cost",
+        "class": "convention_violation",
+        "truth": "0",
+        "truth_unit": null,
+        "candidate": "DAY",
+        "candidate_unit": null,
+        "sentence": null
+      },
+      {
+        "kind": "node",
+        "entity": "CUS-11",
+        "field": "fixed_cost",
+        "class": "convention_violation",
+        "truth": "0",
+        "truth_unit": null,
+        "candidate": "DAY",
+        "candidate_unit": null,
+        "sentence": null
+      },
+      {
+        "kind": "node",
+        "entity": "CUS-12",
+        "field": "fixed_cost",
+        "class": "convention_violation",
+        "truth": "0",
+        "truth_unit": null,
+        "candidate": "DAY",
+        "candidate_unit": null,
+        "sentence": null
+      },
+      {
+        "kind": "node",
+        "entity": "CUS-13",
+        "field": "fixed_cost",
+        "class": "convention_violation",
+        "truth": "0",
+        "truth_unit": null,
+        "candidate": "DAY",
+        "candidate_unit": null,
+        "sentence": null
+      },
+      {
+        "kind": "node",
+        "entity": "CUS-14",
+        "field": "fixed_cost",
+        "class": "convention_violation",
+        "truth": "0",
+        "truth_unit": null,
+        "candidate": "DAY",
+        "candidate_unit": null,
+        "sentence": null
+      },
+      {
+        "kind": "node",
+        "entity": "CUS-15",
+        "field": "fixed_cost",
+        "class": "convention_violation",
+        "truth": "0",
+        "truth_unit": null,
+        "candidate": "DAY",
+        "candidate_unit": null,
+        "sentence": null
+      },
+      {
+        "kind": "node",
+        "entity": "CUS-16",
+        "field": "fixed_cost",
+        "class": "convention_violation",
+        "truth": "0",
+        "truth_unit": null,
+        "candidate": "DAY",
+        "candidate_unit": null,
+        "sentence": null
+      },
+      {
+        "kind": "node",
+        "entity": "CUS-17",
+        "field": "fixed_cost",
+        "class": "convention_violation",
+        "truth": "0",
+        "truth_unit": null,
+        "candidate": "DAY",
+        "candidate_unit": null,
+        "sentence": null
+      },
+      {
+        "kind": "node",
+        "entity": "CUS-18",
+        "field": "fixed_cost",
+        "class": "convention_violation",
+        "truth": "0",
+        "truth_unit": null,
+        "candidate": "DAY",
+        "candidate_unit": null,
+        "sentence": null
+      },
+      {
+        "kind": "node",
+        "entity": "CUS-19",
+        "field": "fixed_cost",
+        "class": "convention_violation",
+        "truth": "0",
+        "truth_unit": null,
+        "candidate": "DAY",
+        "candidate_unit": null,
+        "sentence": null
+      },
+      {
+        "kind": "node",
+        "entity": "CUS-20",
+        "field": "fixed_cost",
+        "class": "convention_violation",
+        "truth": "0",
+        "truth_unit": null,
+        "candidate": "DAY",
+        "candidate_unit": null,
+        "sentence": null
+      },
+      {
+        "kind": "node",
+        "entity": "CUS-21",
+        "field": "fixed_cost",
+        "class": "convention_violation",
+        "truth": "0",
+        "truth_unit": null,
+        "candidate": "DAY",
+        "candidate_unit": null,
+        "sentence": null
+      },
+      {
+        "kind": "node",
+        "entity": "CUS-22",
+        "field": "fixed_cost",
+        "class": "convention_violation",
+        "truth": "0",
+        "truth_unit": null,
+        "candidate": "DAY",
+        "candidate_unit": null,
+        "sentence": null
+      },
+      {
+        "kind": "node",
+        "entity": "CUS-23",
+        "field": "fixed_cost",
+        "class": "convention_violation",
+        "truth": "0",
+        "truth_unit": null,
+        "candidate": "DAY",
+        "candidate_unit": null,
+        "sentence": null
+      }
+    ],
+    "mismatches": [
+      {
+        "kind": "meta",
+        "entity": "network_meta",
+        "field": "name",
+        "class": "wrong",
+        "truth": "Widget supply network",
+        "truth_unit": null,
+        "candidate": "Widget",
+        "candidate_unit": null,
+        "sentence": 1
+      },
+      {
+        "kind": "node",
+        "entity": "CUS-01",
+        "field": "region",
+        "class": "wrong",
+        "truth": "EU-East",
+        "truth_unit": null,
+        "candidate": "0",
+        "candidate_unit": null,
+        "sentence": 59
+      },
+      {
+        "kind": "node",
+        "entity": "CUS-01",
+        "field": "fixed_cost",
+        "class": "convention_violation",
+        "truth": "0",
+        "truth_unit": null,
+        "candidate": "DAY",
+        "candidate_unit": null,
+        "sentence": null
+      },
+      {
+        "kind": "node",
+        "entity": "CUS-01",
+        "field": "geo",
+        "class": "filled_unstated",
+        "truth": null,
+        "truth_unit": null,
+        "candidate": "EU-East,",
+        "candidate_unit": null,
+        "sentence": null
+      },
+      {
+        "kind": "node",
+        "entity": "CUS-02",
+        "field": "region",
+        "class": "wrong",
+        "truth": "EU-North",
+        "truth_unit": null,
+        "candidate": "0",
+        "candidate_unit": null,
+        "sentence": 61
+      },
+      {
+        "kind": "node",
+        "entity": "CUS-02",
+        "field": "fixed_cost",
+        "class": "convention_violation",
+        "truth": "0",
+        "truth_unit": null,
+        "candidate": "DAY",
+        "candidate_unit": null,
+        "sentence": null
+      },
+      {
+        "kind": "node",
+        "entity": "CUS-02",
+        "field": "geo",
+        "class": "filled_unstated",
+        "truth": null,
+        "truth_unit": null,
+        "candidate": "EU-North,",
+        "candidate_unit": null,
+        "sentence": null
+      },
+      {
+        "kind": "node",
+        "entity": "CUS-03",
+        "field": "region",
+        "class": "wrong",
+        "truth": "EU-West",
+        "truth_unit": null,
+        "candidate": "0",
+        "candidate_unit": null,
+        "sentence": 63
+      },
+      {
+        "kind": "node",
+        "entity": "CUS-03",
+        "field": "fixed_cost",
+        "class": "convention_violation",
+        "truth": "0",
+        "truth_unit": null,
+        "candidate": "DAY",
+        "candidate_unit": null,
+        "sentence": null
+      },
+      {
+        "kind": "node",
+        "entity": "CUS-03",
+        "field": "geo",
+        "class": "filled_unstated",
+        "truth": null,
+        "truth_unit": null,
+        "candidate": "EU-West,",
+        "candidate_unit": null,
+        "sentence": null
+      },
+      {
+        "kind": "node",
+        "entity": "CUS-04",
+        "field": "region",
+        "class": "wrong",
+        "truth": "EU-Central",
+        "truth_unit": null,
+        "candidate": "0",
+        "candidate_unit": null,
+        "sentence": 65
+      },
+      {
+        "kind": "node",
+        "entity": "CUS-04",
+        "field": "fixed_cost",
+        "class": "convention_violation",
+        "truth": "0",
+        "truth_unit": null,
+        "candidate": "DAY",
+        "candidate_unit": null,
+        "sentence": null
+      },
+      {
+        "kind": "node",
+        "entity": "CUS-04",
+        "field": "geo",
+        "class": "filled_unstated",
+        "truth": null,
+        "truth_unit": null,
+        "candidate": "EU-Central,",
+        "candidate_unit": null,
+        "sentence": null
+      },
+      {
+        "kind": "node",
+        "entity": "CUS-05",
+        "field": "region",
+        "class": "wrong",
+        "truth": "EU-East",
+        "truth_unit": null,
+        "candidate": "0",
+        "candidate_unit": null,
+        "sentence": 67
+      },
+      {
+        "kind": "node",
+        "entity": "CUS-05",
+        "field": "fixed_cost",
+        "class": "convention_violation",
+        "truth": "0",
+        "truth_unit": null,
+        "candidate": "DAY",
+        "candidate_unit": null,
+        "sentence": null
+      },
+      {
+        "kind": "node",
+        "entity": "CUS-05",
+        "field": "geo",
+        "class": "filled_unstated",
+        "truth": null,
+        "truth_unit": null,
+        "candidate": "EU-East,",
+        "candidate_unit": null,
+        "sentence": null
+      },
+      {
+        "kind": "node",
+        "entity": "CUS-06",
+        "field": "region",
+        "class": "wrong",
+        "truth": "EU-North",
+        "truth_unit": null,
+        "candidate": "0",
+        "candidate_unit": null,
+        "sentence": 69
+      },
+      {
+        "kind": "node",
+        "entity": "CUS-06",
+        "field": "fixed_cost",
+        "class": "convention_violation",
+        "truth": "0",
+        "truth_unit": null,
+        "candidate": "DAY",
+        "candidate_unit": null,
+        "sentence": null
+      },
+      {
+        "kind": "node",
+        "entity": "CUS-06",
+        "field": "geo",
+        "class": "filled_unstated",
+        "truth": null,
+        "truth_unit": null,
+        "candidate": "EU-North,",
+        "candidate_unit": null,
+        "sentence": null
+      },
+      {
+        "kind": "node",
+        "entity": "CUS-07",
+        "field": "region",
+        "class": "wrong",
+        "truth": "EU-Central",
+        "truth_unit": null,
+        "candidate": "0",
+        "candidate_unit": null,
+        "sentence": 71
+      },
+      {
+        "kind": "node",
+        "entity": "CUS-07",
+        "field": "fixed_cost",
+        "class": "convention_violation",
+        "truth": "0",
+        "truth_unit": null,
+        "candidate": "DAY",
+        "candidate_unit": null,
+        "sentence": null
+      },
+      {
+        "kind": "node",
+        "entity": "CUS-07",
+        "field": "geo",
+        "class": "filled_unstated",
+        "truth": null,
+        "truth_unit": null,
+        "candidate": "EU-Central,",
+        "candidate_unit": null,
+        "sentence": null
+      },
+      {
+        "kind": "node",
+        "entity": "CUS-08",
+        "field": "region",
+        "class": "wrong",
+        "truth": "EU-North",
+        "truth_unit": null,
+        "candidate": "0",
+        "candidate_unit": null,
+        "sentence": 73
+      },
+      {
+        "kind": "node",
+        "entity": "CUS-08",
+        "field": "fixed_cost",
+        "class": "convention_violation",
+        "truth": "0",
+        "truth_unit": null,
+        "candidate": "DAY",
+        "candidate_unit": null,
+        "sentence": null
+      },
+      {
+        "kind": "node",
+        "entity": "CUS-08",
+        "field": "geo",
+        "class": "filled_unstated",
+        "truth": null,
+        "truth_unit": null,
+        "candidate": "EU-North,",
+        "candidate_unit": null,
+        "sentence": null
+      },
+      {
+        "kind": "node",
+        "entity": "CUS-09",
+        "field": "region",
+        "class": "wrong",
+        "truth": "EU-East",
+        "truth_unit": null,
+        "candidate": "0",
+        "candidate_unit": null,
+        "sentence": 75
+      },
+      {
+        "kind": "node",
+        "entity": "CUS-09",
+        "field": "fixed_cost",
+        "class": "convention_violation",
+        "truth": "0",
+        "truth_unit": null,
+        "candidate": "DAY",
+        "candidate_unit": null,
+        "sentence": null
+      },
+      {
+        "kind": "node",
+        "entity": "CUS-09",
+        "field": "geo",
+        "class": "filled_unstated",
+        "truth": null,
+        "truth_unit": null,
+        "candidate": "EU-East,",
+        "candidate_unit": null,
+        "sentence": null
+      },
+      {
+        "kind": "node",
+        "entity": "CUS-10",
+        "field": "region",
+        "class": "wrong",
+        "truth": "EU-Central",
+        "truth_unit": null,
+        "candidate": "0",
+        "candidate_unit": null,
+        "sentence": 77
+      },
+      {
+        "kind": "node",
+        "entity": "CUS-10",
+        "field": "fixed_cost",
+        "class": "convention_violation",
+        "truth": "0",
+        "truth_unit": null,
+        "candidate": "DAY",
+        "candidate_unit": null,
+        "sentence": null
+      },
+      {
+        "kind": "node",
+        "entity": "CUS-10",
+        "field": "geo",
+        "class": "filled_unstated",
+        "truth": null,
+        "truth_unit": null,
+        "candidate": "EU-Central,",
+        "candidate_unit": null,
+        "sentence": null
+      },
+      {
+        "kind": "node",
+        "entity": "CUS-11",
+        "field": "region",
+        "class": "wrong",
+        "truth": "EU-North",
+        "truth_unit": null,
+        "candidate": "0",
+        "candidate_unit": null,
+        "sentence": 79
+      },
+      {
+        "kind": "node",
+        "entity": "CUS-11",
+        "field": "fixed_cost",
+        "class": "convention_violation",
+        "truth": "0",
+        "truth_unit": null,
+        "candidate": "DAY",
+        "candidate_unit": null,
+        "sentence": null
+      },
+      {
+        "kind": "node",
+        "entity": "CUS-11",
+        "field": "geo",
+        "class": "filled_unstated",
+        "truth": null,
+        "truth_unit": null,
+        "candidate": "EU-North,",
+        "candidate_unit": null,
+        "sentence": null
+      },
+      {
+        "kind": "node",
+        "entity": "CUS-12",
+        "field": "region",
+        "class": "wrong",
+        "truth": "EU-Central",
+        "truth_unit": null,
+        "candidate": "0",
+        "candidate_unit": null,
+        "sentence": 81
+      },
+      {
+        "kind": "node",
+        "entity": "CUS-12",
+        "field": "fixed_cost",
+        "class": "convention_violation",
+        "truth": "0",
+        "truth_unit": null,
+        "candidate": "DAY",
+        "candidate_unit": null,
+        "sentence": null
+      },
+      {
+        "kind": "node",
+        "entity": "CUS-12",
+        "field": "geo",
+        "class": "filled_unstated",
+        "truth": null,
+        "truth_unit": null,
+        "candidate": "EU-Central,",
+        "candidate_unit": null,
+        "sentence": null
+      },
+      {
+        "kind": "node",
+        "entity": "CUS-13",
+        "field": "region",
+        "class": "wrong",
+        "truth": "EU-East",
+        "truth_unit": null,
+        "candidate": "0",
+        "candidate_unit": null,
+        "sentence": 83
+      },
+      {
+        "kind": "node",
+        "entity": "CUS-13",
+        "field": "fixed_cost",
+        "class": "convention_violation",
+        "truth": "0",
+        "truth_unit": null,
+        "candidate": "DAY",
+        "candidate_unit": null,
+        "sentence": null
+      },
+      {
+        "kind": "node",
+        "entity": "CUS-13",
+        "field": "geo",
+        "class": "filled_unstated",
+        "truth": null,
+        "truth_unit": null,
+        "candidate": "EU-East,",
+        "candidate_unit": null,
+        "sentence": null
+      },
+      {
+        "kind": "node",
+        "entity": "CUS-14",
+        "field": "region",
+        "class": "wrong",
+        "truth": "EU-Central",
+        "truth_unit": null,
+        "candidate": "0",
+        "candidate_unit": null,
+        "sentence": 85
+      },
+      {
+        "kind": "node",
+        "entity": "CUS-14",
+        "field": "fixed_cost",
+        "class": "convention_violation",
+        "truth": "0",
+        "truth_unit": null,
+        "candidate": "DAY",
+        "candidate_unit": null,
+        "sentence": null
+      },
+      {
+        "kind": "node",
+        "entity": "CUS-14",
+        "field": "geo",
+        "class": "filled_unstated",
+        "truth": null,
+        "truth_unit": null,
+        "candidate": "EU-Central,",
+        "candidate_unit": null,
+        "sentence": null
+      },
+      {
+        "kind": "node",
+        "entity": "CUS-15",
+        "field": "region",
+        "class": "wrong",
+        "truth": "EU-West",
+        "truth_unit": null,
+        "candidate": "0",
+        "candidate_unit": null,
+        "sentence": 87
+      },
+      {
+        "kind": "node",
+        "entity": "CUS-15",
+        "field": "fixed_cost",
+        "class": "convention_violation",
+        "truth": "0",
+        "truth_unit": null,
+        "candidate": "DAY",
+        "candidate_unit": null,
+        "sentence": null
+      },
+      {
+        "kind": "node",
+        "entity": "CUS-15",
+        "field": "geo",
+        "class": "filled_unstated",
+        "truth": null,
+        "truth_unit": null,
+        "candidate": "EU-West,",
+        "candidate_unit": null,
+        "sentence": null
+      },
+      {
+        "kind": "node",
+        "entity": "CUS-16",
+        "field": "region",
+        "class": "wrong",
+        "truth": "EU-Central",
+        "truth_unit": null,
+        "candidate": "0",
+        "candidate_unit": null,
+        "sentence": 89
+      },
+      {
+        "kind": "node",
+        "entity": "CUS-16",
+        "field": "fixed_cost",
+        "class": "convention_violation",
+        "truth": "0",
+        "truth_unit": null,
+        "candidate": "DAY",
+        "candidate_unit": null,
+        "sentence": null
+      },
+      {
+        "kind": "node",
+        "entity": "CUS-16",
+        "field": "geo",
+        "class": "filled_unstated",
+        "truth": null,
+        "truth_unit": null,
+        "candidate": "EU-Central,",
+        "candidate_unit": null,
+        "sentence": null
+      },
+      {
+        "kind": "node",
+        "entity": "CUS-17",
+        "field": "region",
+        "class": "wrong",
+        "truth": "EU-South",
+        "truth_unit": null,
+        "candidate": "0",
+        "candidate_unit": null,
+        "sentence": 91
+      },
+      {
+        "kind": "node",
+        "entity": "CUS-17",
+        "field": "fixed_cost",
+        "class": "convention_violation",
+        "truth": "0",
+        "truth_unit": null,
+        "candidate": "DAY",
+        "candidate_unit": null,
+        "sentence": null
+      },
+      {
+        "kind": "node",
+        "entity": "CUS-17",
+        "field": "geo",
+        "class": "filled_unstated",
+        "truth": null,
+        "truth_unit": null,
+        "candidate": "EU-South,",
+        "candidate_unit": null,
+        "sentence": null
+      },
+      {
+        "kind": "node",
+        "entity": "CUS-18",
+        "field": "region",
+        "class": "wrong",
+        "truth": "EU-Central",
+        "truth_unit": null,
+        "candidate": "0",
+        "candidate_unit": null,
+        "sentence": 93
+      },
+      {
+        "kind": "node",
+        "entity": "CUS-18",
+        "field": "fixed_cost",
+        "class": "convention_violation",
+        "truth": "0",
+        "truth_unit": null,
+        "candidate": "DAY",
+        "candidate_unit": null,
+        "sentence": null
+      },
+      {
+        "kind": "node",
+        "entity": "CUS-18",
+        "field": "geo",
+        "class": "filled_unstated",
+        "truth": null,
+        "truth_unit": null,
+        "candidate": "EU-Central,",
+        "candidate_unit": null,
+        "sentence": null
+      },
+      {
+        "kind": "node",
+        "entity": "CUS-19",
+        "field": "region",
+        "class": "wrong",
+        "truth": "EU-East",
+        "truth_unit": null,
+        "candidate": "0",
+        "candidate_unit": null,
+        "sentence": 95
+      },
+      {
+        "kind": "node",
+        "entity": "CUS-19",
+        "field": "fixed_cost",
+        "class": "convention_violation",
+        "truth": "0",
+        "truth_unit": null,
+        "candidate": "DAY",
+        "candidate_unit": null,
+        "sentence": null
+      },
+      {
+        "kind": "node",
+        "entity": "CUS-19",
+        "field": "geo",
+        "class": "filled_unstated",
+        "truth": null,
+        "truth_unit": null,
+        "candidate": "EU-East,",
+        "candidate_unit": null,
+        "sentence": null
+      },
+      {
+        "kind": "node",
+        "entity": "CUS-20",
+        "field": "region",
+        "class": "wrong",
+        "truth": "EU-South",
+        "truth_unit": null,
+        "candidate": "0",
+        "candidate_unit": null,
+        "sentence": 97
+      },
+      {
+        "kind": "node",
+        "entity": "CUS-20",
+        "field": "fixed_cost",
+        "class": "convention_violation",
+        "truth": "0",
+        "truth_unit": null,
+        "candidate": "DAY",
+        "candidate_unit": null,
+        "sentence": null
+      },
+      {
+        "kind": "node",
+        "entity": "CUS-20",
+        "field": "geo",
+        "class": "filled_unstated",
+        "truth": null,
+        "truth_unit": null,
+        "candidate": "EU-South,",
+        "candidate_unit": null,
+        "sentence": null
+      },
+      {
+        "kind": "node",
+        "entity": "CUS-21",
+        "field": "region",
+        "class": "wrong",
+        "truth": "EU-North",
+        "truth_unit": null,
+        "candidate": "0",
+        "candidate_unit": null,
+        "sentence": 99
+      },
+      {
+        "kind": "node",
+        "entity": "CUS-21",
+        "field": "fixed_cost",
+        "class": "convention_violation",
+        "truth": "0",
+        "truth_unit": null,
+        "candidate": "DAY",
+        "candidate_unit": null,
+        "sentence": null
+      },
+      {
+        "kind": "node",
+        "entity": "CUS-21",
+        "field": "geo",
+        "class": "filled_unstated",
+        "truth": null,
+        "truth_unit": null,
+        "candidate": "EU-North,",
+        "candidate_unit": null,
+        "sentence": null
+      },
+      {
+        "kind": "node",
+        "entity": "CUS-22",
+        "field": "region",
+        "class": "wrong",
+        "truth": "EU-North",
+        "truth_unit": null,
+        "candidate": "0",
+        "candidate_unit": null,
+        "sentence": 101
+      },
+      {
+        "kind": "node",
+        "entity": "CUS-22",
+        "field": "fixed_cost",
+        "class": "convention_violation",
+        "truth": "0",
+        "truth_unit": null,
+        "candidate": "DAY",
+        "candidate_unit": null,
+        "sentence": null
+      },
+      {
+        "kind": "node",
+        "entity": "CUS-22",
+        "field": "geo",
+        "class": "filled_unstated",
+        "truth": null,
+        "truth_unit": null,
+        "candidate": "EU-North,",
+        "candidate_unit": null,
+        "sentence": null
+      },
+      {
+        "kind": "node",
+        "entity": "CUS-23",
+        "field": "region",
+        "class": "wrong",
+        "truth": "EU-East",
+        "truth_unit": null,
+        "candidate": "0",
+        "candidate_unit": null,
+        "sentence": 103
+      },
+      {
+        "kind": "node",
+        "entity": "CUS-23",
+        "field": "fixed_cost",
+        "class": "convention_violation",
+        "truth": "0",
+        "truth_unit": null,
+        "candidate": "DAY",
+        "candidate_unit": null,
+        "sentence": null
+      },
+      {
+        "kind": "node",
+        "entity": "CUS-23",
+        "field": "geo",
+        "class": "filled_unstated",
+        "truth": null,
+        "truth_unit": null,
+        "candidate": "EU-East,",
+        "candidate_unit": null,
+        "sentence": null
+      }
+    ],
+    "settings": {
+      "tolerance": 0.000001,
+      "lenient_numbers": false
+    }
+  },
+  "decoys": {
+    "decoy_total": 0,
+    "decoy_entities_absorbed": [],
+    "decoy_values_absorbed": []
+  },
+  "l3": null,
+  "composite": {
+    "ncs": 0.7832167832167832
+  }
+}

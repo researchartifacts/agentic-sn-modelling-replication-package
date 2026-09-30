@@ -1,0 +1,4 @@
+#!/usr/bin/env sh
+# Runs the shaded jar built by `mvn package` (target/netbench.jar).
+DIR="$(cd "$(dirname "$0")" && pwd)"
+exec java -jar "$DIR/target/netbench.jar" "$@"

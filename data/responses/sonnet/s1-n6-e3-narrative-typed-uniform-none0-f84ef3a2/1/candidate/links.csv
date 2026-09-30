@@ -1,0 +1,7 @@
+source,target,lead_time_value,lead_time_unit,capacity_value,capacity_time_unit,unit_cost,failure_prob,caption,caption_visible
+SUP-01,PLT-02,28,DAY,160,DAY,1.77,0.02,,
+SUP-02,PLT-01,14,DAY,70,DAY,2.09,0.06,,
+SUP-02,PLT-02,14,DAY,140,DAY,2.04,0.05,,
+PLT-01,CUS-01,1,DAY,70,DAY,0.28,0.01,,
+PLT-02,CUS-01,2,DAY,80,DAY,0.25,0.03,,
+PLT-02,CUS-02,2,DAY,70,DAY,0.31,0.04,,

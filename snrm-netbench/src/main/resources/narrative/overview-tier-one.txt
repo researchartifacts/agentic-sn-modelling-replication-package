@@ -1,0 +1,5 @@
+{name} is the only {role} in the network.
+{name} is the network's sole {role}.
+The network has a single {role}: {name}.
+There is just one {role} in the network, {name}.
+Only one {role} exists in the network: {name}.

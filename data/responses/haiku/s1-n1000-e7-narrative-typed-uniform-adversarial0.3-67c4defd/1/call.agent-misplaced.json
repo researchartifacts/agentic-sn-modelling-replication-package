@@ -1,0 +1,14 @@
+{
+  "model_alias": "haiku",
+  "reported_model": "claude-haiku-4-5-20251001",
+  "effort": "default",
+  "prompt_version": "v1.2",
+  "files_read": [
+    "protocol/llm-instructions-v1.md",
+    "data/runs-llm/s1-n1000-e7-narrative-typed-uniform-adversarial0.3-67c4defd/description/description.md"
+  ],
+  "tools_used": [
+    "Read",
+    "Write"
+  ]
+}

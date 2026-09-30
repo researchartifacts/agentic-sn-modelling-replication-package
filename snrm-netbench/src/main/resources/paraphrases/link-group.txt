@@ -1,0 +1,5 @@
+{source} supplies {targets}; each lane has {clauses}.
+{source} ships to {targets}; each of these lanes has {clauses}.
+{source} delivers to {targets}, and each of these lanes has {clauses}.
+The lanes from {source} to {targets} each have {clauses}.
+Each lane from {source} to {targets} has {clauses}.

@@ -1,0 +1,28 @@
+{
+ "model_alias": "sonnet",
+ "reported_model": "claude-sonnet-5",
+ "effort": "default (not configurable by the harness)",
+ "prompt_version": "v1.2 (instruction file v1 + one file per tool call + incremental, brief reasoning)",
+ "files_read": [
+  "protocol/llm-instructions-v1.md",
+  "data/runs-llm/s1-n1000-e7-narrative-typed-uniform-adversarial0.3-67c4defd/description/description.md"
+ ],
+ "tools_used": [
+  "Read",
+  "Write",
+  "Edit"
+ ],
+ "harness": "Claude Cowork subagent (Agent tool), file-writing mode, tools limited by instruction to Read/Write",
+ "subagent_tokens": 128564,
+ "duration_ms": 6024084,
+ "tool_uses": 77,
+ "recorded_at": "2026-09-28T07:09:37+00:00",
+ "candidate_files": [
+  "links.csv",
+  "network_meta.csv",
+  "node_products.csv",
+  "nodes.csv",
+  "products.csv"
+ ],
+ "operator_note": "77 tool uses and 100 minutes; subagent_tokens (128,564) is far below the volume of text read, consistent with context compaction by the harness during the run, so it is not comparable with runs without compaction; the agent listed the Edit tool among its tools_used, a deviation from the Read-and-Write-only rule (the prompt permits only those two tools)"
+}

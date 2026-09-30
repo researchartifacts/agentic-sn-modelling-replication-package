@@ -1,0 +1,7 @@
+name,type,capacity_value,capacity_time_unit,processing_time_value,processing_time_unit,fixed_cost,var_cost,failure_prob,region,lat,lng,pos_x,pos_y,caption,caption_visible
+SUP-01,SUPPLIER,70,DAY,0,DAY,1750,2.88,0.04,AMER,,,,,,
+SUP-02,SUPPLIER,80,DAY,0,DAY,2200,2.36,0.07,AMER,,,,,,
+PLT-01,PLANT,70,DAY,2,DAY,8100,5.96,0.02,EU-South,,,,,,
+DCC-01,DC,60,DAY,0,DAY,2000,0.88,0.01,EU-North,,,,,,
+DCR-01,DC,60,DAY,1,DAY,3700,0.92,0.02,EU-North,,,,,,
+CUS-01,CUSTOMER,,,0,DAY,0,0,0,EU-West,,,,,,

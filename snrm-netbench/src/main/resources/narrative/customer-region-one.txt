@@ -1,0 +1,4 @@
+{name} is located in the {region} region.
+{name} is based in the {region} region.
+{name} sits in the {region} region.
+{name} can be found in the {region} region.

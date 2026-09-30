@@ -1,0 +1,4 @@
+{ "name": "llm-template",
+  "fixed": {"final-product-name": "Widget", "style": "template", "echelons": 5},
+  "factors": {"nodes": [6,12,25,50,100,200]},
+  "seeds": [1] }

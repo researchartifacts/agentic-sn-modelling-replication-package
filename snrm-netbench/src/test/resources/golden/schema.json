@@ -1,0 +1,520 @@
+{
+  "description": "Five CSV files, comma-separated. Each starts with a header row naming every column of the file below, lower-case, in the order shown; every further row is one record. * marks a column SNRM requires; any other cell may be left blank. A number is plain digits with an optional . fraction (1200, 0.05): no thousands separators, and no units or other text in the cell.",
+  "files": [
+    {
+      "file": "network_meta.csv",
+      "columns": [
+        {
+          "name": "period_length_value",
+          "required": true,
+          "kind": "INTEGER",
+          "note": "length of one simulation period, in period_length_unit"
+        },
+        {
+          "name": "period_length_unit",
+          "required": true,
+          "kind": "TIME_UNIT",
+          "note": "unit of the period length"
+        },
+        {
+          "name": "horizon_periods",
+          "required": true,
+          "kind": "INTEGER",
+          "note": "number of periods simulated"
+        },
+        {
+          "name": "rounding_policy",
+          "required": false,
+          "kind": "ROUNDING_POLICY",
+          "note": "how durations round to whole periods; default NEAREST"
+        },
+        {
+          "name": "name",
+          "required": false,
+          "kind": "TEXT",
+          "note": "the network's own name"
+        }
+      ]
+    },
+    {
+      "file": "nodes.csv",
+      "columns": [
+        {
+          "name": "name",
+          "required": true,
+          "kind": "TEXT",
+          "note": "unique node name"
+        },
+        {
+          "name": "type",
+          "required": true,
+          "kind": "NODE_TYPE",
+          "note": "SUPPLIER, PLANT, DC or CUSTOMER"
+        },
+        {
+          "name": "capacity_value",
+          "required": false,
+          "kind": "INTEGER",
+          "note": "rate: units per capacity_time_unit; blank = uncapped"
+        },
+        {
+          "name": "capacity_time_unit",
+          "required": false,
+          "kind": "TIME_UNIT",
+          "note": "denominator of capacity_value"
+        },
+        {
+          "name": "processing_time_value",
+          "required": false,
+          "kind": "INTEGER",
+          "note": "duration in processing_time_unit"
+        },
+        {
+          "name": "processing_time_unit",
+          "required": false,
+          "kind": "TIME_UNIT",
+          "note": "unit of processing_time_value"
+        },
+        {
+          "name": "fixed_cost",
+          "required": false,
+          "kind": "INTEGER",
+          "note": "cost per period"
+        },
+        {
+          "name": "var_cost",
+          "required": false,
+          "kind": "DECIMAL2",
+          "note": "cost per unit"
+        },
+        {
+          "name": "failure_prob",
+          "required": false,
+          "kind": "DECIMAL2",
+          "note": "probability in [0, 1]"
+        },
+        {
+          "name": "region",
+          "required": false,
+          "kind": "TEXT",
+          "note": "region tag"
+        },
+        {
+          "name": "lat",
+          "required": false,
+          "kind": "DECIMAL2",
+          "note": "latitude in degrees"
+        },
+        {
+          "name": "lng",
+          "required": false,
+          "kind": "DECIMAL2",
+          "note": "longitude in degrees"
+        },
+        {
+          "name": "pos_x",
+          "required": false,
+          "kind": "NUMBER",
+          "note": "editor canvas x (not geography)"
+        },
+        {
+          "name": "pos_y",
+          "required": false,
+          "kind": "NUMBER",
+          "note": "editor canvas y (not geography)"
+        },
+        {
+          "name": "caption",
+          "required": false,
+          "kind": "TEXT",
+          "note": "annotation drawn under the name"
+        },
+        {
+          "name": "caption_visible",
+          "required": false,
+          "kind": "BOOLEAN",
+          "note": "true/false; blank = visible"
+        }
+      ]
+    },
+    {
+      "file": "links.csv",
+      "columns": [
+        {
+          "name": "source",
+          "required": true,
+          "kind": "TEXT",
+          "note": "name of the node the link leaves"
+        },
+        {
+          "name": "target",
+          "required": true,
+          "kind": "TEXT",
+          "note": "name of the node the link enters"
+        },
+        {
+          "name": "lead_time_value",
+          "required": false,
+          "kind": "INTEGER",
+          "note": "duration in lead_time_unit"
+        },
+        {
+          "name": "lead_time_unit",
+          "required": false,
+          "kind": "TIME_UNIT",
+          "note": "unit of lead_time_value"
+        },
+        {
+          "name": "capacity_value",
+          "required": false,
+          "kind": "INTEGER",
+          "note": "rate: units per capacity_time_unit; blank = uncapped"
+        },
+        {
+          "name": "capacity_time_unit",
+          "required": false,
+          "kind": "TIME_UNIT",
+          "note": "denominator of capacity_value"
+        },
+        {
+          "name": "unit_cost",
+          "required": false,
+          "kind": "DECIMAL2",
+          "note": "transport cost per unit"
+        },
+        {
+          "name": "failure_prob",
+          "required": false,
+          "kind": "DECIMAL2",
+          "note": "probability in [0, 1]"
+        },
+        {
+          "name": "caption",
+          "required": false,
+          "kind": "TEXT",
+          "note": "annotation drawn under the lead time"
+        },
+        {
+          "name": "caption_visible",
+          "required": false,
+          "kind": "BOOLEAN",
+          "note": "true/false; blank = visible"
+        }
+      ]
+    },
+    {
+      "file": "products.csv",
+      "columns": [
+        {
+          "name": "name",
+          "required": true,
+          "kind": "TEXT",
+          "note": "unique product name"
+        },
+        {
+          "name": "unit_value",
+          "required": false,
+          "kind": "INTEGER",
+          "note": "value of one unit (the cost of a unit of unmet demand)"
+        }
+      ]
+    },
+    {
+      "file": "node_products.csv",
+      "columns": [
+        {
+          "name": "node",
+          "required": true,
+          "kind": "TEXT",
+          "note": "node name"
+        },
+        {
+          "name": "product",
+          "required": true,
+          "kind": "TEXT",
+          "note": "product name"
+        },
+        {
+          "name": "demand_value",
+          "required": false,
+          "kind": "INTEGER",
+          "note": "rate: units per demand_time_unit (customers only)"
+        },
+        {
+          "name": "demand_time_unit",
+          "required": false,
+          "kind": "TIME_UNIT",
+          "note": "denominator of demand_value"
+        },
+        {
+          "name": "initial_inventory",
+          "required": false,
+          "kind": "INTEGER",
+          "note": "units on hand at period 0"
+        },
+        {
+          "name": "safety_stock",
+          "required": false,
+          "kind": "INTEGER",
+          "note": "units"
+        },
+        {
+          "name": "holding_cost_value",
+          "required": false,
+          "kind": "DECIMAL2",
+          "note": "rate: cost per unit per holding_cost_time_unit"
+        },
+        {
+          "name": "holding_cost_time_unit",
+          "required": false,
+          "kind": "TIME_UNIT",
+          "note": "denominator of holding_cost_value"
+        }
+      ]
+    }
+  ],
+  "node_types": [
+    {
+      "name": "SUPPLIER",
+      "rank": 0
+    },
+    {
+      "name": "PLANT",
+      "rank": 1
+    },
+    {
+      "name": "DC",
+      "rank": 2
+    },
+    {
+      "name": "CUSTOMER",
+      "rank": 3
+    }
+  ],
+  "time_units": [
+    {
+      "name": "SECOND",
+      "seconds": 1,
+      "tokens": [
+        "s",
+        "sec",
+        "secs",
+        "second",
+        "seconds"
+      ]
+    },
+    {
+      "name": "MINUTE",
+      "seconds": 60,
+      "tokens": [
+        "min",
+        "mins",
+        "minute",
+        "minutes"
+      ]
+    },
+    {
+      "name": "HOUR",
+      "seconds": 3600,
+      "tokens": [
+        "h",
+        "hr",
+        "hrs",
+        "hour",
+        "hours"
+      ]
+    },
+    {
+      "name": "DAY",
+      "seconds": 86400,
+      "tokens": [
+        "d",
+        "day",
+        "days"
+      ]
+    },
+    {
+      "name": "WEEK",
+      "seconds": 604800,
+      "tokens": [
+        "wk",
+        "wks",
+        "week",
+        "weeks"
+      ]
+    },
+    {
+      "name": "MONTH",
+      "seconds": 2592000,
+      "tokens": [
+        "mo",
+        "mon",
+        "month",
+        "months"
+      ]
+    },
+    {
+      "name": "YEAR",
+      "seconds": 31536000,
+      "tokens": [
+        "y",
+        "yr",
+        "yrs",
+        "year",
+        "years"
+      ]
+    }
+  ],
+  "rounding_policies": [
+    {
+      "name": "NEAREST",
+      "phrase": "to the nearest period",
+      "examples": {
+        "1.25": 1,
+        "1.5": 2
+      }
+    },
+    {
+      "name": "UP",
+      "phrase": "up to the next whole period",
+      "examples": {
+        "1.25": 2,
+        "1.5": 2
+      }
+    },
+    {
+      "name": "DOWN",
+      "phrase": "down to the previous whole period",
+      "examples": {
+        "1.25": 1,
+        "1.5": 1
+      }
+    }
+  ],
+  "units": {
+    "durations": [
+      {
+        "file": "network_meta.csv",
+        "value": "period_length_value",
+        "unit": "period_length_unit"
+      },
+      {
+        "file": "nodes.csv",
+        "value": "processing_time_value",
+        "unit": "processing_time_unit"
+      },
+      {
+        "file": "links.csv",
+        "value": "lead_time_value",
+        "unit": "lead_time_unit"
+      }
+    ],
+    "rates": [
+      {
+        "file": "nodes.csv",
+        "value": "capacity_value",
+        "unit": "capacity_time_unit"
+      },
+      {
+        "file": "links.csv",
+        "value": "capacity_value",
+        "unit": "capacity_time_unit"
+      },
+      {
+        "file": "node_products.csv",
+        "value": "demand_value",
+        "unit": "demand_time_unit"
+      },
+      {
+        "file": "node_products.csv",
+        "value": "holding_cost_value",
+        "unit": "holding_cost_time_unit"
+      }
+    ],
+    "blank_unit": "A missing or blank *_unit column or cell means the period unit (period_length_unit).",
+    "uncapped": "A blank capacity_value (nodes.csv, links.csv) means uncapped."
+  },
+  "conventions": {
+    "description": "Cells fixed by rule for the type of the row's node; a description never states them:",
+    "cells": [
+      {
+        "node_types": [
+          "CUSTOMER"
+        ],
+        "file": "nodes.csv",
+        "column": "capacity_value",
+        "value": "blank"
+      },
+      {
+        "node_types": [
+          "CUSTOMER"
+        ],
+        "file": "nodes.csv",
+        "column": "processing_time_value",
+        "value": "0"
+      },
+      {
+        "node_types": [
+          "CUSTOMER"
+        ],
+        "file": "nodes.csv",
+        "column": "fixed_cost",
+        "value": "0"
+      },
+      {
+        "node_types": [
+          "CUSTOMER"
+        ],
+        "file": "nodes.csv",
+        "column": "var_cost",
+        "value": "0"
+      },
+      {
+        "node_types": [
+          "CUSTOMER"
+        ],
+        "file": "nodes.csv",
+        "column": "failure_prob",
+        "value": "0"
+      },
+      {
+        "node_types": [
+          "SUPPLIER",
+          "PLANT",
+          "DC"
+        ],
+        "file": "node_products.csv",
+        "column": "demand_value",
+        "value": "0"
+      },
+      {
+        "node_types": [
+          "CUSTOMER"
+        ],
+        "file": "node_products.csv",
+        "column": "initial_inventory",
+        "value": "0"
+      },
+      {
+        "node_types": [
+          "CUSTOMER"
+        ],
+        "file": "node_products.csv",
+        "column": "safety_stock",
+        "value": "0"
+      },
+      {
+        "node_types": [
+          "CUSTOMER"
+        ],
+        "file": "node_products.csv",
+        "column": "holding_cost_value",
+        "value": "0"
+      }
+    ],
+    "notes": [
+      "0 may also be left blank.",
+      "The unit cell next to a convention value holds the period unit (period_length_unit)."
+    ]
+  }
+}

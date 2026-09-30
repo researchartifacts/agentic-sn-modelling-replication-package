@@ -1,0 +1,5 @@
+{members} each demand {value} units of {product} per {unit}.
+{members} each require {value} units of {product} per {unit}.
+Each of {members} demands {value} units of {product} per {unit}.
+{members} each order {value} units of {product} every {unit}.
+Every {unit}, {members} each need {value} units of {product}.

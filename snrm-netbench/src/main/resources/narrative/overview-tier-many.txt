@@ -1,0 +1,5 @@
+The {count} {roles} are {members}.
+The network has {count} {roles}: {members}.
+There are {count} {roles}, namely {members}.
+{members} are the network's {count} {roles}.
+The {count} {roles} in the network are {members}.

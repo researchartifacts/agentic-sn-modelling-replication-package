@@ -1,0 +1,5 @@
+{subject} has the same {field} as {other}.
+{subject} has exactly the same {field} as {other}.
+{subject} and {other} have the same {field}.
+{subject} is identical to {other} in terms of {field}.
+{subject} shares the same {field} with {other}.

@@ -1,0 +1,111 @@
+{
+  "tool_version": "0.1.0",
+  "generated_at": null,
+  "run_id": "s1-n6-e5-narrative-typed-uniform-topical0.3-0fb1cf0b",
+  "seed": 1,
+  "params": {
+    "seed": 1,
+    "nodes": 6,
+    "echelons": 5,
+    "final-product-name": "Widget",
+    "products": 1,
+    "naming": "typed",
+    "style": "narrative",
+    "order": "by-tier",
+    "units": "uniform",
+    "period-unit": "DAY",
+    "period-value": 1,
+    "horizon": 90,
+    "inbound-links": "1,2",
+    "lateral-links": 0,
+    "attribute-coverage": 1,
+    "noise-type": "topical",
+    "noise-ratio": 0.3,
+    "geo": false,
+    "distance-mode": "none",
+    "locale": "plain"
+  },
+  "tiers": [
+    {
+      "index": 0,
+      "role": "supplier",
+      "type": "SUPPLIER",
+      "nodes": [
+        "SUP-01",
+        "SUP-02"
+      ]
+    },
+    {
+      "index": 1,
+      "role": "plant",
+      "type": "PLANT",
+      "nodes": [
+        "PLT-01"
+      ]
+    },
+    {
+      "index": 2,
+      "role": "central distribution centre",
+      "type": "DC",
+      "nodes": [
+        "DCC-01"
+      ]
+    },
+    {
+      "index": 3,
+      "role": "regional distribution centre",
+      "type": "DC",
+      "nodes": [
+        "DCR-01"
+      ]
+    },
+    {
+      "index": 4,
+      "role": "customer",
+      "type": "CUSTOMER",
+      "nodes": [
+        "CUS-01"
+      ]
+    }
+  ],
+  "counts": {
+    "nodes": 6,
+    "links": 5,
+    "products": 1,
+    "node_products": 6,
+    "facts_total": 90,
+    "facts_stated": 90,
+    "sentences_header": 4,
+    "sentences_fact": 22,
+    "sentences_noise": 9,
+    "noise_ratio_actual": 0.2903,
+    "words": 796,
+    "token_estimate": 1035
+  },
+  "expected_import": {
+    "errors": 0,
+    "warnings": {
+      "LATERAL_LINK": 1
+    }
+  },
+  "decoy_entities": [],
+  "notes": [],
+  "files": {
+    "description": "description/description.md",
+    "truth": "truth",
+    "facts": "facts.jsonl",
+    "decoys": "decoys.jsonl",
+    "full_network": "network.full.json"
+  },
+  "sha256": {
+    "decoys.jsonl": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "description/description.md": "af6b3795b7db80cda1857461061dd6fa9ed7bb9e3e96e2aa8fdfc8ab569dfbff",
+    "facts.jsonl": "552f3a462f030b5d092368c816e982308c50fd36a588d90b34beea7b5180b7e6",
+    "network.full.json": "7a96aaf819a47440ab15a9c5d9a9d93a94e4f424e1c8feb61b21048ee6f1a65c",
+    "truth/links.csv": "a675643292f0ebb916d3a661eb26551716e72b47f53e39e3a2e4013ca6836b56",
+    "truth/network_meta.csv": "20077f515a8711933fe0150c5cb6da877759bb3fa1e068a344fe459031c863d6",
+    "truth/node_products.csv": "e27467e03897249da5e216b5e5416c1ba83d51875eb06bc2c2ac0e16aa06f19b",
+    "truth/nodes.csv": "7568964d04c746d41ee7844c91b5bc1ef6a74f3538aa972746adfbde0fa2be14",
+    "truth/products.csv": "9bf764b7624560373e167e1cdabc8cd3bbd0549735c318580b818011573cfb44"
+  }
+}

@@ -1,0 +1,5 @@
+ It has {clauses}.
+ It operates with {clauses}.
+ It is characterised by {clauses}.
+ It is modelled with {clauses}.
+ It is configured with {clauses}.

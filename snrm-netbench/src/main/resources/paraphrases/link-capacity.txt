@@ -1,0 +1,5 @@
+a link capacity of {value} units per {unit}
+a lane capacity of {value} units per {unit}
+a transport capacity of {value} units per {unit}
+a maximum flow of {value} units per {unit}
+a link capacity of {value} units every {unit}

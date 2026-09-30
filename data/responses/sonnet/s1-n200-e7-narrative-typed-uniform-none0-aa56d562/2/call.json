@@ -1,0 +1,13 @@
+{
+ "model_alias": "sonnet",
+ "reported_model": "claude-sonnet-5 (filled in by the harness operator; the attempt produced no self-report)",
+ "effort": "default (not configurable by the harness)",
+ "prompt_version": "v1.1 (instruction file v1 + one file per tool call)",
+ "attempt": 2,
+ "status": "failed",
+ "failure": "Claude's response exceeded the 64000 output token maximum (max_output_tokens)",
+ "note": "plain retry of attempt 1 with the same prompt; terminated by the harness before any file was written",
+ "harness": "Claude Cowork subagent (Agent tool), file-writing mode, tools limited by instruction to Read/Write",
+ "recorded_at": "2026-09-27T21:47:03+00:00",
+ "candidate_files": []
+}

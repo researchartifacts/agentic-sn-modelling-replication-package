@@ -1,0 +1,9 @@
+{"id":1,"marker":"In the competitor's network,","kind":"link","entity":"DCC-01->DCR-01","field":"unit_cost","value":"0.31","unit":null,"decoy_entity":false,"sentence":5}
+{"id":2,"marker":"Under the proposed expansion,","kind":"node","entity":"CUS-01","field":"region","value":"EU-Central","unit":null,"decoy_entity":false,"sentence":7}
+{"id":3,"marker":"It was originally planned that","kind":"inventory","entity":"SUP-01|Widget","field":"safety_stock","value":"73","unit":null,"decoy_entity":false,"sentence":9}
+{"id":4,"marker":"In the competitor's network,","kind":"node","entity":"SUP-01","field":"fixed_cost","value":"718","unit":null,"decoy_entity":false,"sentence":22}
+{"id":5,"marker":"It was originally planned that","kind":"node","entity":"DCC-02","field":"exists","value":"DC","unit":null,"decoy_entity":true,"sentence":24}
+{"id":6,"marker":"Until 2013,","kind":"inventory","entity":"DCC-01|Widget","field":"initial_inventory","value":"276","unit":null,"decoy_entity":false,"sentence":27}
+{"id":7,"marker":"In the discontinued Widget Classic network,","kind":"node","entity":"DCR-02","field":"exists","value":"DC","unit":null,"decoy_entity":true,"sentence":29}
+{"id":8,"marker":"It was originally planned that","kind":"inventory","entity":"DCR-01|Widget","field":"safety_stock","value":"65","unit":null,"decoy_entity":false,"sentence":31}
+{"id":9,"marker":"In the discontinued Widget Classic network,","kind":"demand","entity":"CUS-02|Widget","field":"demand","value":"11","unit":"DAY","decoy_entity":true,"sentence":32}

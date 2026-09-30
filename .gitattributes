@@ -1,0 +1,10 @@
+# Generated files are byte-exact: keep LF and never convert them on checkout.
+* text=auto eol=lf
+*.cmd text eol=crlf
+data/** -text
+snrm-netbench/examples/** -text
+snrm-netbench/reference/** -text
+snrm-netbench/src/test/resources/** -text
+*.png binary
+*.xlsx binary
+*.jar binary

@@ -1,0 +1,14 @@
+{
+ "model_alias": "haiku",
+ "harness": "Claude Cowork subagent (Agent tool), file-writing mode, tools limited by instruction to Read/Write",
+ "subagent_tokens": 48797,
+ "duration_ms": 222968,
+ "tool_uses": 10,
+ "recorded_at": "2026-09-27T23:02:59+00:00",
+ "candidate_files": [
+  "network_meta.csv",
+  "nodes.csv"
+ ],
+ "prompt_version": "v1.1 (instruction file v1 + one file per tool call)",
+ "operator_note": "prompt_version added by the operator from the prompt actually issued (mkprompt2.py); the agent wrote no self-report (it stopped after two files)"
+}

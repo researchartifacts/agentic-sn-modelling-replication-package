@@ -1,0 +1,13 @@
+node,product,demand_value,demand_time_unit,initial_inventory,safety_stock,holding_cost_value,holding_cost_time_unit
+SUP-01,Widget,0,DAY,670,335,0.15,DAY
+SUP-02,Widget,0,DAY,165,83,0.06,DAY
+SUP-03,Widget,0,DAY,248,124,0.06,DAY
+SUP-04,Widget,0,DAY,402,201,0.44,DAY
+PLT-01,Widget,0,DAY,248,124,0.16,DAY
+PLT-02,Widget,0,DAY,336,168,0.36,DAY
+PLT-03,Widget,0,DAY,132,66,0.36,DAY
+CUS-01,Widget,11,DAY,0,0,0,DAY
+CUS-02,Widget,22,DAY,0,0,0,DAY
+CUS-03,Widget,39,DAY,0,0,0,DAY
+CUS-04,Widget,40,DAY,0,0,0,DAY
+CUS-05,Widget,22,DAY,0,0,0,DAY

@@ -1,0 +1,5 @@
+has a holding cost of {value} per unit per {unit}
+pays a holding cost of {value} per unit per {unit}
+incurs a holding cost of {value} per unit per {unit}
+bears a holding cost of {value} per unit per {unit}
+incurs holding costs of {value} per unit per {unit}

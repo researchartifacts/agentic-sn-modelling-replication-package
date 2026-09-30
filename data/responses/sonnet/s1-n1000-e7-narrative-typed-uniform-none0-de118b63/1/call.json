@@ -1,0 +1,28 @@
+{
+ "model_alias": "sonnet",
+ "reported_model": "claude-sonnet-5",
+ "effort": "default (not configurable by the harness)",
+ "prompt_version": "v1.2 (instruction file v1 + one file per tool call + incremental, brief reasoning)",
+ "files_read": [
+  "protocol/llm-instructions-v1.md",
+  "data/runs-llm/s1-n1000-e7-narrative-typed-uniform-none0-de118b63/description/description.md"
+ ],
+ "tools_used": [
+  "Read",
+  "Write",
+  "Bash"
+ ],
+ "harness": "Claude Cowork subagent (Agent tool), file-writing mode, tools limited by instruction to Read/Write",
+ "subagent_tokens": 143708,
+ "duration_ms": 3536771,
+ "tool_uses": 60,
+ "recorded_at": "2026-09-28T07:09:37+00:00",
+ "candidate_files": [
+  "links.csv",
+  "network_meta.csv",
+  "node_products.csv",
+  "nodes.csv",
+  "products.csv"
+ ],
+ "operator_note": "agent reported that it called the Bash tool once by mistake before a context-compaction boundary (disclosed in tools_used) and used only Read and Write afterwards; the harness compacted the agent context during this run, so subagent_tokens is not comparable with runs without compaction"
+}

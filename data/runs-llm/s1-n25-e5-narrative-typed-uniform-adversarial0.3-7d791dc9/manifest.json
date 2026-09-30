@@ -1,0 +1,148 @@
+{
+  "tool_version": "0.1.0",
+  "generated_at": null,
+  "run_id": "s1-n25-e5-narrative-typed-uniform-adversarial0.3-7d791dc9",
+  "seed": 1,
+  "params": {
+    "seed": 1,
+    "nodes": 25,
+    "echelons": 5,
+    "final-product-name": "Widget",
+    "products": 1,
+    "naming": "typed",
+    "style": "narrative",
+    "order": "by-tier",
+    "units": "uniform",
+    "period-unit": "DAY",
+    "period-value": 1,
+    "horizon": 90,
+    "inbound-links": "1,2",
+    "lateral-links": 0,
+    "attribute-coverage": 1,
+    "noise-type": "adversarial",
+    "noise-ratio": 0.3,
+    "geo": false,
+    "distance-mode": "none",
+    "locale": "plain"
+  },
+  "tiers": [
+    {
+      "index": 0,
+      "role": "supplier",
+      "type": "SUPPLIER",
+      "nodes": [
+        "SUP-01",
+        "SUP-02",
+        "SUP-03",
+        "SUP-04"
+      ]
+    },
+    {
+      "index": 1,
+      "role": "plant",
+      "type": "PLANT",
+      "nodes": [
+        "PLT-01",
+        "PLT-02",
+        "PLT-03",
+        "PLT-04"
+      ]
+    },
+    {
+      "index": 2,
+      "role": "central distribution centre",
+      "type": "DC",
+      "nodes": [
+        "DCC-01",
+        "DCC-02",
+        "DCC-03"
+      ]
+    },
+    {
+      "index": 3,
+      "role": "regional distribution centre",
+      "type": "DC",
+      "nodes": [
+        "DCR-01",
+        "DCR-02",
+        "DCR-03"
+      ]
+    },
+    {
+      "index": 4,
+      "role": "customer",
+      "type": "CUSTOMER",
+      "nodes": [
+        "CUS-01",
+        "CUS-02",
+        "CUS-03",
+        "CUS-04",
+        "CUS-05",
+        "CUS-06",
+        "CUS-07",
+        "CUS-08",
+        "CUS-09",
+        "CUS-10",
+        "CUS-11"
+      ]
+    }
+  ],
+  "counts": {
+    "nodes": 25,
+    "links": 31,
+    "products": 1,
+    "node_products": 25,
+    "facts_total": 359,
+    "facts_stated": 359,
+    "sentences_header": 4,
+    "sentences_fact": 79,
+    "sentences_noise": 34,
+    "noise_ratio_actual": 0.3009,
+    "words": 2910,
+    "token_estimate": 3783
+  },
+  "expected_import": {
+    "errors": 0,
+    "warnings": {
+      "LATERAL_LINK": 4
+    }
+  },
+  "decoy_entities": [
+    "CUS-12",
+    "DCR-04",
+    "DCC-04",
+    "SUP-05",
+    "CUS-13",
+    "PLT-05",
+    "DCC-05",
+    "SUP-06",
+    "CUS-14",
+    "CUS-15",
+    "CUS-16",
+    "DCC-06",
+    "CUS-17",
+    "DCR-05",
+    "CUS-18",
+    "PLT-06",
+    "CUS-19"
+  ],
+  "notes": [],
+  "files": {
+    "description": "description/description.md",
+    "truth": "truth",
+    "facts": "facts.jsonl",
+    "decoys": "decoys.jsonl",
+    "full_network": "network.full.json"
+  },
+  "sha256": {
+    "decoys.jsonl": "c7d970830ce963d94fb6283fb56c76839d42cb11e79b7bb86306b7fa51c40d3f",
+    "description/description.md": "b1678d54d1b77b3eb1471cae4b58a20baa2a6a14fa43a33b770bc7bfd4b2accd",
+    "facts.jsonl": "c62c5164f9d2f492712c7e3381da5b68f0958d562f3dd2c7d0a9f949c8fc9fab",
+    "network.full.json": "09118379173932c36c4059ab9553c4c1f4eed459692bf5e6eef785f951364036",
+    "truth/links.csv": "8565e07fa4b2f84c05dd133df5c2f9e9d7ec75f4c276d5eb33af163d7658905c",
+    "truth/network_meta.csv": "20077f515a8711933fe0150c5cb6da877759bb3fa1e068a344fe459031c863d6",
+    "truth/node_products.csv": "5a19b2bd14cc5d4118cfe31669a292ad87d16fb9c8a72b6215667c7426556f76",
+    "truth/nodes.csv": "58a9c35f6c5a6e5f199c9b0067aa8c6f3b38e334f05de61a580c9f1aed218b36",
+    "truth/products.csv": "1c1591797e9651075327b72bf56802fab7277ace737077b93f2f05b4da81ca63"
+  }
+}

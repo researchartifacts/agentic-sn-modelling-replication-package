@@ -1,0 +1,27 @@
+{
+ "model_alias": "sonnet",
+ "reported_model": "claude-sonnet-5",
+ "effort": "default (not configurable by the harness)",
+ "files_read": [
+  "protocol/llm-instructions-v1.md",
+  "data/runs-llm/s1-n200-e5-narrative-typed-uniform-none0-0fae8826/description/description.md"
+ ],
+ "tools_used": [
+  "Read",
+  "Write"
+ ],
+ "attempt": 2,
+ "note": "attempt 1 exceeded the 64000 output-token maximum before writing any file",
+ "harness": "Claude Cowork subagent (Agent tool), file-writing mode, tools limited by instruction to Read/Write; attempt 2 with explicit one-file-per-call instruction",
+ "subagent_tokens": 177331,
+ "duration_ms": 912453,
+ "tool_uses": 12,
+ "recorded_at": "2026-09-27T01:12:08+00:00",
+ "candidate_files": [
+  "links.csv",
+  "network_meta.csv",
+  "node_products.csv",
+  "nodes.csv",
+  "products.csv"
+ ]
+}

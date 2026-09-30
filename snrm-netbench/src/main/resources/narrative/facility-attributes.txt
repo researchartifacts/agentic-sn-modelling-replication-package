@@ -1,0 +1,5 @@
+{subject} has {clauses}.
+{subject} operates with {clauses}.
+{subject} is characterised by {clauses}.
+{subject} is modelled with {clauses}.
+{subject} is configured with {clauses}.

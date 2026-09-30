@@ -1,0 +1,44 @@
+{
+ "task": "Supply network extraction benchmark",
+ "scenario": "s1-n500-e3-narrative-typed-uniform-none0-228c9248",
+ "reported_model": "haiku",
+ "model_id": "claude-haiku-4-5-20251001",
+ "files_read": [
+  "protocol/llm-instructions-v1.md",
+  "data/runs-llm/s1-n500-e3-narrative-typed-uniform-none0-228c9248/description/description.md"
+ ],
+ "files_written": [
+  "network_meta.csv",
+  "nodes.csv",
+  "links.csv",
+  "products.csv",
+  "node_products.csv"
+ ],
+ "data_summary": {
+  "suppliers": 126,
+  "plants": 125,
+  "customers": 249,
+  "total_nodes": 500,
+  "products": 1,
+  "supplier_plant_links": 126,
+  "plant_customer_links": 623,
+  "total_links": 749,
+  "network_horizon_periods": 90,
+  "period_length": "1 DAY"
+ },
+ "model_alias": "haiku",
+ "harness": "Claude Cowork subagent (Agent tool), file-writing mode, tools limited by instruction to Read/Write",
+ "subagent_tokens": 125822,
+ "duration_ms": 447979,
+ "tool_uses": 18,
+ "recorded_at": "2026-09-27T23:02:59+00:00",
+ "candidate_files": [
+  "links.csv",
+  "network_meta.csv",
+  "node_products.csv",
+  "nodes.csv",
+  "products.csv"
+ ],
+ "operator_note": "the agent wrote its self-report to candidate/call.json (wrong path); the operator moved it to call.json before scoring; no CSV file was touched; prompt_version added by the operator from the prompt actually issued (mkprompt2.py); the agent self-report (moved from candidate/call.json) omitted it",
+ "prompt_version": "v1.1 (instruction file v1 + one file per tool call)"
+}

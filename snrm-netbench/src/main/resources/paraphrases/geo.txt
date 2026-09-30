@@ -1,0 +1,5 @@
+{name} is located at latitude {lat} and longitude {lng}.
+{name} lies at latitude {lat} and longitude {lng}.
+{name} is positioned at latitude {lat} and longitude {lng}.
+{name} has the coordinates latitude {lat}, longitude {lng}.
+{name} sits at latitude {lat} and longitude {lng}.

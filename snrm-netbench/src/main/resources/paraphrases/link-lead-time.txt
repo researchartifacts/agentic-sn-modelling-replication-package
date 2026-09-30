@@ -1,0 +1,5 @@
+a lead time of {value} {unit}
+a transit time of {value} {unit}
+a delivery time of {value} {unit}
+a replenishment lead time of {value} {unit}
+{value} {unit} of lead time

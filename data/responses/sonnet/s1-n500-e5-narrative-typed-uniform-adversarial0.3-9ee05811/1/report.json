@@ -1,0 +1,1272 @@
+{
+  "tool_version": "0.1.0",
+  "verified_at": "2026-09-28T08:06:28Z",
+  "truth": "runs-llm/s1-n500-e5-narrative-typed-uniform-adversarial0.3-9ee05811/truth",
+  "candidate": "responses/sonnet/s1-n500-e5-narrative-typed-uniform-adversarial0.3-9ee05811/1/candidate",
+  "run_id": "s1-n500-e5-narrative-typed-uniform-adversarial0.3-9ee05811",
+  "manifest": {
+    "seed": 1,
+    "params": {
+      "seed": 1,
+      "nodes": 500,
+      "echelons": 5,
+      "final-product-name": "Widget",
+      "products": 1,
+      "naming": "typed",
+      "style": "narrative",
+      "order": "by-tier",
+      "units": "uniform",
+      "period-unit": "DAY",
+      "period-value": 1,
+      "horizon": 90,
+      "inbound-links": "1,2",
+      "lateral-links": 0,
+      "attribute-coverage": 1,
+      "noise-type": "adversarial",
+      "noise-ratio": 0.3,
+      "geo": false,
+      "distance-mode": "none",
+      "locale": "plain"
+    },
+    "counts": {
+      "nodes": 500,
+      "links": 658,
+      "products": 1,
+      "node_products": 500,
+      "facts_total": 7060,
+      "facts_stated": 7060,
+      "sentences_header": 4,
+      "sentences_fact": 1223,
+      "sentences_noise": 524,
+      "noise_ratio_actual": 0.2999,
+      "words": 53002,
+      "token_estimate": 68903
+    }
+  },
+  "envelope": {
+    "source": "directory",
+    "files_found": [
+      "network_meta.csv",
+      "nodes.csv",
+      "links.csv",
+      "products.csv",
+      "node_products.csv"
+    ],
+    "files_missing": [],
+    "findings": []
+  },
+  "l0": {
+    "import_valid": true,
+    "error_count": 0,
+    "warning_count": 97,
+    "findings": [
+      {
+        "code": "LATERAL_LINK",
+        "severity": "WARNING",
+        "file": "links.csv",
+        "line": 195,
+        "element": "DCC-01->DCR-15",
+        "message": "link DCC-01 -> DCR-15 joins two DC nodes (lateral)"
+      },
+      {
+        "code": "LATERAL_LINK",
+        "severity": "WARNING",
+        "file": "links.csv",
+        "line": 196,
+        "element": "DCC-02->DCR-39",
+        "message": "link DCC-02 -> DCR-39 joins two DC nodes (lateral)"
+      },
+      {
+        "code": "LATERAL_LINK",
+        "severity": "WARNING",
+        "file": "links.csv",
+        "line": 197,
+        "element": "DCC-03->DCR-38",
+        "message": "link DCC-03 -> DCR-38 joins two DC nodes (lateral)"
+      },
+      {
+        "code": "LATERAL_LINK",
+        "severity": "WARNING",
+        "file": "links.csv",
+        "line": 198,
+        "element": "DCC-03->DCR-45",
+        "message": "link DCC-03 -> DCR-45 joins two DC nodes (lateral)"
+      },
+      {
+        "code": "LATERAL_LINK",
+        "severity": "WARNING",
+        "file": "links.csv",
+        "line": 199,
+        "element": "DCC-04->DCR-05",
+        "message": "link DCC-04 -> DCR-05 joins two DC nodes (lateral)"
+      },
+      {
+        "code": "LATERAL_LINK",
+        "severity": "WARNING",
+        "file": "links.csv",
+        "line": 200,
+        "element": "DCC-04->DCR-19",
+        "message": "link DCC-04 -> DCR-19 joins two DC nodes (lateral)"
+      },
+      {
+        "code": "LATERAL_LINK",
+        "severity": "WARNING",
+        "file": "links.csv",
+        "line": 201,
+        "element": "DCC-05->DCR-55",
+        "message": "link DCC-05 -> DCR-55 joins two DC nodes (lateral)"
+      },
+      {
+        "code": "LATERAL_LINK",
+        "severity": "WARNING",
+        "file": "links.csv",
+        "line": 202,
+        "element": "DCC-06->DCR-30",
+        "message": "link DCC-06 -> DCR-30 joins two DC nodes (lateral)"
+      },
+      {
+        "code": "LATERAL_LINK",
+        "severity": "WARNING",
+        "file": "links.csv",
+        "line": 203,
+        "element": "DCC-07->DCR-14",
+        "message": "link DCC-07 -> DCR-14 joins two DC nodes (lateral)"
+      },
+      {
+        "code": "LATERAL_LINK",
+        "severity": "WARNING",
+        "file": "links.csv",
+        "line": 204,
+        "element": "DCC-08->DCR-16",
+        "message": "link DCC-08 -> DCR-16 joins two DC nodes (lateral)"
+      },
+      {
+        "code": "LATERAL_LINK",
+        "severity": "WARNING",
+        "file": "links.csv",
+        "line": 205,
+        "element": "DCC-08->DCR-23",
+        "message": "link DCC-08 -> DCR-23 joins two DC nodes (lateral)"
+      },
+      {
+        "code": "LATERAL_LINK",
+        "severity": "WARNING",
+        "file": "links.csv",
+        "line": 206,
+        "element": "DCC-08->DCR-35",
+        "message": "link DCC-08 -> DCR-35 joins two DC nodes (lateral)"
+      },
+      {
+        "code": "LATERAL_LINK",
+        "severity": "WARNING",
+        "file": "links.csv",
+        "line": 207,
+        "element": "DCC-08->DCR-61",
+        "message": "link DCC-08 -> DCR-61 joins two DC nodes (lateral)"
+      },
+      {
+        "code": "LATERAL_LINK",
+        "severity": "WARNING",
+        "file": "links.csv",
+        "line": 208,
+        "element": "DCC-09->DCR-61",
+        "message": "link DCC-09 -> DCR-61 joins two DC nodes (lateral)"
+      },
+      {
+        "code": "LATERAL_LINK",
+        "severity": "WARNING",
+        "file": "links.csv",
+        "line": 209,
+        "element": "DCC-10->DCR-06",
+        "message": "link DCC-10 -> DCR-06 joins two DC nodes (lateral)"
+      },
+      {
+        "code": "LATERAL_LINK",
+        "severity": "WARNING",
+        "file": "links.csv",
+        "line": 210,
+        "element": "DCC-11->DCR-07",
+        "message": "link DCC-11 -> DCR-07 joins two DC nodes (lateral)"
+      },
+      {
+        "code": "LATERAL_LINK",
+        "severity": "WARNING",
+        "file": "links.csv",
+        "line": 211,
+        "element": "DCC-11->DCR-14",
+        "message": "link DCC-11 -> DCR-14 joins two DC nodes (lateral)"
+      },
+      {
+        "code": "LATERAL_LINK",
+        "severity": "WARNING",
+        "file": "links.csv",
+        "line": 212,
+        "element": "DCC-11->DCR-20",
+        "message": "link DCC-11 -> DCR-20 joins two DC nodes (lateral)"
+      },
+      {
+        "code": "LATERAL_LINK",
+        "severity": "WARNING",
+        "file": "links.csv",
+        "line": 213,
+        "element": "DCC-11->DCR-43",
+        "message": "link DCC-11 -> DCR-43 joins two DC nodes (lateral)"
+      },
+      {
+        "code": "LATERAL_LINK",
+        "severity": "WARNING",
+        "file": "links.csv",
+        "line": 214,
+        "element": "DCC-11->DCR-46",
+        "message": "link DCC-11 -> DCR-46 joins two DC nodes (lateral)"
+      },
+      {
+        "code": "LATERAL_LINK",
+        "severity": "WARNING",
+        "file": "links.csv",
+        "line": 215,
+        "element": "DCC-12->DCR-26",
+        "message": "link DCC-12 -> DCR-26 joins two DC nodes (lateral)"
+      },
+      {
+        "code": "LATERAL_LINK",
+        "severity": "WARNING",
+        "file": "links.csv",
+        "line": 216,
+        "element": "DCC-13->DCR-10",
+        "message": "link DCC-13 -> DCR-10 joins two DC nodes (lateral)"
+      },
+      {
+        "code": "LATERAL_LINK",
+        "severity": "WARNING",
+        "file": "links.csv",
+        "line": 217,
+        "element": "DCC-14->DCR-46",
+        "message": "link DCC-14 -> DCR-46 joins two DC nodes (lateral)"
+      },
+      {
+        "code": "LATERAL_LINK",
+        "severity": "WARNING",
+        "file": "links.csv",
+        "line": 218,
+        "element": "DCC-15->DCR-25",
+        "message": "link DCC-15 -> DCR-25 joins two DC nodes (lateral)"
+      },
+      {
+        "code": "LATERAL_LINK",
+        "severity": "WARNING",
+        "file": "links.csv",
+        "line": 219,
+        "element": "DCC-15->DCR-31",
+        "message": "link DCC-15 -> DCR-31 joins two DC nodes (lateral)"
+      },
+      {
+        "code": "LATERAL_LINK",
+        "severity": "WARNING",
+        "file": "links.csv",
+        "line": 220,
+        "element": "DCC-16->DCR-27",
+        "message": "link DCC-16 -> DCR-27 joins two DC nodes (lateral)"
+      },
+      {
+        "code": "LATERAL_LINK",
+        "severity": "WARNING",
+        "file": "links.csv",
+        "line": 221,
+        "element": "DCC-17->DCR-28",
+        "message": "link DCC-17 -> DCR-28 joins two DC nodes (lateral)"
+      },
+      {
+        "code": "LATERAL_LINK",
+        "severity": "WARNING",
+        "file": "links.csv",
+        "line": 222,
+        "element": "DCC-17->DCR-29",
+        "message": "link DCC-17 -> DCR-29 joins two DC nodes (lateral)"
+      },
+      {
+        "code": "LATERAL_LINK",
+        "severity": "WARNING",
+        "file": "links.csv",
+        "line": 223,
+        "element": "DCC-17->DCR-52",
+        "message": "link DCC-17 -> DCR-52 joins two DC nodes (lateral)"
+      },
+      {
+        "code": "LATERAL_LINK",
+        "severity": "WARNING",
+        "file": "links.csv",
+        "line": 224,
+        "element": "DCC-18->DCR-05",
+        "message": "link DCC-18 -> DCR-05 joins two DC nodes (lateral)"
+      },
+      {
+        "code": "LATERAL_LINK",
+        "severity": "WARNING",
+        "file": "links.csv",
+        "line": 225,
+        "element": "DCC-18->DCR-16",
+        "message": "link DCC-18 -> DCR-16 joins two DC nodes (lateral)"
+      },
+      {
+        "code": "LATERAL_LINK",
+        "severity": "WARNING",
+        "file": "links.csv",
+        "line": 226,
+        "element": "DCC-19->DCR-07",
+        "message": "link DCC-19 -> DCR-07 joins two DC nodes (lateral)"
+      },
+      {
+        "code": "LATERAL_LINK",
+        "severity": "WARNING",
+        "file": "links.csv",
+        "line": 227,
+        "element": "DCC-20->DCR-24",
+        "message": "link DCC-20 -> DCR-24 joins two DC nodes (lateral)"
+      },
+      {
+        "code": "LATERAL_LINK",
+        "severity": "WARNING",
+        "file": "links.csv",
+        "line": 228,
+        "element": "DCC-21->DCR-49",
+        "message": "link DCC-21 -> DCR-49 joins two DC nodes (lateral)"
+      },
+      {
+        "code": "LATERAL_LINK",
+        "severity": "WARNING",
+        "file": "links.csv",
+        "line": 229,
+        "element": "DCC-22->DCR-11",
+        "message": "link DCC-22 -> DCR-11 joins two DC nodes (lateral)"
+      },
+      {
+        "code": "LATERAL_LINK",
+        "severity": "WARNING",
+        "file": "links.csv",
+        "line": 230,
+        "element": "DCC-23->DCR-01",
+        "message": "link DCC-23 -> DCR-01 joins two DC nodes (lateral)"
+      },
+      {
+        "code": "LATERAL_LINK",
+        "severity": "WARNING",
+        "file": "links.csv",
+        "line": 231,
+        "element": "DCC-23->DCR-36",
+        "message": "link DCC-23 -> DCR-36 joins two DC nodes (lateral)"
+      },
+      {
+        "code": "LATERAL_LINK",
+        "severity": "WARNING",
+        "file": "links.csv",
+        "line": 232,
+        "element": "DCC-23->DCR-57",
+        "message": "link DCC-23 -> DCR-57 joins two DC nodes (lateral)"
+      },
+      {
+        "code": "LATERAL_LINK",
+        "severity": "WARNING",
+        "file": "links.csv",
+        "line": 233,
+        "element": "DCC-24->DCR-22",
+        "message": "link DCC-24 -> DCR-22 joins two DC nodes (lateral)"
+      },
+      {
+        "code": "LATERAL_LINK",
+        "severity": "WARNING",
+        "file": "links.csv",
+        "line": 234,
+        "element": "DCC-24->DCR-62",
+        "message": "link DCC-24 -> DCR-62 joins two DC nodes (lateral)"
+      },
+      {
+        "code": "LATERAL_LINK",
+        "severity": "WARNING",
+        "file": "links.csv",
+        "line": 235,
+        "element": "DCC-25->DCR-48",
+        "message": "link DCC-25 -> DCR-48 joins two DC nodes (lateral)"
+      },
+      {
+        "code": "LATERAL_LINK",
+        "severity": "WARNING",
+        "file": "links.csv",
+        "line": 236,
+        "element": "DCC-26->DCR-31",
+        "message": "link DCC-26 -> DCR-31 joins two DC nodes (lateral)"
+      },
+      {
+        "code": "LATERAL_LINK",
+        "severity": "WARNING",
+        "file": "links.csv",
+        "line": 237,
+        "element": "DCC-27->DCR-12",
+        "message": "link DCC-27 -> DCR-12 joins two DC nodes (lateral)"
+      },
+      {
+        "code": "LATERAL_LINK",
+        "severity": "WARNING",
+        "file": "links.csv",
+        "line": 238,
+        "element": "DCC-28->DCR-62",
+        "message": "link DCC-28 -> DCR-62 joins two DC nodes (lateral)"
+      },
+      {
+        "code": "LATERAL_LINK",
+        "severity": "WARNING",
+        "file": "links.csv",
+        "line": 239,
+        "element": "DCC-29->DCR-08",
+        "message": "link DCC-29 -> DCR-08 joins two DC nodes (lateral)"
+      },
+      {
+        "code": "LATERAL_LINK",
+        "severity": "WARNING",
+        "file": "links.csv",
+        "line": 240,
+        "element": "DCC-29->DCR-57",
+        "message": "link DCC-29 -> DCR-57 joins two DC nodes (lateral)"
+      },
+      {
+        "code": "LATERAL_LINK",
+        "severity": "WARNING",
+        "file": "links.csv",
+        "line": 241,
+        "element": "DCC-30->DCR-20",
+        "message": "link DCC-30 -> DCR-20 joins two DC nodes (lateral)"
+      },
+      {
+        "code": "LATERAL_LINK",
+        "severity": "WARNING",
+        "file": "links.csv",
+        "line": 242,
+        "element": "DCC-31->DCR-03",
+        "message": "link DCC-31 -> DCR-03 joins two DC nodes (lateral)"
+      },
+      {
+        "code": "LATERAL_LINK",
+        "severity": "WARNING",
+        "file": "links.csv",
+        "line": 243,
+        "element": "DCC-31->DCR-18",
+        "message": "link DCC-31 -> DCR-18 joins two DC nodes (lateral)"
+      },
+      {
+        "code": "LATERAL_LINK",
+        "severity": "WARNING",
+        "file": "links.csv",
+        "line": 244,
+        "element": "DCC-32->DCR-03",
+        "message": "link DCC-32 -> DCR-03 joins two DC nodes (lateral)"
+      },
+      {
+        "code": "LATERAL_LINK",
+        "severity": "WARNING",
+        "file": "links.csv",
+        "line": 245,
+        "element": "DCC-32->DCR-26",
+        "message": "link DCC-32 -> DCR-26 joins two DC nodes (lateral)"
+      },
+      {
+        "code": "LATERAL_LINK",
+        "severity": "WARNING",
+        "file": "links.csv",
+        "line": 246,
+        "element": "DCC-33->DCR-36",
+        "message": "link DCC-33 -> DCR-36 joins two DC nodes (lateral)"
+      },
+      {
+        "code": "LATERAL_LINK",
+        "severity": "WARNING",
+        "file": "links.csv",
+        "line": 247,
+        "element": "DCC-33->DCR-47",
+        "message": "link DCC-33 -> DCR-47 joins two DC nodes (lateral)"
+      },
+      {
+        "code": "LATERAL_LINK",
+        "severity": "WARNING",
+        "file": "links.csv",
+        "line": 248,
+        "element": "DCC-34->DCR-37",
+        "message": "link DCC-34 -> DCR-37 joins two DC nodes (lateral)"
+      },
+      {
+        "code": "LATERAL_LINK",
+        "severity": "WARNING",
+        "file": "links.csv",
+        "line": 249,
+        "element": "DCC-34->DCR-60",
+        "message": "link DCC-34 -> DCR-60 joins two DC nodes (lateral)"
+      },
+      {
+        "code": "LATERAL_LINK",
+        "severity": "WARNING",
+        "file": "links.csv",
+        "line": 250,
+        "element": "DCC-35->DCR-54",
+        "message": "link DCC-35 -> DCR-54 joins two DC nodes (lateral)"
+      },
+      {
+        "code": "LATERAL_LINK",
+        "severity": "WARNING",
+        "file": "links.csv",
+        "line": 251,
+        "element": "DCC-36->DCR-60",
+        "message": "link DCC-36 -> DCR-60 joins two DC nodes (lateral)"
+      },
+      {
+        "code": "LATERAL_LINK",
+        "severity": "WARNING",
+        "file": "links.csv",
+        "line": 252,
+        "element": "DCC-37->DCR-33",
+        "message": "link DCC-37 -> DCR-33 joins two DC nodes (lateral)"
+      },
+      {
+        "code": "LATERAL_LINK",
+        "severity": "WARNING",
+        "file": "links.csv",
+        "line": 253,
+        "element": "DCC-38->DCR-44",
+        "message": "link DCC-38 -> DCR-44 joins two DC nodes (lateral)"
+      },
+      {
+        "code": "LATERAL_LINK",
+        "severity": "WARNING",
+        "file": "links.csv",
+        "line": 254,
+        "element": "DCC-39->DCR-21",
+        "message": "link DCC-39 -> DCR-21 joins two DC nodes (lateral)"
+      },
+      {
+        "code": "LATERAL_LINK",
+        "severity": "WARNING",
+        "file": "links.csv",
+        "line": 255,
+        "element": "DCC-39->DCR-52",
+        "message": "link DCC-39 -> DCR-52 joins two DC nodes (lateral)"
+      },
+      {
+        "code": "LATERAL_LINK",
+        "severity": "WARNING",
+        "file": "links.csv",
+        "line": 256,
+        "element": "DCC-40->DCR-01",
+        "message": "link DCC-40 -> DCR-01 joins two DC nodes (lateral)"
+      },
+      {
+        "code": "LATERAL_LINK",
+        "severity": "WARNING",
+        "file": "links.csv",
+        "line": 257,
+        "element": "DCC-40->DCR-02",
+        "message": "link DCC-40 -> DCR-02 joins two DC nodes (lateral)"
+      },
+      {
+        "code": "LATERAL_LINK",
+        "severity": "WARNING",
+        "file": "links.csv",
+        "line": 258,
+        "element": "DCC-40->DCR-63",
+        "message": "link DCC-40 -> DCR-63 joins two DC nodes (lateral)"
+      },
+      {
+        "code": "LATERAL_LINK",
+        "severity": "WARNING",
+        "file": "links.csv",
+        "line": 259,
+        "element": "DCC-41->DCR-42",
+        "message": "link DCC-41 -> DCR-42 joins two DC nodes (lateral)"
+      },
+      {
+        "code": "LATERAL_LINK",
+        "severity": "WARNING",
+        "file": "links.csv",
+        "line": 260,
+        "element": "DCC-42->DCR-34",
+        "message": "link DCC-42 -> DCR-34 joins two DC nodes (lateral)"
+      },
+      {
+        "code": "LATERAL_LINK",
+        "severity": "WARNING",
+        "file": "links.csv",
+        "line": 261,
+        "element": "DCC-43->DCR-47",
+        "message": "link DCC-43 -> DCR-47 joins two DC nodes (lateral)"
+      },
+      {
+        "code": "LATERAL_LINK",
+        "severity": "WARNING",
+        "file": "links.csv",
+        "line": 262,
+        "element": "DCC-44->DCR-23",
+        "message": "link DCC-44 -> DCR-23 joins two DC nodes (lateral)"
+      },
+      {
+        "code": "LATERAL_LINK",
+        "severity": "WARNING",
+        "file": "links.csv",
+        "line": 263,
+        "element": "DCC-45->DCR-45",
+        "message": "link DCC-45 -> DCR-45 joins two DC nodes (lateral)"
+      },
+      {
+        "code": "LATERAL_LINK",
+        "severity": "WARNING",
+        "file": "links.csv",
+        "line": 264,
+        "element": "DCC-46->DCR-58",
+        "message": "link DCC-46 -> DCR-58 joins two DC nodes (lateral)"
+      },
+      {
+        "code": "LATERAL_LINK",
+        "severity": "WARNING",
+        "file": "links.csv",
+        "line": 265,
+        "element": "DCC-47->DCR-32",
+        "message": "link DCC-47 -> DCR-32 joins two DC nodes (lateral)"
+      },
+      {
+        "code": "LATERAL_LINK",
+        "severity": "WARNING",
+        "file": "links.csv",
+        "line": 266,
+        "element": "DCC-48->DCR-17",
+        "message": "link DCC-48 -> DCR-17 joins two DC nodes (lateral)"
+      },
+      {
+        "code": "LATERAL_LINK",
+        "severity": "WARNING",
+        "file": "links.csv",
+        "line": 267,
+        "element": "DCC-48->DCR-28",
+        "message": "link DCC-48 -> DCR-28 joins two DC nodes (lateral)"
+      },
+      {
+        "code": "LATERAL_LINK",
+        "severity": "WARNING",
+        "file": "links.csv",
+        "line": 268,
+        "element": "DCC-49->DCR-40",
+        "message": "link DCC-49 -> DCR-40 joins two DC nodes (lateral)"
+      },
+      {
+        "code": "LATERAL_LINK",
+        "severity": "WARNING",
+        "file": "links.csv",
+        "line": 269,
+        "element": "DCC-50->DCR-04",
+        "message": "link DCC-50 -> DCR-04 joins two DC nodes (lateral)"
+      },
+      {
+        "code": "LATERAL_LINK",
+        "severity": "WARNING",
+        "file": "links.csv",
+        "line": 270,
+        "element": "DCC-51->DCR-32",
+        "message": "link DCC-51 -> DCR-32 joins two DC nodes (lateral)"
+      },
+      {
+        "code": "LATERAL_LINK",
+        "severity": "WARNING",
+        "file": "links.csv",
+        "line": 271,
+        "element": "DCC-51->DCR-59",
+        "message": "link DCC-51 -> DCR-59 joins two DC nodes (lateral)"
+      },
+      {
+        "code": "LATERAL_LINK",
+        "severity": "WARNING",
+        "file": "links.csv",
+        "line": 272,
+        "element": "DCC-52->DCR-06",
+        "message": "link DCC-52 -> DCR-06 joins two DC nodes (lateral)"
+      },
+      {
+        "code": "LATERAL_LINK",
+        "severity": "WARNING",
+        "file": "links.csv",
+        "line": 273,
+        "element": "DCC-52->DCR-08",
+        "message": "link DCC-52 -> DCR-08 joins two DC nodes (lateral)"
+      },
+      {
+        "code": "LATERAL_LINK",
+        "severity": "WARNING",
+        "file": "links.csv",
+        "line": 274,
+        "element": "DCC-52->DCR-44",
+        "message": "link DCC-52 -> DCR-44 joins two DC nodes (lateral)"
+      },
+      {
+        "code": "LATERAL_LINK",
+        "severity": "WARNING",
+        "file": "links.csv",
+        "line": 275,
+        "element": "DCC-53->DCR-11",
+        "message": "link DCC-53 -> DCR-11 joins two DC nodes (lateral)"
+      },
+      {
+        "code": "LATERAL_LINK",
+        "severity": "WARNING",
+        "file": "links.csv",
+        "line": 276,
+        "element": "DCC-53->DCR-13",
+        "message": "link DCC-53 -> DCR-13 joins two DC nodes (lateral)"
+      },
+      {
+        "code": "LATERAL_LINK",
+        "severity": "WARNING",
+        "file": "links.csv",
+        "line": 277,
+        "element": "DCC-53->DCR-53",
+        "message": "link DCC-53 -> DCR-53 joins two DC nodes (lateral)"
+      },
+      {
+        "code": "LATERAL_LINK",
+        "severity": "WARNING",
+        "file": "links.csv",
+        "line": 278,
+        "element": "DCC-54->DCR-09",
+        "message": "link DCC-54 -> DCR-09 joins two DC nodes (lateral)"
+      },
+      {
+        "code": "LATERAL_LINK",
+        "severity": "WARNING",
+        "file": "links.csv",
+        "line": 279,
+        "element": "DCC-54->DCR-49",
+        "message": "link DCC-54 -> DCR-49 joins two DC nodes (lateral)"
+      },
+      {
+        "code": "LATERAL_LINK",
+        "severity": "WARNING",
+        "file": "links.csv",
+        "line": 280,
+        "element": "DCC-55->DCR-50",
+        "message": "link DCC-55 -> DCR-50 joins two DC nodes (lateral)"
+      },
+      {
+        "code": "LATERAL_LINK",
+        "severity": "WARNING",
+        "file": "links.csv",
+        "line": 281,
+        "element": "DCC-56->DCR-17",
+        "message": "link DCC-56 -> DCR-17 joins two DC nodes (lateral)"
+      },
+      {
+        "code": "LATERAL_LINK",
+        "severity": "WARNING",
+        "file": "links.csv",
+        "line": 282,
+        "element": "DCC-57->DCR-43",
+        "message": "link DCC-57 -> DCR-43 joins two DC nodes (lateral)"
+      },
+      {
+        "code": "LATERAL_LINK",
+        "severity": "WARNING",
+        "file": "links.csv",
+        "line": 283,
+        "element": "DCC-57->DCR-63",
+        "message": "link DCC-57 -> DCR-63 joins two DC nodes (lateral)"
+      },
+      {
+        "code": "LATERAL_LINK",
+        "severity": "WARNING",
+        "file": "links.csv",
+        "line": 284,
+        "element": "DCC-58->DCR-37",
+        "message": "link DCC-58 -> DCR-37 joins two DC nodes (lateral)"
+      },
+      {
+        "code": "LATERAL_LINK",
+        "severity": "WARNING",
+        "file": "links.csv",
+        "line": 285,
+        "element": "DCC-58->DCR-56",
+        "message": "link DCC-58 -> DCR-56 joins two DC nodes (lateral)"
+      },
+      {
+        "code": "LATERAL_LINK",
+        "severity": "WARNING",
+        "file": "links.csv",
+        "line": 286,
+        "element": "DCC-59->DCR-53",
+        "message": "link DCC-59 -> DCR-53 joins two DC nodes (lateral)"
+      },
+      {
+        "code": "LATERAL_LINK",
+        "severity": "WARNING",
+        "file": "links.csv",
+        "line": 287,
+        "element": "DCC-60->DCR-21",
+        "message": "link DCC-60 -> DCR-21 joins two DC nodes (lateral)"
+      },
+      {
+        "code": "LATERAL_LINK",
+        "severity": "WARNING",
+        "file": "links.csv",
+        "line": 288,
+        "element": "DCC-61->DCR-51",
+        "message": "link DCC-61 -> DCR-51 joins two DC nodes (lateral)"
+      },
+      {
+        "code": "LATERAL_LINK",
+        "severity": "WARNING",
+        "file": "links.csv",
+        "line": 289,
+        "element": "DCC-62->DCR-10",
+        "message": "link DCC-62 -> DCR-10 joins two DC nodes (lateral)"
+      },
+      {
+        "code": "LATERAL_LINK",
+        "severity": "WARNING",
+        "file": "links.csv",
+        "line": 290,
+        "element": "DCC-62->DCR-35",
+        "message": "link DCC-62 -> DCR-35 joins two DC nodes (lateral)"
+      },
+      {
+        "code": "LATERAL_LINK",
+        "severity": "WARNING",
+        "file": "links.csv",
+        "line": 291,
+        "element": "DCC-63->DCR-41",
+        "message": "link DCC-63 -> DCR-41 joins two DC nodes (lateral)"
+      }
+    ],
+    "snrm": null,
+    "import_valid_snrm": null,
+    "disagreements": []
+  },
+  "l1": {
+    "nodes": {
+      "truth": 500,
+      "candidate": 500,
+      "matched": 500,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "links": {
+      "truth": 658,
+      "candidate": 658,
+      "matched": 658,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "recall_conditional": 1.0
+    },
+    "products": {
+      "truth": 1,
+      "candidate": 1,
+      "matched": 1,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "node_products": {
+      "truth": 500,
+      "candidate": 500,
+      "matched": 500,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "node_type_accuracy": 1.0,
+    "structure_f1": 1.0,
+    "missing_nodes": [],
+    "extra_nodes": [],
+    "missing_links": [],
+    "extra_links": [],
+    "reversed_links": []
+  },
+  "l2": {
+    "fact_recall": 0.9997167138810198,
+    "fact_precision": 0.9997167138810198,
+    "per_field": {
+      "network_meta.name": {
+        "stated": 1,
+        "correct": 0,
+        "correct_blank": 0,
+        "convention_ok": 0,
+        "omitted": 0,
+        "wrong": 1,
+        "wrong_unit": 0,
+        "wrong_type": 0,
+        "wrong_direction": 0,
+        "filled_unstated": 0,
+        "convention_violation": 0,
+        "decoy_absorbed": 0
+      },
+      "network_meta.period_length": {
+        "stated": 1,
+        "correct": 1,
+        "correct_blank": 0,
+        "convention_ok": 0,
+        "omitted": 0,
+        "wrong": 0,
+        "wrong_unit": 0,
+        "wrong_type": 0,
+        "wrong_direction": 0,
+        "filled_unstated": 0,
+        "convention_violation": 0,
+        "decoy_absorbed": 0
+      },
+      "network_meta.horizon_periods": {
+        "stated": 1,
+        "correct": 1,
+        "correct_blank": 0,
+        "convention_ok": 0,
+        "omitted": 0,
+        "wrong": 0,
+        "wrong_unit": 0,
+        "wrong_type": 0,
+        "wrong_direction": 0,
+        "filled_unstated": 0,
+        "convention_violation": 0,
+        "decoy_absorbed": 0
+      },
+      "network_meta.rounding_policy": {
+        "stated": 1,
+        "correct": 1,
+        "correct_blank": 0,
+        "convention_ok": 0,
+        "omitted": 0,
+        "wrong": 0,
+        "wrong_unit": 0,
+        "wrong_type": 0,
+        "wrong_direction": 0,
+        "filled_unstated": 0,
+        "convention_violation": 0,
+        "decoy_absorbed": 0
+      },
+      "products.exists": {
+        "stated": 1,
+        "correct": 1,
+        "correct_blank": 0,
+        "convention_ok": 0,
+        "omitted": 0,
+        "wrong": 0,
+        "wrong_unit": 0,
+        "wrong_type": 0,
+        "wrong_direction": 0,
+        "filled_unstated": 0,
+        "convention_violation": 0,
+        "decoy_absorbed": 0
+      },
+      "products.unit_value": {
+        "stated": 1,
+        "correct": 1,
+        "correct_blank": 0,
+        "convention_ok": 0,
+        "omitted": 0,
+        "wrong": 0,
+        "wrong_unit": 0,
+        "wrong_type": 0,
+        "wrong_direction": 0,
+        "filled_unstated": 0,
+        "convention_violation": 0,
+        "decoy_absorbed": 0
+      },
+      "nodes.exists": {
+        "stated": 500,
+        "correct": 500,
+        "correct_blank": 0,
+        "convention_ok": 0,
+        "omitted": 0,
+        "wrong": 0,
+        "wrong_unit": 0,
+        "wrong_type": 0,
+        "wrong_direction": 0,
+        "filled_unstated": 0,
+        "convention_violation": 0,
+        "decoy_absorbed": 0
+      },
+      "nodes.region": {
+        "stated": 500,
+        "correct": 500,
+        "correct_blank": 0,
+        "convention_ok": 0,
+        "omitted": 0,
+        "wrong": 0,
+        "wrong_unit": 0,
+        "wrong_type": 0,
+        "wrong_direction": 0,
+        "filled_unstated": 0,
+        "convention_violation": 0,
+        "decoy_absorbed": 0
+      },
+      "nodes.capacity": {
+        "stated": 252,
+        "correct": 252,
+        "correct_blank": 0,
+        "convention_ok": 248,
+        "omitted": 0,
+        "wrong": 0,
+        "wrong_unit": 0,
+        "wrong_type": 0,
+        "wrong_direction": 0,
+        "filled_unstated": 0,
+        "convention_violation": 0,
+        "decoy_absorbed": 0
+      },
+      "nodes.processing_time": {
+        "stated": 252,
+        "correct": 252,
+        "correct_blank": 0,
+        "convention_ok": 248,
+        "omitted": 0,
+        "wrong": 0,
+        "wrong_unit": 0,
+        "wrong_type": 0,
+        "wrong_direction": 0,
+        "filled_unstated": 0,
+        "convention_violation": 0,
+        "decoy_absorbed": 0
+      },
+      "nodes.fixed_cost": {
+        "stated": 252,
+        "correct": 252,
+        "correct_blank": 0,
+        "convention_ok": 248,
+        "omitted": 0,
+        "wrong": 0,
+        "wrong_unit": 0,
+        "wrong_type": 0,
+        "wrong_direction": 0,
+        "filled_unstated": 0,
+        "convention_violation": 0,
+        "decoy_absorbed": 0
+      },
+      "nodes.var_cost": {
+        "stated": 252,
+        "correct": 252,
+        "correct_blank": 0,
+        "convention_ok": 248,
+        "omitted": 0,
+        "wrong": 0,
+        "wrong_unit": 0,
+        "wrong_type": 0,
+        "wrong_direction": 0,
+        "filled_unstated": 0,
+        "convention_violation": 0,
+        "decoy_absorbed": 0
+      },
+      "nodes.failure_prob": {
+        "stated": 252,
+        "correct": 252,
+        "correct_blank": 0,
+        "convention_ok": 248,
+        "omitted": 0,
+        "wrong": 0,
+        "wrong_unit": 0,
+        "wrong_type": 0,
+        "wrong_direction": 0,
+        "filled_unstated": 0,
+        "convention_violation": 0,
+        "decoy_absorbed": 0
+      },
+      "nodes.geo": {
+        "stated": 0,
+        "correct": 0,
+        "correct_blank": 500,
+        "convention_ok": 0,
+        "omitted": 0,
+        "wrong": 0,
+        "wrong_unit": 0,
+        "wrong_type": 0,
+        "wrong_direction": 0,
+        "filled_unstated": 0,
+        "convention_violation": 0,
+        "decoy_absorbed": 0
+      },
+      "links.exists": {
+        "stated": 658,
+        "correct": 658,
+        "correct_blank": 0,
+        "convention_ok": 0,
+        "omitted": 0,
+        "wrong": 0,
+        "wrong_unit": 0,
+        "wrong_type": 0,
+        "wrong_direction": 0,
+        "filled_unstated": 0,
+        "convention_violation": 0,
+        "decoy_absorbed": 0
+      },
+      "links.lead_time": {
+        "stated": 658,
+        "correct": 658,
+        "correct_blank": 0,
+        "convention_ok": 0,
+        "omitted": 0,
+        "wrong": 0,
+        "wrong_unit": 0,
+        "wrong_type": 0,
+        "wrong_direction": 0,
+        "filled_unstated": 0,
+        "convention_violation": 0,
+        "decoy_absorbed": 0
+      },
+      "links.capacity": {
+        "stated": 658,
+        "correct": 658,
+        "correct_blank": 0,
+        "convention_ok": 0,
+        "omitted": 0,
+        "wrong": 0,
+        "wrong_unit": 0,
+        "wrong_type": 0,
+        "wrong_direction": 0,
+        "filled_unstated": 0,
+        "convention_violation": 0,
+        "decoy_absorbed": 0
+      },
+      "links.unit_cost": {
+        "stated": 658,
+        "correct": 658,
+        "correct_blank": 0,
+        "convention_ok": 0,
+        "omitted": 0,
+        "wrong": 0,
+        "wrong_unit": 0,
+        "wrong_type": 0,
+        "wrong_direction": 0,
+        "filled_unstated": 0,
+        "convention_violation": 0,
+        "decoy_absorbed": 0
+      },
+      "links.failure_prob": {
+        "stated": 658,
+        "correct": 658,
+        "correct_blank": 0,
+        "convention_ok": 0,
+        "omitted": 0,
+        "wrong": 0,
+        "wrong_unit": 0,
+        "wrong_type": 0,
+        "wrong_direction": 0,
+        "filled_unstated": 0,
+        "convention_violation": 0,
+        "decoy_absorbed": 0
+      },
+      "node_products.exists": {
+        "stated": 500,
+        "correct": 500,
+        "correct_blank": 0,
+        "convention_ok": 0,
+        "omitted": 0,
+        "wrong": 0,
+        "wrong_unit": 0,
+        "wrong_type": 0,
+        "wrong_direction": 0,
+        "filled_unstated": 0,
+        "convention_violation": 0,
+        "decoy_absorbed": 0
+      },
+      "node_products.demand": {
+        "stated": 248,
+        "correct": 247,
+        "correct_blank": 0,
+        "convention_ok": 252,
+        "omitted": 0,
+        "wrong": 1,
+        "wrong_unit": 0,
+        "wrong_type": 0,
+        "wrong_direction": 0,
+        "filled_unstated": 0,
+        "convention_violation": 0,
+        "decoy_absorbed": 0
+      },
+      "node_products.initial_inventory": {
+        "stated": 252,
+        "correct": 252,
+        "correct_blank": 0,
+        "convention_ok": 248,
+        "omitted": 0,
+        "wrong": 0,
+        "wrong_unit": 0,
+        "wrong_type": 0,
+        "wrong_direction": 0,
+        "filled_unstated": 0,
+        "convention_violation": 0,
+        "decoy_absorbed": 0
+      },
+      "node_products.safety_stock": {
+        "stated": 252,
+        "correct": 252,
+        "correct_blank": 0,
+        "convention_ok": 248,
+        "omitted": 0,
+        "wrong": 0,
+        "wrong_unit": 0,
+        "wrong_type": 0,
+        "wrong_direction": 0,
+        "filled_unstated": 0,
+        "convention_violation": 0,
+        "decoy_absorbed": 0
+      },
+      "node_products.holding_cost": {
+        "stated": 252,
+        "correct": 252,
+        "correct_blank": 0,
+        "convention_ok": 248,
+        "omitted": 0,
+        "wrong": 0,
+        "wrong_unit": 0,
+        "wrong_type": 0,
+        "wrong_direction": 0,
+        "filled_unstated": 0,
+        "convention_violation": 0,
+        "decoy_absorbed": 0
+      }
+    },
+    "fabricated": {
+      "nodes": [],
+      "links": [],
+      "products": [],
+      "node_products": []
+    },
+    "convention_violations": [],
+    "mismatches": [
+      {
+        "kind": "meta",
+        "entity": "network_meta",
+        "field": "name",
+        "class": "wrong",
+        "truth": "Widget supply network",
+        "truth_unit": null,
+        "candidate": "Widget",
+        "candidate_unit": null,
+        "sentence": 1
+      },
+      {
+        "kind": "node_product",
+        "entity": "CUS-191|Widget",
+        "field": "demand",
+        "class": "wrong",
+        "truth": "54",
+        "truth_unit": "DAY",
+        "candidate": "36",
+        "candidate_unit": "DAY",
+        "sentence": 1677
+      }
+    ],
+    "settings": {
+      "tolerance": 0.000001,
+      "lenient_numbers": false
+    }
+  },
+  "decoys": {
+    "decoy_total": 524,
+    "decoy_entities_absorbed": [],
+    "decoy_values_absorbed": []
+  },
+  "l3": null,
+  "composite": {
+    "ncs": 0.99985835694051
+  }
+}

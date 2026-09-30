@@ -1,0 +1,6 @@
+{name} is {role}{region}.
+{name} operates as {role}{region}.
+{name} serves as {role}{region}.
+{name} acts as {role}{region}.
+{name} is listed as {role}{region}.
+{name} functions as {role}{region}.

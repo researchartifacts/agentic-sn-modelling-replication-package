@@ -1,0 +1,4 @@
+stocks {product}
+carries {product}
+stores {product}
+keeps {product} in stock

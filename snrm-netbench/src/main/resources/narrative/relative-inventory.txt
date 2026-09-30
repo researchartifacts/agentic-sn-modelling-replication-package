@@ -1,0 +1,5 @@
+{subject} keeps the same {field} of {product} as {other}.
+{subject} has the same {field} for {product} as {other}.
+{subject} and {other} have the same {field} for {product}.
+{subject} has exactly the same {field} for {product} as {other}.
+{subject} is identical to {other} in its {field} for {product}.

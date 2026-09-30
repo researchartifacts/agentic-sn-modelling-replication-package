@@ -1,0 +1,169 @@
+{
+  "tool_version": "0.1.0",
+  "generated_at": null,
+  "run_id": "s1-n50-e7-narrative-typed-uniform-none0-344d5fb7",
+  "seed": 1,
+  "params": {
+    "seed": 1,
+    "nodes": 50,
+    "echelons": 7,
+    "final-product-name": "Widget",
+    "products": 1,
+    "naming": "typed",
+    "style": "narrative",
+    "order": "by-tier",
+    "units": "uniform",
+    "period-unit": "DAY",
+    "period-value": 1,
+    "horizon": 90,
+    "inbound-links": "1,2",
+    "lateral-links": 0,
+    "attribute-coverage": 1,
+    "noise-type": "none",
+    "noise-ratio": 0,
+    "geo": false,
+    "distance-mode": "none",
+    "locale": "plain"
+  },
+  "tiers": [
+    {
+      "index": 0,
+      "role": "tier-2 supplier",
+      "type": "SUPPLIER",
+      "nodes": [
+        "SP2-01",
+        "SP2-02",
+        "SP2-03",
+        "SP2-04",
+        "SP2-05"
+      ]
+    },
+    {
+      "index": 1,
+      "role": "tier-1 supplier",
+      "type": "SUPPLIER",
+      "nodes": [
+        "SP1-01",
+        "SP1-02",
+        "SP1-03",
+        "SP1-04",
+        "SP1-05"
+      ]
+    },
+    {
+      "index": 2,
+      "role": "component plant",
+      "type": "PLANT",
+      "nodes": [
+        "PLC-01",
+        "PLC-02",
+        "PLC-03",
+        "PLC-04",
+        "PLC-05"
+      ]
+    },
+    {
+      "index": 3,
+      "role": "assembly plant",
+      "type": "PLANT",
+      "nodes": [
+        "PLA-01",
+        "PLA-02",
+        "PLA-03",
+        "PLA-04",
+        "PLA-05"
+      ]
+    },
+    {
+      "index": 4,
+      "role": "central distribution centre",
+      "type": "DC",
+      "nodes": [
+        "DCC-01",
+        "DCC-02",
+        "DCC-03",
+        "DCC-04"
+      ]
+    },
+    {
+      "index": 5,
+      "role": "regional distribution centre",
+      "type": "DC",
+      "nodes": [
+        "DCR-01",
+        "DCR-02",
+        "DCR-03",
+        "DCR-04"
+      ]
+    },
+    {
+      "index": 6,
+      "role": "customer",
+      "type": "CUSTOMER",
+      "nodes": [
+        "CUS-01",
+        "CUS-02",
+        "CUS-03",
+        "CUS-04",
+        "CUS-05",
+        "CUS-06",
+        "CUS-07",
+        "CUS-08",
+        "CUS-09",
+        "CUS-10",
+        "CUS-11",
+        "CUS-12",
+        "CUS-13",
+        "CUS-14",
+        "CUS-15",
+        "CUS-16",
+        "CUS-17",
+        "CUS-18",
+        "CUS-19",
+        "CUS-20",
+        "CUS-21",
+        "CUS-22"
+      ]
+    }
+  ],
+  "counts": {
+    "nodes": 50,
+    "links": 64,
+    "products": 1,
+    "node_products": 50,
+    "facts_total": 722,
+    "facts_stated": 722,
+    "sentences_header": 4,
+    "sentences_fact": 151,
+    "sentences_noise": 0,
+    "noise_ratio_actual": 0,
+    "words": 4816,
+    "token_estimate": 6261
+  },
+  "expected_import": {
+    "errors": 0,
+    "warnings": {
+      "LATERAL_LINK": 17
+    }
+  },
+  "decoy_entities": [],
+  "notes": [],
+  "files": {
+    "description": "description/description.md",
+    "truth": "truth",
+    "facts": "facts.jsonl",
+    "decoys": "decoys.jsonl",
+    "full_network": "network.full.json"
+  },
+  "sha256": {
+    "decoys.jsonl": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "description/description.md": "116d8df6a3ebef8e6140d0ad659b3f202167c0df8871777c3befca4fdb70c58b",
+    "facts.jsonl": "4268f875f04ad316c2573d35eac5680819207c6a3da5258ee4bfb0f809a58cd9",
+    "network.full.json": "e448122d44fbfa038e84e0d2c976a881ac7340159d918d63573fbd8d07fff1c2",
+    "truth/links.csv": "4f2e11a89af799b1a43e6aea0e0d218325fab15bb5bf2316dc63ae277da86a78",
+    "truth/network_meta.csv": "20077f515a8711933fe0150c5cb6da877759bb3fa1e068a344fe459031c863d6",
+    "truth/node_products.csv": "1486ab2f80d8e5405cd621426b08c25457b0d80152f95331af1af0d54b512eb7",
+    "truth/nodes.csv": "81ee3d831a8101ccc32053b5131e9d381fa43aa88df89a4eaea2c48348016a89",
+    "truth/products.csv": "1c4d8e7f6ac97c5310250d18614e61450c2657303cd69189ca52ee13d8342515"
+  }
+}

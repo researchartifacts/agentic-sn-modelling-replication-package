@@ -1,0 +1,4 @@
+{members} are located in the {region} region.
+{members} are all based in the {region} region.
+{members} are all in the {region} region.
+The {region} region is home to {members}.

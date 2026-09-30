@@ -1,0 +1,74 @@
+Staff at {node} completed a refresher course on data protection in {year}.
+The team at {node} raised {pct}% more for local charities than in the previous year.
+Energy use at {node} fell by {pct} percent after the lighting retrofit in {year}.
+In {year}, {node} passed its ISO 14001 environmental recertification audit without major findings.
+Employee engagement at {node} rose by {pct} percent in the {year} staff survey.
+{node} migrated its office software to the group-wide ERP platform in {year}.
+The works council at {node} signed a new flexible-working agreement in {year}.
+Water consumption at {node} dropped by {pct}% compared with the year before.
+{node} welcomed its first cohort of apprentices under the new training scheme in {year}.
+Women held {pct} percent of management positions at {node} in {year}.
+An internal quality audit at {node} in {year} closed all open corrective actions.
+Rooftop solar panels now generate {pct}% of the electricity used at {node}.
+{node} hosted an open day for local schools and families in {year}.
+Staff turnover at {node} declined by {pct} percent over the course of {year}.
+The staff canteen at {node} cut food waste by {pct} percent in {year}.
+{node} upgraded its firewall and endpoint protection as part of the {year} security programme.
+Every manager at {node} attended leadership training during {year}.
+The team at {node} restored a wildflower meadow next to the car park in {year}.
+Absenteeism at {node} fell to its lowest level in a decade during {year}.
+{node} achieved a {pct}% response rate in the latest employee pulse survey.
+The external auditor found no material issues in the {year} review of financial controls at {node}.
+Landfill waste at {node} fell by {pct} percent in {year}.
+{node} introduced a hybrid working policy for administrative staff in {year}.
+Volunteers from {node} supported a local food bank throughout {year}.
+The IT help desk at {node} resolved {pct}% of tickets at first contact in {year}.
+{node} renewed its ISO 45001 occupational health and safety certification in {year}.
+Heating emissions at {node} fell by {pct} percent after the switch to heat pumps.
+A new mentoring programme at {node} paired junior engineers with senior colleagues in {year}.
+{node} won the group award for the best workplace wellbeing initiative in {year}.
+Training hours at {node} increased by {pct}% compared with the previous year.
+The {product} brand ranked among the top three in a {year} industry reputation survey.
+Marketing spend on {product} shifted {pct}% towards digital channels in {year}.
+{product} received an industry design award in {year}.
+Brand awareness of {product} rose by {pct} percent in the {year} market study.
+The {product} product page was redesigned and relaunched in {year}.
+Recycled material now makes up {pct}% of the packaging used for {product}.
+A life-cycle assessment of {product} was published in {year}.
+Satisfaction with {product} reached {pct}% in the latest user survey.
+The {product} user manual was translated into several additional languages in {year}.
+The sales team presented {product} at a major trade fair in {year}.
+Online reviews of {product} averaged four and a half stars during {year}.
+The {year} marketing campaign for {product} increased website visits by {pct} percent.
+A social media campaign for {product} reached a record audience in {year}.
+The engineering team filed two new patents related to {product} in {year}.
+The carbon footprint of {product} was reduced by {pct}% through material changes.
+{product} was featured in a leading trade magazine in {year}.
+Complaints about the packaging of {product} fell by {pct} percent after the redesign.
+More than {pct}% of the sales force completed the online training on {product} in {year}.
+A new colour option for {product} was introduced in {year}.
+The market share of {product} grew by {pct} percent in {year}.
+An independent test institute rated {product} as very good in {year}.
+The {product} brand guidelines were updated in {year}.
+Revenue from {product} accessories grew by {pct}% in {year}.
+The warranty terms for {product} were simplified in {year}.
+Sales of {product} in {region} grew by {pct} percent in {year}.
+The {product} website received {pct}% more visitors in {year} than the year before.
+The {region} sales team exceeded its annual targets in {year}.
+A new marketing agency was appointed for {region} in {year}.
+Headcount in the {region} sales organisation grew by {pct} percent in {year}.
+Satisfaction scores among clients in {region} improved by {pct}% in {year}.
+The {region} leadership team held its annual strategy offsite in {year}.
+Attendance at trade fairs in {region} was up {pct} percent in {year}.
+A separate ESG report for {region} was published for the first time in {year}.
+Sales of {product} in the {region} region rose by {pct}% in {year}.
+The {region} team ran a graduate recruitment campaign at several universities in {year}.
+Payroll processing for {region} was moved to a shared services team in {year}.
+Marketing budgets for {region} were increased by {pct} percent for {year}.
+The {region} compliance team completed its anti-bribery training in {year}.
+In {year}, the group reduced its business travel by {pct} percent.
+The {year} annual report received an award for transparent reporting.
+The share of women in engineering roles across the group rose to {pct}% in {year}.
+The company launched a new intranet for all employees in {year}.
+The group's sustainability rating improved by one grade in {year}.
+Overall employee engagement reached {pct} percent in the {year} survey.

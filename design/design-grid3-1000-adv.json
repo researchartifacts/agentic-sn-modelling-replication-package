@@ -1,0 +1,4 @@
+{ "name": "llm-grid3-1000-adv",
+  "fixed": {"final-product-name": "Widget", "style": "narrative", "echelons": 7, "noise-ratio": 0.3, "noise-type": "adversarial"},
+  "factors": {"nodes": [1000]},
+  "seeds": [1] }

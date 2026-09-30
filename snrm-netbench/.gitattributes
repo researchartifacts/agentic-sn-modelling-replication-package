@@ -1,0 +1,8 @@
+# Every generated file is LF; the determinism guarantee (identical SHA-256 on any machine)
+# must survive a checkout on Windows with core.autocrlf=true.
+* text=auto eol=lf
+*.cmd text eol=crlf
+# Golden and reference files are compared byte for byte: never convert them.
+examples/** -text
+reference/** -text
+src/test/resources/** -text

@@ -1,0 +1,15 @@
+# build outputs of the instrument
+snrm-netbench/target/
+*.split/
+.idea/
+*.iml
+# scratch outputs of the scripts
+work/
+data/descriptions/
+# Python
+__pycache__/
+*.pyc
+# editors and OS
+.DS_Store
+Thumbs.db
+~$*

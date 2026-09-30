@@ -1,0 +1,5 @@
+holds an initial inventory of {value} units of {product}
+starts with an initial inventory of {value} units of {product}
+has an opening inventory of {value} units of {product}
+starts with {value} units of {product} in stock
+begins the horizon with {value} units of {product} on hand

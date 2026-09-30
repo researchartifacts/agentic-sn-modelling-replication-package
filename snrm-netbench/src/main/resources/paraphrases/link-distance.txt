@@ -1,0 +1,4 @@
+{mode} distance of {value} km
+{mode} route length of {value} km
+{mode} leg of {value} km
+{mode} haul of {value} km

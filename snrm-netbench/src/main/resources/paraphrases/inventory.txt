@@ -1,0 +1,4 @@
+{name} {clauses}.
+{name} currently {clauses}.
+{name} also {clauses}.
+On inventory, {name} {clauses}.

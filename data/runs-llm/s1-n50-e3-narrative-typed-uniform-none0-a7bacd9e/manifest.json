@@ -1,0 +1,139 @@
+{
+  "tool_version": "0.1.0",
+  "generated_at": null,
+  "run_id": "s1-n50-e3-narrative-typed-uniform-none0-a7bacd9e",
+  "seed": 1,
+  "params": {
+    "seed": 1,
+    "nodes": 50,
+    "echelons": 3,
+    "final-product-name": "Widget",
+    "products": 1,
+    "naming": "typed",
+    "style": "narrative",
+    "order": "by-tier",
+    "units": "uniform",
+    "period-unit": "DAY",
+    "period-value": 1,
+    "horizon": 90,
+    "inbound-links": "1,2",
+    "lateral-links": 0,
+    "attribute-coverage": 1,
+    "noise-type": "none",
+    "noise-ratio": 0,
+    "geo": false,
+    "distance-mode": "none",
+    "locale": "plain"
+  },
+  "tiers": [
+    {
+      "index": 0,
+      "role": "supplier",
+      "type": "SUPPLIER",
+      "nodes": [
+        "SUP-01",
+        "SUP-02",
+        "SUP-03",
+        "SUP-04",
+        "SUP-05",
+        "SUP-06",
+        "SUP-07",
+        "SUP-08",
+        "SUP-09",
+        "SUP-10",
+        "SUP-11",
+        "SUP-12",
+        "SUP-13"
+      ]
+    },
+    {
+      "index": 1,
+      "role": "plant",
+      "type": "PLANT",
+      "nodes": [
+        "PLT-01",
+        "PLT-02",
+        "PLT-03",
+        "PLT-04",
+        "PLT-05",
+        "PLT-06",
+        "PLT-07",
+        "PLT-08",
+        "PLT-09",
+        "PLT-10",
+        "PLT-11",
+        "PLT-12",
+        "PLT-13"
+      ]
+    },
+    {
+      "index": 2,
+      "role": "customer",
+      "type": "CUSTOMER",
+      "nodes": [
+        "CUS-01",
+        "CUS-02",
+        "CUS-03",
+        "CUS-04",
+        "CUS-05",
+        "CUS-06",
+        "CUS-07",
+        "CUS-08",
+        "CUS-09",
+        "CUS-10",
+        "CUS-11",
+        "CUS-12",
+        "CUS-13",
+        "CUS-14",
+        "CUS-15",
+        "CUS-16",
+        "CUS-17",
+        "CUS-18",
+        "CUS-19",
+        "CUS-20",
+        "CUS-21",
+        "CUS-22",
+        "CUS-23",
+        "CUS-24"
+      ]
+    }
+  ],
+  "counts": {
+    "nodes": 50,
+    "links": 57,
+    "products": 1,
+    "node_products": 50,
+    "facts_total": 673,
+    "facts_stated": 673,
+    "sentences_header": 4,
+    "sentences_fact": 136,
+    "sentences_noise": 0,
+    "noise_ratio_actual": 0,
+    "words": 4422,
+    "token_estimate": 5749
+  },
+  "expected_import": {
+    "errors": 0,
+    "warnings": {}
+  },
+  "decoy_entities": [],
+  "notes": [],
+  "files": {
+    "description": "description/description.md",
+    "truth": "truth",
+    "facts": "facts.jsonl",
+    "decoys": "decoys.jsonl",
+    "full_network": "network.full.json"
+  },
+  "sha256": {
+    "decoys.jsonl": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "description/description.md": "b9efe66816c011da6cd2d3ff85d7999a0de60aaf42d8520f9d5d6eef3cb0f196",
+    "facts.jsonl": "0abfc37265103c04f9212a4651c1d772c16c044081a0cc3d3384e8073fa14742",
+    "network.full.json": "39cf62d0e190d3779ae7b23b2a2ba8046df59239a5eb815e33ee9aead34cdfdb",
+    "truth/links.csv": "7b994ce9c5d4a8ad8f5411fd32dd89658ce91c02b493d48844d796d436b56b71",
+    "truth/network_meta.csv": "20077f515a8711933fe0150c5cb6da877759bb3fa1e068a344fe459031c863d6",
+    "truth/node_products.csv": "b4cec1deda9cda6eb9dd6659803b15534b062b242c82f293a3fa6001b8a32a50",
+    "truth/nodes.csv": "f4adbbd0339de70302d61e9fe7444174b97bd418dae55df486ef1d6c3fb74c3e",
+    "truth/products.csv": "925c3fce8c51e83951434ff1a93492a6e05b866b886a255f90b57d2cf1b2047b"
+  }
+}

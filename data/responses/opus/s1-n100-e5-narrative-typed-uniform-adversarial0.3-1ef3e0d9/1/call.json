@@ -1,0 +1,26 @@
+{
+ "model_alias": "opus",
+ "reported_model": "claude-opus-5-5",
+ "effort": "default (not configurable by the harness)",
+ "prompt_version": "v1.1 (instruction file v1 + one file per tool call)",
+ "files_read": [
+  "protocol/llm-instructions-v1.md",
+  "data/runs-llm/s1-n100-e5-narrative-typed-uniform-adversarial0.3-1ef3e0d9/description/description.md"
+ ],
+ "tools_used": [
+  "Read",
+  "Write"
+ ],
+ "harness": "Claude Cowork subagent (Agent tool), file-writing mode, tools limited by instruction to Read/Write",
+ "subagent_tokens": 145681,
+ "duration_ms": 420615,
+ "tool_uses": 9,
+ "recorded_at": "2026-09-27T22:55:00+00:00",
+ "candidate_files": [
+  "links.csv",
+  "network_meta.csv",
+  "node_products.csv",
+  "nodes.csv",
+  "products.csv"
+ ]
+}

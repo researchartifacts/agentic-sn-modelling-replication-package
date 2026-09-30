@@ -1,0 +1,5 @@
+a processing time of {value} {unit}
+a processing duration of {value} {unit}
+an internal processing time of {value} {unit}
+a standard processing time of {value} {unit}
+{value} {unit} of processing time

@@ -1,0 +1,108 @@
+{
+  "tool_version": "0.1.0",
+  "generated_at": null,
+  "run_id": "s3-n12-e4-template-typed-uniform-none0-78f5ff44",
+  "seed": 3,
+  "params": {
+    "seed": 3,
+    "nodes": 12,
+    "echelons": 4,
+    "final-product-name": "Widget",
+    "products": 1,
+    "naming": "typed",
+    "style": "template",
+    "order": "by-tier",
+    "units": "uniform",
+    "period-unit": "DAY",
+    "period-value": 1,
+    "horizon": 90,
+    "inbound-links": "1,2",
+    "lateral-links": 0,
+    "attribute-coverage": 1,
+    "noise-type": "none",
+    "noise-ratio": 0,
+    "geo": false,
+    "distance-mode": "none",
+    "locale": "plain"
+  },
+  "tiers": [
+    {
+      "index": 0,
+      "role": "supplier",
+      "type": "SUPPLIER",
+      "nodes": [
+        "SUP-01",
+        "SUP-02",
+        "SUP-03"
+      ]
+    },
+    {
+      "index": 1,
+      "role": "plant",
+      "type": "PLANT",
+      "nodes": [
+        "PLT-01",
+        "PLT-02"
+      ]
+    },
+    {
+      "index": 2,
+      "role": "distribution centre",
+      "type": "DC",
+      "nodes": [
+        "DC-01",
+        "DC-02"
+      ]
+    },
+    {
+      "index": 3,
+      "role": "customer",
+      "type": "CUSTOMER",
+      "nodes": [
+        "CUS-01",
+        "CUS-02",
+        "CUS-03",
+        "CUS-04",
+        "CUS-05"
+      ]
+    }
+  ],
+  "counts": {
+    "nodes": 12,
+    "links": 14,
+    "products": 1,
+    "node_products": 12,
+    "facts_total": 173,
+    "facts_stated": 173,
+    "sentences_header": 4,
+    "sentences_fact": 38,
+    "sentences_noise": 0,
+    "noise_ratio_actual": 0,
+    "words": 1113,
+    "token_estimate": 1447
+  },
+  "expected_import": {
+    "errors": 0,
+    "warnings": {}
+  },
+  "decoy_entities": [],
+  "notes": [],
+  "files": {
+    "description": "description/description.md",
+    "truth": "truth",
+    "facts": "facts.jsonl",
+    "decoys": "decoys.jsonl",
+    "full_network": "network.full.json"
+  },
+  "sha256": {
+    "decoys.jsonl": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "description/description.md": "c6d3f8a07202a7a52f72a1ac7873b187f41b5de2ebe76c7814bf86f685a4a3d2",
+    "facts.jsonl": "d6ad4c5ed958084699fbdb72dadd16fff74f60e00ca2f351a8d33d7bfe40766b",
+    "network.full.json": "e2dfd67ab059fabeac28a69261c7d5c8f5a7fc586bbb8286296b1aa9aad490d8",
+    "truth/links.csv": "e525a8057b9c54cefce29ac5fbfde64b6f1a769c04d8ec6397bae55d21eff63f",
+    "truth/network_meta.csv": "20077f515a8711933fe0150c5cb6da877759bb3fa1e068a344fe459031c863d6",
+    "truth/node_products.csv": "d569c42ee040b8179e904e841fa3c381c1751f0cae9a40f6c6c4af593b52cc7c",
+    "truth/nodes.csv": "cecd38a73b13153fbb90ca16a7283835b0f614a5988d9a5774afa7438815cb94",
+    "truth/products.csv": "dfddbabe3ac6d6cdc0259fac46004d78d104710af1f9263a4487134c180b99e1"
+  }
+}

@@ -1,0 +1,180 @@
+{
+  "tool_version": "0.1.0",
+  "generated_at": null,
+  "run_id": "s1-n50-e5-narrative-typed-uniform-adversarial0.3-fbabfcfe",
+  "seed": 1,
+  "params": {
+    "seed": 1,
+    "nodes": 50,
+    "echelons": 5,
+    "final-product-name": "Widget",
+    "products": 1,
+    "naming": "typed",
+    "style": "narrative",
+    "order": "by-tier",
+    "units": "uniform",
+    "period-unit": "DAY",
+    "period-value": 1,
+    "horizon": 90,
+    "inbound-links": "1,2",
+    "lateral-links": 0,
+    "attribute-coverage": 1,
+    "noise-type": "adversarial",
+    "noise-ratio": 0.3,
+    "geo": false,
+    "distance-mode": "none",
+    "locale": "plain"
+  },
+  "tiers": [
+    {
+      "index": 0,
+      "role": "supplier",
+      "type": "SUPPLIER",
+      "nodes": [
+        "SUP-01",
+        "SUP-02",
+        "SUP-03",
+        "SUP-04",
+        "SUP-05",
+        "SUP-06",
+        "SUP-07"
+      ]
+    },
+    {
+      "index": 1,
+      "role": "plant",
+      "type": "PLANT",
+      "nodes": [
+        "PLT-01",
+        "PLT-02",
+        "PLT-03",
+        "PLT-04",
+        "PLT-05",
+        "PLT-06",
+        "PLT-07"
+      ]
+    },
+    {
+      "index": 2,
+      "role": "central distribution centre",
+      "type": "DC",
+      "nodes": [
+        "DCC-01",
+        "DCC-02",
+        "DCC-03",
+        "DCC-04",
+        "DCC-05",
+        "DCC-06",
+        "DCC-07"
+      ]
+    },
+    {
+      "index": 3,
+      "role": "regional distribution centre",
+      "type": "DC",
+      "nodes": [
+        "DCR-01",
+        "DCR-02",
+        "DCR-03",
+        "DCR-04",
+        "DCR-05",
+        "DCR-06"
+      ]
+    },
+    {
+      "index": 4,
+      "role": "customer",
+      "type": "CUSTOMER",
+      "nodes": [
+        "CUS-01",
+        "CUS-02",
+        "CUS-03",
+        "CUS-04",
+        "CUS-05",
+        "CUS-06",
+        "CUS-07",
+        "CUS-08",
+        "CUS-09",
+        "CUS-10",
+        "CUS-11",
+        "CUS-12",
+        "CUS-13",
+        "CUS-14",
+        "CUS-15",
+        "CUS-16",
+        "CUS-17",
+        "CUS-18",
+        "CUS-19",
+        "CUS-20",
+        "CUS-21",
+        "CUS-22",
+        "CUS-23"
+      ]
+    }
+  ],
+  "counts": {
+    "nodes": 50,
+    "links": 64,
+    "products": 1,
+    "node_products": 50,
+    "facts_total": 715,
+    "facts_stated": 715,
+    "sentences_header": 4,
+    "sentences_fact": 145,
+    "sentences_noise": 62,
+    "noise_ratio_actual": 0.2995,
+    "words": 5681,
+    "token_estimate": 7385
+  },
+  "expected_import": {
+    "errors": 0,
+    "warnings": {
+      "LATERAL_LINK": 10
+    }
+  },
+  "decoy_entities": [
+    "CUS-24",
+    "SUP-08",
+    "SUP-09",
+    "PLT-08",
+    "PLT-09",
+    "DCC-08",
+    "CUS-25",
+    "DCC-09",
+    "DCC-10",
+    "SUP-10",
+    "DCC-11",
+    "CUS-26",
+    "DCR-07",
+    "PLT-10",
+    "SUP-11",
+    "SUP-12",
+    "CUS-27",
+    "SUP-13",
+    "CUS-28",
+    "DCC-12",
+    "CUS-29",
+    "SUP-14",
+    "SUP-15",
+    "PLT-11"
+  ],
+  "notes": [],
+  "files": {
+    "description": "description/description.md",
+    "truth": "truth",
+    "facts": "facts.jsonl",
+    "decoys": "decoys.jsonl",
+    "full_network": "network.full.json"
+  },
+  "sha256": {
+    "decoys.jsonl": "0b445c34b9a071d01e9487328bfbc258744d748ee73ce4fa5272ef21d57e26f8",
+    "description/description.md": "0c82c69916e767cc7405b2a09fbbfabe4a0289e027affdcca3dc6a379e1dd120",
+    "facts.jsonl": "0c9b568e70ed667d7e4d30895cab47d3b66ac69ef90a041d56c62b6f52e7d117",
+    "network.full.json": "b462c5c53ab02722729116ec5994cb6e7914af666bdb783919b7b23f1592a43b",
+    "truth/links.csv": "07d5b45467d8a4685c1991c8d7476ecee86eaf1706678b25cd826edb61142d70",
+    "truth/network_meta.csv": "20077f515a8711933fe0150c5cb6da877759bb3fa1e068a344fe459031c863d6",
+    "truth/node_products.csv": "24c8d86d3450bd64dffd58f4c4f7630817b724892258de859016c9a844ff231c",
+    "truth/nodes.csv": "cabb371883b4c7b2c3723536b5f4cd24ba177cd0083f767b3783962a297a61e7",
+    "truth/products.csv": "f3b5244e1be69200c3ebd86c773d7081770a956f3c8f079fd219b1171837f0f6"
+  }
+}

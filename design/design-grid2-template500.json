@@ -1,0 +1,4 @@
+{ "name": "llm-grid2-template500",
+  "fixed": {"final-product-name": "Widget", "style": "template", "echelons": 5},
+  "factors": {"nodes": [500]},
+  "seeds": [1] }

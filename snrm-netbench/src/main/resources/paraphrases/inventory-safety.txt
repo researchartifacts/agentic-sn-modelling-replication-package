@@ -1,0 +1,5 @@
+keeps a safety stock of {value} units of {product}
+maintains a safety stock of {value} units of {product}
+holds a safety stock of {value} units of {product}
+keeps {value} units of {product} as safety stock
+targets a safety stock of {value} units of {product}

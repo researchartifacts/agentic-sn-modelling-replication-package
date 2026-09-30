@@ -1,0 +1,5362 @@
+{
+  "timeBase": {
+    "periodValue": 1,
+    "periodUnit": "DAY",
+    "horizonPeriods": 90,
+    "policy": "NEAREST",
+    "name": "Widget supply network"
+  },
+  "tiers": [
+    {
+      "index": 0,
+      "role": "SUPPLIER_TIER2",
+      "type": "SUPPLIER",
+      "nodeNames": [
+        "SP2-01",
+        "SP2-02",
+        "SP2-03",
+        "SP2-04",
+        "SP2-05",
+        "SP2-06",
+        "SP2-07",
+        "SP2-08",
+        "SP2-09"
+      ]
+    },
+    {
+      "index": 1,
+      "role": "SUPPLIER_TIER1",
+      "type": "SUPPLIER",
+      "nodeNames": [
+        "SP1-01",
+        "SP1-02",
+        "SP1-03",
+        "SP1-04",
+        "SP1-05",
+        "SP1-06",
+        "SP1-07",
+        "SP1-08",
+        "SP1-09"
+      ]
+    },
+    {
+      "index": 2,
+      "role": "PLANT_COMPONENT",
+      "type": "PLANT",
+      "nodeNames": [
+        "PLC-01",
+        "PLC-02",
+        "PLC-03",
+        "PLC-04",
+        "PLC-05",
+        "PLC-06",
+        "PLC-07",
+        "PLC-08",
+        "PLC-09"
+      ]
+    },
+    {
+      "index": 3,
+      "role": "PLANT_ASSEMBLY",
+      "type": "PLANT",
+      "nodeNames": [
+        "PLA-01",
+        "PLA-02",
+        "PLA-03",
+        "PLA-04",
+        "PLA-05",
+        "PLA-06",
+        "PLA-07",
+        "PLA-08",
+        "PLA-09"
+      ]
+    },
+    {
+      "index": 4,
+      "role": "DC_CENTRAL",
+      "type": "DC",
+      "nodeNames": [
+        "DCC-01",
+        "DCC-02",
+        "DCC-03",
+        "DCC-04",
+        "DCC-05",
+        "DCC-06",
+        "DCC-07",
+        "DCC-08",
+        "DCC-09"
+      ]
+    },
+    {
+      "index": 5,
+      "role": "DC_REGIONAL",
+      "type": "DC",
+      "nodeNames": [
+        "DCR-01",
+        "DCR-02",
+        "DCR-03",
+        "DCR-04",
+        "DCR-05",
+        "DCR-06",
+        "DCR-07",
+        "DCR-08"
+      ]
+    },
+    {
+      "index": 6,
+      "role": "CUSTOMER",
+      "type": "CUSTOMER",
+      "nodeNames": [
+        "CUS-01",
+        "CUS-02",
+        "CUS-03",
+        "CUS-04",
+        "CUS-05",
+        "CUS-06",
+        "CUS-07",
+        "CUS-08",
+        "CUS-09",
+        "CUS-10",
+        "CUS-11",
+        "CUS-12",
+        "CUS-13",
+        "CUS-14",
+        "CUS-15",
+        "CUS-16",
+        "CUS-17",
+        "CUS-18",
+        "CUS-19",
+        "CUS-20",
+        "CUS-21",
+        "CUS-22",
+        "CUS-23",
+        "CUS-24",
+        "CUS-25",
+        "CUS-26",
+        "CUS-27",
+        "CUS-28",
+        "CUS-29",
+        "CUS-30",
+        "CUS-31",
+        "CUS-32",
+        "CUS-33",
+        "CUS-34",
+        "CUS-35",
+        "CUS-36",
+        "CUS-37",
+        "CUS-38",
+        "CUS-39",
+        "CUS-40",
+        "CUS-41",
+        "CUS-42",
+        "CUS-43",
+        "CUS-44",
+        "CUS-45",
+        "CUS-46",
+        "CUS-47"
+      ]
+    }
+  ],
+  "products": [
+    {
+      "name": "Widget",
+      "unitValue": 68
+    }
+  ],
+  "nodes": [
+    {
+      "name": "SP2-01",
+      "type": "SUPPLIER",
+      "tierIndex": 0,
+      "capacity": {
+        "value": 2410,
+        "unit": "DAY"
+      },
+      "processingTime": {
+        "value": 0,
+        "unit": "DAY"
+      },
+      "fixedCost": 550,
+      "varCost": 2.44,
+      "failureProb": 0.04,
+      "region": "AMER",
+      "lat": null,
+      "lng": null
+    },
+    {
+      "name": "SP2-02",
+      "type": "SUPPLIER",
+      "tierIndex": 0,
+      "capacity": {
+        "value": 1910,
+        "unit": "DAY"
+      },
+      "processingTime": {
+        "value": 0,
+        "unit": "DAY"
+      },
+      "fixedCost": 1300,
+      "varCost": 1.52,
+      "failureProb": 0.02,
+      "region": "AMER",
+      "lat": null,
+      "lng": null
+    },
+    {
+      "name": "SP2-03",
+      "type": "SUPPLIER",
+      "tierIndex": 0,
+      "capacity": {
+        "value": 1530,
+        "unit": "DAY"
+      },
+      "processingTime": {
+        "value": 0,
+        "unit": "DAY"
+      },
+      "fixedCost": 1400,
+      "varCost": 2.41,
+      "failureProb": 0.03,
+      "region": "APAC",
+      "lat": null,
+      "lng": null
+    },
+    {
+      "name": "SP2-04",
+      "type": "SUPPLIER",
+      "tierIndex": 0,
+      "capacity": {
+        "value": 2240,
+        "unit": "DAY"
+      },
+      "processingTime": {
+        "value": 0,
+        "unit": "DAY"
+      },
+      "fixedCost": 700,
+      "varCost": 2.69,
+      "failureProb": 0.05,
+      "region": "EU-South",
+      "lat": null,
+      "lng": null
+    },
+    {
+      "name": "SP2-05",
+      "type": "SUPPLIER",
+      "tierIndex": 0,
+      "capacity": {
+        "value": 2240,
+        "unit": "DAY"
+      },
+      "processingTime": {
+        "value": 0,
+        "unit": "DAY"
+      },
+      "fixedCost": 1800,
+      "varCost": 2.54,
+      "failureProb": 0.04,
+      "region": "AMER",
+      "lat": null,
+      "lng": null
+    },
+    {
+      "name": "SP2-06",
+      "type": "SUPPLIER",
+      "tierIndex": 0,
+      "capacity": {
+        "value": 1540,
+        "unit": "DAY"
+      },
+      "processingTime": {
+        "value": 0,
+        "unit": "DAY"
+      },
+      "fixedCost": 800,
+      "varCost": 2.01,
+      "failureProb": 0.02,
+      "region": "EU-South",
+      "lat": null,
+      "lng": null
+    },
+    {
+      "name": "SP2-07",
+      "type": "SUPPLIER",
+      "tierIndex": 0,
+      "capacity": {
+        "value": 1610,
+        "unit": "DAY"
+      },
+      "processingTime": {
+        "value": 0,
+        "unit": "DAY"
+      },
+      "fixedCost": 800,
+      "varCost": 2.49,
+      "failureProb": 0.04,
+      "region": "EU-Central",
+      "lat": null,
+      "lng": null
+    },
+    {
+      "name": "SP2-08",
+      "type": "SUPPLIER",
+      "tierIndex": 0,
+      "capacity": {
+        "value": 1500,
+        "unit": "DAY"
+      },
+      "processingTime": {
+        "value": 0,
+        "unit": "DAY"
+      },
+      "fixedCost": 1750,
+      "varCost": 2.42,
+      "failureProb": 0.05,
+      "region": "EU-Central",
+      "lat": null,
+      "lng": null
+    },
+    {
+      "name": "SP2-09",
+      "type": "SUPPLIER",
+      "tierIndex": 0,
+      "capacity": {
+        "value": 2000,
+        "unit": "DAY"
+      },
+      "processingTime": {
+        "value": 0,
+        "unit": "DAY"
+      },
+      "fixedCost": 2400,
+      "varCost": 2.57,
+      "failureProb": 0.05,
+      "region": "APAC",
+      "lat": null,
+      "lng": null
+    },
+    {
+      "name": "SP1-01",
+      "type": "SUPPLIER",
+      "tierIndex": 1,
+      "capacity": {
+        "value": 1130,
+        "unit": "DAY"
+      },
+      "processingTime": {
+        "value": 0,
+        "unit": "DAY"
+      },
+      "fixedCost": 2300,
+      "varCost": 1.91,
+      "failureProb": 0.05,
+      "region": "EU-Central",
+      "lat": null,
+      "lng": null
+    },
+    {
+      "name": "SP1-02",
+      "type": "SUPPLIER",
+      "tierIndex": 1,
+      "capacity": {
+        "value": 1430,
+        "unit": "DAY"
+      },
+      "processingTime": {
+        "value": 0,
+        "unit": "DAY"
+      },
+      "fixedCost": 1700,
+      "varCost": 2.67,
+      "failureProb": 0.04,
+      "region": "EU-East",
+      "lat": null,
+      "lng": null
+    },
+    {
+      "name": "SP1-03",
+      "type": "SUPPLIER",
+      "tierIndex": 1,
+      "capacity": {
+        "value": 1630,
+        "unit": "DAY"
+      },
+      "processingTime": {
+        "value": 0,
+        "unit": "DAY"
+      },
+      "fixedCost": 1750,
+      "varCost": 2.69,
+      "failureProb": 0.02,
+      "region": "AMER",
+      "lat": null,
+      "lng": null
+    },
+    {
+      "name": "SP1-04",
+      "type": "SUPPLIER",
+      "tierIndex": 1,
+      "capacity": {
+        "value": 1750,
+        "unit": "DAY"
+      },
+      "processingTime": {
+        "value": 0,
+        "unit": "DAY"
+      },
+      "fixedCost": 900,
+      "varCost": 2.47,
+      "failureProb": 0.03,
+      "region": "EU-South",
+      "lat": null,
+      "lng": null
+    },
+    {
+      "name": "SP1-05",
+      "type": "SUPPLIER",
+      "tierIndex": 1,
+      "capacity": {
+        "value": 2230,
+        "unit": "DAY"
+      },
+      "processingTime": {
+        "value": 0,
+        "unit": "DAY"
+      },
+      "fixedCost": 900,
+      "varCost": 2.14,
+      "failureProb": 0.04,
+      "region": "EU-East",
+      "lat": null,
+      "lng": null
+    },
+    {
+      "name": "SP1-06",
+      "type": "SUPPLIER",
+      "tierIndex": 1,
+      "capacity": {
+        "value": 1830,
+        "unit": "DAY"
+      },
+      "processingTime": {
+        "value": 0,
+        "unit": "DAY"
+      },
+      "fixedCost": 1650,
+      "varCost": 2.43,
+      "failureProb": 0.06,
+      "region": "AMER",
+      "lat": null,
+      "lng": null
+    },
+    {
+      "name": "SP1-07",
+      "type": "SUPPLIER",
+      "tierIndex": 1,
+      "capacity": {
+        "value": 560,
+        "unit": "DAY"
+      },
+      "processingTime": {
+        "value": 0,
+        "unit": "DAY"
+      },
+      "fixedCost": 1350,
+      "varCost": 2.75,
+      "failureProb": 0.04,
+      "region": "EU-Central",
+      "lat": null,
+      "lng": null
+    },
+    {
+      "name": "SP1-08",
+      "type": "SUPPLIER",
+      "tierIndex": 1,
+      "capacity": {
+        "value": 1650,
+        "unit": "DAY"
+      },
+      "processingTime": {
+        "value": 0,
+        "unit": "DAY"
+      },
+      "fixedCost": 800,
+      "varCost": 2.02,
+      "failureProb": 0.01,
+      "region": "EU-Central",
+      "lat": null,
+      "lng": null
+    },
+    {
+      "name": "SP1-09",
+      "type": "SUPPLIER",
+      "tierIndex": 1,
+      "capacity": {
+        "value": 1900,
+        "unit": "DAY"
+      },
+      "processingTime": {
+        "value": 0,
+        "unit": "DAY"
+      },
+      "fixedCost": 2500,
+      "varCost": 2.94,
+      "failureProb": 0.06,
+      "region": "EU-East",
+      "lat": null,
+      "lng": null
+    },
+    {
+      "name": "PLC-01",
+      "type": "PLANT",
+      "tierIndex": 2,
+      "capacity": {
+        "value": 790,
+        "unit": "DAY"
+      },
+      "processingTime": {
+        "value": 3,
+        "unit": "DAY"
+      },
+      "fixedCost": 14500,
+      "varCost": 7.29,
+      "failureProb": 0.02,
+      "region": "EU-Central",
+      "lat": null,
+      "lng": null
+    },
+    {
+      "name": "PLC-02",
+      "type": "PLANT",
+      "tierIndex": 2,
+      "capacity": {
+        "value": 620,
+        "unit": "DAY"
+      },
+      "processingTime": {
+        "value": 3,
+        "unit": "DAY"
+      },
+      "fixedCost": 5600,
+      "varCost": 6.15,
+      "failureProb": 0.03,
+      "region": "EU-West",
+      "lat": null,
+      "lng": null
+    },
+    {
+      "name": "PLC-03",
+      "type": "PLANT",
+      "tierIndex": 2,
+      "capacity": {
+        "value": 1160,
+        "unit": "DAY"
+      },
+      "processingTime": {
+        "value": 1,
+        "unit": "DAY"
+      },
+      "fixedCost": 5700,
+      "varCost": 7.62,
+      "failureProb": 0.03,
+      "region": "EU-Central",
+      "lat": null,
+      "lng": null
+    },
+    {
+      "name": "PLC-04",
+      "type": "PLANT",
+      "tierIndex": 2,
+      "capacity": {
+        "value": 1120,
+        "unit": "DAY"
+      },
+      "processingTime": {
+        "value": 1,
+        "unit": "DAY"
+      },
+      "fixedCost": 7600,
+      "varCost": 5.88,
+      "failureProb": 0.01,
+      "region": "EU-South",
+      "lat": null,
+      "lng": null
+    },
+    {
+      "name": "PLC-05",
+      "type": "PLANT",
+      "tierIndex": 2,
+      "capacity": {
+        "value": 1220,
+        "unit": "DAY"
+      },
+      "processingTime": {
+        "value": 1,
+        "unit": "DAY"
+      },
+      "fixedCost": 12900,
+      "varCost": 7.36,
+      "failureProb": 0.01,
+      "region": "EU-Central",
+      "lat": null,
+      "lng": null
+    },
+    {
+      "name": "PLC-06",
+      "type": "PLANT",
+      "tierIndex": 2,
+      "capacity": {
+        "value": 980,
+        "unit": "DAY"
+      },
+      "processingTime": {
+        "value": 2,
+        "unit": "DAY"
+      },
+      "fixedCost": 15000,
+      "varCost": 6.24,
+      "failureProb": 0.03,
+      "region": "EU-East",
+      "lat": null,
+      "lng": null
+    },
+    {
+      "name": "PLC-07",
+      "type": "PLANT",
+      "tierIndex": 2,
+      "capacity": {
+        "value": 1380,
+        "unit": "DAY"
+      },
+      "processingTime": {
+        "value": 3,
+        "unit": "DAY"
+      },
+      "fixedCost": 5100,
+      "varCost": 6.66,
+      "failureProb": 0.03,
+      "region": "EU-South",
+      "lat": null,
+      "lng": null
+    },
+    {
+      "name": "PLC-08",
+      "type": "PLANT",
+      "tierIndex": 2,
+      "capacity": {
+        "value": 1300,
+        "unit": "DAY"
+      },
+      "processingTime": {
+        "value": 3,
+        "unit": "DAY"
+      },
+      "fixedCost": 13900,
+      "varCost": 7.75,
+      "failureProb": 0.01,
+      "region": "EU-North",
+      "lat": null,
+      "lng": null
+    },
+    {
+      "name": "PLC-09",
+      "type": "PLANT",
+      "tierIndex": 2,
+      "capacity": {
+        "value": 1880,
+        "unit": "DAY"
+      },
+      "processingTime": {
+        "value": 2,
+        "unit": "DAY"
+      },
+      "fixedCost": 13700,
+      "varCost": 6.26,
+      "failureProb": 0.02,
+      "region": "EU-North",
+      "lat": null,
+      "lng": null
+    },
+    {
+      "name": "PLA-01",
+      "type": "PLANT",
+      "tierIndex": 3,
+      "capacity": {
+        "value": 810,
+        "unit": "DAY"
+      },
+      "processingTime": {
+        "value": 1,
+        "unit": "DAY"
+      },
+      "fixedCost": 13600,
+      "varCost": 5.87,
+      "failureProb": 0.02,
+      "region": "EU-East",
+      "lat": null,
+      "lng": null
+    },
+    {
+      "name": "PLA-02",
+      "type": "PLANT",
+      "tierIndex": 3,
+      "capacity": {
+        "value": 660,
+        "unit": "DAY"
+      },
+      "processingTime": {
+        "value": 2,
+        "unit": "DAY"
+      },
+      "fixedCost": 7800,
+      "varCost": 7.87,
+      "failureProb": 0.01,
+      "region": "EU-South",
+      "lat": null,
+      "lng": null
+    },
+    {
+      "name": "PLA-03",
+      "type": "PLANT",
+      "tierIndex": 3,
+      "capacity": {
+        "value": 630,
+        "unit": "DAY"
+      },
+      "processingTime": {
+        "value": 2,
+        "unit": "DAY"
+      },
+      "fixedCost": 10700,
+      "varCost": 5.84,
+      "failureProb": 0.02,
+      "region": "EU-South",
+      "lat": null,
+      "lng": null
+    },
+    {
+      "name": "PLA-04",
+      "type": "PLANT",
+      "tierIndex": 3,
+      "capacity": {
+        "value": 1250,
+        "unit": "DAY"
+      },
+      "processingTime": {
+        "value": 1,
+        "unit": "DAY"
+      },
+      "fixedCost": 10000,
+      "varCost": 6.25,
+      "failureProb": 0.01,
+      "region": "EU-Central",
+      "lat": null,
+      "lng": null
+    },
+    {
+      "name": "PLA-05",
+      "type": "PLANT",
+      "tierIndex": 3,
+      "capacity": {
+        "value": 300,
+        "unit": "DAY"
+      },
+      "processingTime": {
+        "value": 3,
+        "unit": "DAY"
+      },
+      "fixedCost": 12200,
+      "varCost": 7.21,
+      "failureProb": 0.03,
+      "region": "EU-Central",
+      "lat": null,
+      "lng": null
+    },
+    {
+      "name": "PLA-06",
+      "type": "PLANT",
+      "tierIndex": 3,
+      "capacity": {
+        "value": 750,
+        "unit": "DAY"
+      },
+      "processingTime": {
+        "value": 3,
+        "unit": "DAY"
+      },
+      "fixedCost": 14100,
+      "varCost": 7.84,
+      "failureProb": 0.03,
+      "region": "EU-South",
+      "lat": null,
+      "lng": null
+    },
+    {
+      "name": "PLA-07",
+      "type": "PLANT",
+      "tierIndex": 3,
+      "capacity": {
+        "value": 1140,
+        "unit": "DAY"
+      },
+      "processingTime": {
+        "value": 1,
+        "unit": "DAY"
+      },
+      "fixedCost": 8100,
+      "varCost": 5.02,
+      "failureProb": 0.03,
+      "region": "EU-East",
+      "lat": null,
+      "lng": null
+    },
+    {
+      "name": "PLA-08",
+      "type": "PLANT",
+      "tierIndex": 3,
+      "capacity": {
+        "value": 400,
+        "unit": "DAY"
+      },
+      "processingTime": {
+        "value": 3,
+        "unit": "DAY"
+      },
+      "fixedCost": 5600,
+      "varCost": 5.33,
+      "failureProb": 0.03,
+      "region": "EU-East",
+      "lat": null,
+      "lng": null
+    },
+    {
+      "name": "PLA-09",
+      "type": "PLANT",
+      "tierIndex": 3,
+      "capacity": {
+        "value": 980,
+        "unit": "DAY"
+      },
+      "processingTime": {
+        "value": 2,
+        "unit": "DAY"
+      },
+      "fixedCost": 6200,
+      "varCost": 7.80,
+      "failureProb": 0.02,
+      "region": "EU-Central",
+      "lat": null,
+      "lng": null
+    },
+    {
+      "name": "DCC-01",
+      "type": "DC",
+      "tierIndex": 4,
+      "capacity": {
+        "value": 430,
+        "unit": "DAY"
+      },
+      "processingTime": {
+        "value": 1,
+        "unit": "DAY"
+      },
+      "fixedCost": 4500,
+      "varCost": 1.27,
+      "failureProb": 0.03,
+      "region": "EU-North",
+      "lat": null,
+      "lng": null
+    },
+    {
+      "name": "DCC-02",
+      "type": "DC",
+      "tierIndex": 4,
+      "capacity": {
+        "value": 810,
+        "unit": "DAY"
+      },
+      "processingTime": {
+        "value": 1,
+        "unit": "DAY"
+      },
+      "fixedCost": 4400,
+      "varCost": 1.39,
+      "failureProb": 0.03,
+      "region": "EU-West",
+      "lat": null,
+      "lng": null
+    },
+    {
+      "name": "DCC-03",
+      "type": "DC",
+      "tierIndex": 4,
+      "capacity": {
+        "value": 510,
+        "unit": "DAY"
+      },
+      "processingTime": {
+        "value": 0,
+        "unit": "DAY"
+      },
+      "fixedCost": 5000,
+      "varCost": 1.28,
+      "failureProb": 0.01,
+      "region": "EU-West",
+      "lat": null,
+      "lng": null
+    },
+    {
+      "name": "DCC-04",
+      "type": "DC",
+      "tierIndex": 4,
+      "capacity": {
+        "value": 750,
+        "unit": "DAY"
+      },
+      "processingTime": {
+        "value": 0,
+        "unit": "DAY"
+      },
+      "fixedCost": 1650,
+      "varCost": 0.92,
+      "failureProb": 0.01,
+      "region": "EU-South",
+      "lat": null,
+      "lng": null
+    },
+    {
+      "name": "DCC-05",
+      "type": "DC",
+      "tierIndex": 4,
+      "capacity": {
+        "value": 390,
+        "unit": "DAY"
+      },
+      "processingTime": {
+        "value": 0,
+        "unit": "DAY"
+      },
+      "fixedCost": 1800,
+      "varCost": 1.16,
+      "failureProb": 0.01,
+      "region": "EU-East",
+      "lat": null,
+      "lng": null
+    },
+    {
+      "name": "DCC-06",
+      "type": "DC",
+      "tierIndex": 4,
+      "capacity": {
+        "value": 390,
+        "unit": "DAY"
+      },
+      "processingTime": {
+        "value": 0,
+        "unit": "DAY"
+      },
+      "fixedCost": 1950,
+      "varCost": 1.18,
+      "failureProb": 0.01,
+      "region": "EU-East",
+      "lat": null,
+      "lng": null
+    },
+    {
+      "name": "DCC-07",
+      "type": "DC",
+      "tierIndex": 4,
+      "capacity": {
+        "value": 290,
+        "unit": "DAY"
+      },
+      "processingTime": {
+        "value": 1,
+        "unit": "DAY"
+      },
+      "fixedCost": 3800,
+      "varCost": 1.37,
+      "failureProb": 0.02,
+      "region": "EU-West",
+      "lat": null,
+      "lng": null
+    },
+    {
+      "name": "DCC-08",
+      "type": "DC",
+      "tierIndex": 4,
+      "capacity": {
+        "value": 400,
+        "unit": "DAY"
+      },
+      "processingTime": {
+        "value": 1,
+        "unit": "DAY"
+      },
+      "fixedCost": 2650,
+      "varCost": 0.97,
+      "failureProb": 0.01,
+      "region": "EU-South",
+      "lat": null,
+      "lng": null
+    },
+    {
+      "name": "DCC-09",
+      "type": "DC",
+      "tierIndex": 4,
+      "capacity": {
+        "value": 920,
+        "unit": "DAY"
+      },
+      "processingTime": {
+        "value": 0,
+        "unit": "DAY"
+      },
+      "fixedCost": 3350,
+      "varCost": 1.45,
+      "failureProb": 0.02,
+      "region": "EU-East",
+      "lat": null,
+      "lng": null
+    },
+    {
+      "name": "DCR-01",
+      "type": "DC",
+      "tierIndex": 5,
+      "capacity": {
+        "value": 460,
+        "unit": "DAY"
+      },
+      "processingTime": {
+        "value": 1,
+        "unit": "DAY"
+      },
+      "fixedCost": 3550,
+      "varCost": 1.11,
+      "failureProb": 0.01,
+      "region": "EU-Central",
+      "lat": null,
+      "lng": null
+    },
+    {
+      "name": "DCR-02",
+      "type": "DC",
+      "tierIndex": 5,
+      "capacity": {
+        "value": 440,
+        "unit": "DAY"
+      },
+      "processingTime": {
+        "value": 0,
+        "unit": "DAY"
+      },
+      "fixedCost": 2700,
+      "varCost": 1.00,
+      "failureProb": 0.02,
+      "region": "EU-South",
+      "lat": null,
+      "lng": null
+    },
+    {
+      "name": "DCR-03",
+      "type": "DC",
+      "tierIndex": 5,
+      "capacity": {
+        "value": 410,
+        "unit": "DAY"
+      },
+      "processingTime": {
+        "value": 0,
+        "unit": "DAY"
+      },
+      "fixedCost": 4100,
+      "varCost": 1.15,
+      "failureProb": 0.02,
+      "region": "EU-South",
+      "lat": null,
+      "lng": null
+    },
+    {
+      "name": "DCR-04",
+      "type": "DC",
+      "tierIndex": 5,
+      "capacity": {
+        "value": 700,
+        "unit": "DAY"
+      },
+      "processingTime": {
+        "value": 1,
+        "unit": "DAY"
+      },
+      "fixedCost": 4900,
+      "varCost": 1.41,
+      "failureProb": 0.03,
+      "region": "EU-South",
+      "lat": null,
+      "lng": null
+    },
+    {
+      "name": "DCR-05",
+      "type": "DC",
+      "tierIndex": 5,
+      "capacity": {
+        "value": 370,
+        "unit": "DAY"
+      },
+      "processingTime": {
+        "value": 1,
+        "unit": "DAY"
+      },
+      "fixedCost": 4150,
+      "varCost": 0.83,
+      "failureProb": 0.02,
+      "region": "EU-West",
+      "lat": null,
+      "lng": null
+    },
+    {
+      "name": "DCR-06",
+      "type": "DC",
+      "tierIndex": 5,
+      "capacity": {
+        "value": 380,
+        "unit": "DAY"
+      },
+      "processingTime": {
+        "value": 1,
+        "unit": "DAY"
+      },
+      "fixedCost": 3250,
+      "varCost": 1.46,
+      "failureProb": 0.02,
+      "region": "EU-North",
+      "lat": null,
+      "lng": null
+    },
+    {
+      "name": "DCR-07",
+      "type": "DC",
+      "tierIndex": 5,
+      "capacity": {
+        "value": 410,
+        "unit": "DAY"
+      },
+      "processingTime": {
+        "value": 1,
+        "unit": "DAY"
+      },
+      "fixedCost": 1700,
+      "varCost": 1.37,
+      "failureProb": 0.01,
+      "region": "EU-West",
+      "lat": null,
+      "lng": null
+    },
+    {
+      "name": "DCR-08",
+      "type": "DC",
+      "tierIndex": 5,
+      "capacity": {
+        "value": 230,
+        "unit": "DAY"
+      },
+      "processingTime": {
+        "value": 0,
+        "unit": "DAY"
+      },
+      "fixedCost": 2100,
+      "varCost": 0.92,
+      "failureProb": 0.03,
+      "region": "EU-Central",
+      "lat": null,
+      "lng": null
+    },
+    {
+      "name": "CUS-01",
+      "type": "CUSTOMER",
+      "tierIndex": 6,
+      "capacity": {
+        "value": null,
+        "unit": "DAY"
+      },
+      "processingTime": {
+        "value": 0,
+        "unit": "DAY"
+      },
+      "fixedCost": 0,
+      "varCost": 0,
+      "failureProb": 0,
+      "region": "EU-West",
+      "lat": null,
+      "lng": null
+    },
+    {
+      "name": "CUS-02",
+      "type": "CUSTOMER",
+      "tierIndex": 6,
+      "capacity": {
+        "value": null,
+        "unit": "DAY"
+      },
+      "processingTime": {
+        "value": 0,
+        "unit": "DAY"
+      },
+      "fixedCost": 0,
+      "varCost": 0,
+      "failureProb": 0,
+      "region": "EU-Central",
+      "lat": null,
+      "lng": null
+    },
+    {
+      "name": "CUS-03",
+      "type": "CUSTOMER",
+      "tierIndex": 6,
+      "capacity": {
+        "value": null,
+        "unit": "DAY"
+      },
+      "processingTime": {
+        "value": 0,
+        "unit": "DAY"
+      },
+      "fixedCost": 0,
+      "varCost": 0,
+      "failureProb": 0,
+      "region": "EU-West",
+      "lat": null,
+      "lng": null
+    },
+    {
+      "name": "CUS-04",
+      "type": "CUSTOMER",
+      "tierIndex": 6,
+      "capacity": {
+        "value": null,
+        "unit": "DAY"
+      },
+      "processingTime": {
+        "value": 0,
+        "unit": "DAY"
+      },
+      "fixedCost": 0,
+      "varCost": 0,
+      "failureProb": 0,
+      "region": "EU-East",
+      "lat": null,
+      "lng": null
+    },
+    {
+      "name": "CUS-05",
+      "type": "CUSTOMER",
+      "tierIndex": 6,
+      "capacity": {
+        "value": null,
+        "unit": "DAY"
+      },
+      "processingTime": {
+        "value": 0,
+        "unit": "DAY"
+      },
+      "fixedCost": 0,
+      "varCost": 0,
+      "failureProb": 0,
+      "region": "EU-Central",
+      "lat": null,
+      "lng": null
+    },
+    {
+      "name": "CUS-06",
+      "type": "CUSTOMER",
+      "tierIndex": 6,
+      "capacity": {
+        "value": null,
+        "unit": "DAY"
+      },
+      "processingTime": {
+        "value": 0,
+        "unit": "DAY"
+      },
+      "fixedCost": 0,
+      "varCost": 0,
+      "failureProb": 0,
+      "region": "EU-North",
+      "lat": null,
+      "lng": null
+    },
+    {
+      "name": "CUS-07",
+      "type": "CUSTOMER",
+      "tierIndex": 6,
+      "capacity": {
+        "value": null,
+        "unit": "DAY"
+      },
+      "processingTime": {
+        "value": 0,
+        "unit": "DAY"
+      },
+      "fixedCost": 0,
+      "varCost": 0,
+      "failureProb": 0,
+      "region": "EU-East",
+      "lat": null,
+      "lng": null
+    },
+    {
+      "name": "CUS-08",
+      "type": "CUSTOMER",
+      "tierIndex": 6,
+      "capacity": {
+        "value": null,
+        "unit": "DAY"
+      },
+      "processingTime": {
+        "value": 0,
+        "unit": "DAY"
+      },
+      "fixedCost": 0,
+      "varCost": 0,
+      "failureProb": 0,
+      "region": "EU-Central",
+      "lat": null,
+      "lng": null
+    },
+    {
+      "name": "CUS-09",
+      "type": "CUSTOMER",
+      "tierIndex": 6,
+      "capacity": {
+        "value": null,
+        "unit": "DAY"
+      },
+      "processingTime": {
+        "value": 0,
+        "unit": "DAY"
+      },
+      "fixedCost": 0,
+      "varCost": 0,
+      "failureProb": 0,
+      "region": "EU-North",
+      "lat": null,
+      "lng": null
+    },
+    {
+      "name": "CUS-10",
+      "type": "CUSTOMER",
+      "tierIndex": 6,
+      "capacity": {
+        "value": null,
+        "unit": "DAY"
+      },
+      "processingTime": {
+        "value": 0,
+        "unit": "DAY"
+      },
+      "fixedCost": 0,
+      "varCost": 0,
+      "failureProb": 0,
+      "region": "EU-South",
+      "lat": null,
+      "lng": null
+    },
+    {
+      "name": "CUS-11",
+      "type": "CUSTOMER",
+      "tierIndex": 6,
+      "capacity": {
+        "value": null,
+        "unit": "DAY"
+      },
+      "processingTime": {
+        "value": 0,
+        "unit": "DAY"
+      },
+      "fixedCost": 0,
+      "varCost": 0,
+      "failureProb": 0,
+      "region": "EU-North",
+      "lat": null,
+      "lng": null
+    },
+    {
+      "name": "CUS-12",
+      "type": "CUSTOMER",
+      "tierIndex": 6,
+      "capacity": {
+        "value": null,
+        "unit": "DAY"
+      },
+      "processingTime": {
+        "value": 0,
+        "unit": "DAY"
+      },
+      "fixedCost": 0,
+      "varCost": 0,
+      "failureProb": 0,
+      "region": "EU-South",
+      "lat": null,
+      "lng": null
+    },
+    {
+      "name": "CUS-13",
+      "type": "CUSTOMER",
+      "tierIndex": 6,
+      "capacity": {
+        "value": null,
+        "unit": "DAY"
+      },
+      "processingTime": {
+        "value": 0,
+        "unit": "DAY"
+      },
+      "fixedCost": 0,
+      "varCost": 0,
+      "failureProb": 0,
+      "region": "EU-Central",
+      "lat": null,
+      "lng": null
+    },
+    {
+      "name": "CUS-14",
+      "type": "CUSTOMER",
+      "tierIndex": 6,
+      "capacity": {
+        "value": null,
+        "unit": "DAY"
+      },
+      "processingTime": {
+        "value": 0,
+        "unit": "DAY"
+      },
+      "fixedCost": 0,
+      "varCost": 0,
+      "failureProb": 0,
+      "region": "EU-South",
+      "lat": null,
+      "lng": null
+    },
+    {
+      "name": "CUS-15",
+      "type": "CUSTOMER",
+      "tierIndex": 6,
+      "capacity": {
+        "value": null,
+        "unit": "DAY"
+      },
+      "processingTime": {
+        "value": 0,
+        "unit": "DAY"
+      },
+      "fixedCost": 0,
+      "varCost": 0,
+      "failureProb": 0,
+      "region": "EU-East",
+      "lat": null,
+      "lng": null
+    },
+    {
+      "name": "CUS-16",
+      "type": "CUSTOMER",
+      "tierIndex": 6,
+      "capacity": {
+        "value": null,
+        "unit": "DAY"
+      },
+      "processingTime": {
+        "value": 0,
+        "unit": "DAY"
+      },
+      "fixedCost": 0,
+      "varCost": 0,
+      "failureProb": 0,
+      "region": "EU-East",
+      "lat": null,
+      "lng": null
+    },
+    {
+      "name": "CUS-17",
+      "type": "CUSTOMER",
+      "tierIndex": 6,
+      "capacity": {
+        "value": null,
+        "unit": "DAY"
+      },
+      "processingTime": {
+        "value": 0,
+        "unit": "DAY"
+      },
+      "fixedCost": 0,
+      "varCost": 0,
+      "failureProb": 0,
+      "region": "EU-South",
+      "lat": null,
+      "lng": null
+    },
+    {
+      "name": "CUS-18",
+      "type": "CUSTOMER",
+      "tierIndex": 6,
+      "capacity": {
+        "value": null,
+        "unit": "DAY"
+      },
+      "processingTime": {
+        "value": 0,
+        "unit": "DAY"
+      },
+      "fixedCost": 0,
+      "varCost": 0,
+      "failureProb": 0,
+      "region": "EU-East",
+      "lat": null,
+      "lng": null
+    },
+    {
+      "name": "CUS-19",
+      "type": "CUSTOMER",
+      "tierIndex": 6,
+      "capacity": {
+        "value": null,
+        "unit": "DAY"
+      },
+      "processingTime": {
+        "value": 0,
+        "unit": "DAY"
+      },
+      "fixedCost": 0,
+      "varCost": 0,
+      "failureProb": 0,
+      "region": "EU-West",
+      "lat": null,
+      "lng": null
+    },
+    {
+      "name": "CUS-20",
+      "type": "CUSTOMER",
+      "tierIndex": 6,
+      "capacity": {
+        "value": null,
+        "unit": "DAY"
+      },
+      "processingTime": {
+        "value": 0,
+        "unit": "DAY"
+      },
+      "fixedCost": 0,
+      "varCost": 0,
+      "failureProb": 0,
+      "region": "EU-North",
+      "lat": null,
+      "lng": null
+    },
+    {
+      "name": "CUS-21",
+      "type": "CUSTOMER",
+      "tierIndex": 6,
+      "capacity": {
+        "value": null,
+        "unit": "DAY"
+      },
+      "processingTime": {
+        "value": 0,
+        "unit": "DAY"
+      },
+      "fixedCost": 0,
+      "varCost": 0,
+      "failureProb": 0,
+      "region": "EU-West",
+      "lat": null,
+      "lng": null
+    },
+    {
+      "name": "CUS-22",
+      "type": "CUSTOMER",
+      "tierIndex": 6,
+      "capacity": {
+        "value": null,
+        "unit": "DAY"
+      },
+      "processingTime": {
+        "value": 0,
+        "unit": "DAY"
+      },
+      "fixedCost": 0,
+      "varCost": 0,
+      "failureProb": 0,
+      "region": "EU-West",
+      "lat": null,
+      "lng": null
+    },
+    {
+      "name": "CUS-23",
+      "type": "CUSTOMER",
+      "tierIndex": 6,
+      "capacity": {
+        "value": null,
+        "unit": "DAY"
+      },
+      "processingTime": {
+        "value": 0,
+        "unit": "DAY"
+      },
+      "fixedCost": 0,
+      "varCost": 0,
+      "failureProb": 0,
+      "region": "EU-South",
+      "lat": null,
+      "lng": null
+    },
+    {
+      "name": "CUS-24",
+      "type": "CUSTOMER",
+      "tierIndex": 6,
+      "capacity": {
+        "value": null,
+        "unit": "DAY"
+      },
+      "processingTime": {
+        "value": 0,
+        "unit": "DAY"
+      },
+      "fixedCost": 0,
+      "varCost": 0,
+      "failureProb": 0,
+      "region": "EU-North",
+      "lat": null,
+      "lng": null
+    },
+    {
+      "name": "CUS-25",
+      "type": "CUSTOMER",
+      "tierIndex": 6,
+      "capacity": {
+        "value": null,
+        "unit": "DAY"
+      },
+      "processingTime": {
+        "value": 0,
+        "unit": "DAY"
+      },
+      "fixedCost": 0,
+      "varCost": 0,
+      "failureProb": 0,
+      "region": "EU-East",
+      "lat": null,
+      "lng": null
+    },
+    {
+      "name": "CUS-26",
+      "type": "CUSTOMER",
+      "tierIndex": 6,
+      "capacity": {
+        "value": null,
+        "unit": "DAY"
+      },
+      "processingTime": {
+        "value": 0,
+        "unit": "DAY"
+      },
+      "fixedCost": 0,
+      "varCost": 0,
+      "failureProb": 0,
+      "region": "EU-North",
+      "lat": null,
+      "lng": null
+    },
+    {
+      "name": "CUS-27",
+      "type": "CUSTOMER",
+      "tierIndex": 6,
+      "capacity": {
+        "value": null,
+        "unit": "DAY"
+      },
+      "processingTime": {
+        "value": 0,
+        "unit": "DAY"
+      },
+      "fixedCost": 0,
+      "varCost": 0,
+      "failureProb": 0,
+      "region": "EU-East",
+      "lat": null,
+      "lng": null
+    },
+    {
+      "name": "CUS-28",
+      "type": "CUSTOMER",
+      "tierIndex": 6,
+      "capacity": {
+        "value": null,
+        "unit": "DAY"
+      },
+      "processingTime": {
+        "value": 0,
+        "unit": "DAY"
+      },
+      "fixedCost": 0,
+      "varCost": 0,
+      "failureProb": 0,
+      "region": "EU-West",
+      "lat": null,
+      "lng": null
+    },
+    {
+      "name": "CUS-29",
+      "type": "CUSTOMER",
+      "tierIndex": 6,
+      "capacity": {
+        "value": null,
+        "unit": "DAY"
+      },
+      "processingTime": {
+        "value": 0,
+        "unit": "DAY"
+      },
+      "fixedCost": 0,
+      "varCost": 0,
+      "failureProb": 0,
+      "region": "EU-South",
+      "lat": null,
+      "lng": null
+    },
+    {
+      "name": "CUS-30",
+      "type": "CUSTOMER",
+      "tierIndex": 6,
+      "capacity": {
+        "value": null,
+        "unit": "DAY"
+      },
+      "processingTime": {
+        "value": 0,
+        "unit": "DAY"
+      },
+      "fixedCost": 0,
+      "varCost": 0,
+      "failureProb": 0,
+      "region": "EU-North",
+      "lat": null,
+      "lng": null
+    },
+    {
+      "name": "CUS-31",
+      "type": "CUSTOMER",
+      "tierIndex": 6,
+      "capacity": {
+        "value": null,
+        "unit": "DAY"
+      },
+      "processingTime": {
+        "value": 0,
+        "unit": "DAY"
+      },
+      "fixedCost": 0,
+      "varCost": 0,
+      "failureProb": 0,
+      "region": "EU-North",
+      "lat": null,
+      "lng": null
+    },
+    {
+      "name": "CUS-32",
+      "type": "CUSTOMER",
+      "tierIndex": 6,
+      "capacity": {
+        "value": null,
+        "unit": "DAY"
+      },
+      "processingTime": {
+        "value": 0,
+        "unit": "DAY"
+      },
+      "fixedCost": 0,
+      "varCost": 0,
+      "failureProb": 0,
+      "region": "EU-North",
+      "lat": null,
+      "lng": null
+    },
+    {
+      "name": "CUS-33",
+      "type": "CUSTOMER",
+      "tierIndex": 6,
+      "capacity": {
+        "value": null,
+        "unit": "DAY"
+      },
+      "processingTime": {
+        "value": 0,
+        "unit": "DAY"
+      },
+      "fixedCost": 0,
+      "varCost": 0,
+      "failureProb": 0,
+      "region": "EU-South",
+      "lat": null,
+      "lng": null
+    },
+    {
+      "name": "CUS-34",
+      "type": "CUSTOMER",
+      "tierIndex": 6,
+      "capacity": {
+        "value": null,
+        "unit": "DAY"
+      },
+      "processingTime": {
+        "value": 0,
+        "unit": "DAY"
+      },
+      "fixedCost": 0,
+      "varCost": 0,
+      "failureProb": 0,
+      "region": "EU-North",
+      "lat": null,
+      "lng": null
+    },
+    {
+      "name": "CUS-35",
+      "type": "CUSTOMER",
+      "tierIndex": 6,
+      "capacity": {
+        "value": null,
+        "unit": "DAY"
+      },
+      "processingTime": {
+        "value": 0,
+        "unit": "DAY"
+      },
+      "fixedCost": 0,
+      "varCost": 0,
+      "failureProb": 0,
+      "region": "EU-North",
+      "lat": null,
+      "lng": null
+    },
+    {
+      "name": "CUS-36",
+      "type": "CUSTOMER",
+      "tierIndex": 6,
+      "capacity": {
+        "value": null,
+        "unit": "DAY"
+      },
+      "processingTime": {
+        "value": 0,
+        "unit": "DAY"
+      },
+      "fixedCost": 0,
+      "varCost": 0,
+      "failureProb": 0,
+      "region": "EU-Central",
+      "lat": null,
+      "lng": null
+    },
+    {
+      "name": "CUS-37",
+      "type": "CUSTOMER",
+      "tierIndex": 6,
+      "capacity": {
+        "value": null,
+        "unit": "DAY"
+      },
+      "processingTime": {
+        "value": 0,
+        "unit": "DAY"
+      },
+      "fixedCost": 0,
+      "varCost": 0,
+      "failureProb": 0,
+      "region": "EU-South",
+      "lat": null,
+      "lng": null
+    },
+    {
+      "name": "CUS-38",
+      "type": "CUSTOMER",
+      "tierIndex": 6,
+      "capacity": {
+        "value": null,
+        "unit": "DAY"
+      },
+      "processingTime": {
+        "value": 0,
+        "unit": "DAY"
+      },
+      "fixedCost": 0,
+      "varCost": 0,
+      "failureProb": 0,
+      "region": "EU-West",
+      "lat": null,
+      "lng": null
+    },
+    {
+      "name": "CUS-39",
+      "type": "CUSTOMER",
+      "tierIndex": 6,
+      "capacity": {
+        "value": null,
+        "unit": "DAY"
+      },
+      "processingTime": {
+        "value": 0,
+        "unit": "DAY"
+      },
+      "fixedCost": 0,
+      "varCost": 0,
+      "failureProb": 0,
+      "region": "EU-North",
+      "lat": null,
+      "lng": null
+    },
+    {
+      "name": "CUS-40",
+      "type": "CUSTOMER",
+      "tierIndex": 6,
+      "capacity": {
+        "value": null,
+        "unit": "DAY"
+      },
+      "processingTime": {
+        "value": 0,
+        "unit": "DAY"
+      },
+      "fixedCost": 0,
+      "varCost": 0,
+      "failureProb": 0,
+      "region": "EU-South",
+      "lat": null,
+      "lng": null
+    },
+    {
+      "name": "CUS-41",
+      "type": "CUSTOMER",
+      "tierIndex": 6,
+      "capacity": {
+        "value": null,
+        "unit": "DAY"
+      },
+      "processingTime": {
+        "value": 0,
+        "unit": "DAY"
+      },
+      "fixedCost": 0,
+      "varCost": 0,
+      "failureProb": 0,
+      "region": "EU-West",
+      "lat": null,
+      "lng": null
+    },
+    {
+      "name": "CUS-42",
+      "type": "CUSTOMER",
+      "tierIndex": 6,
+      "capacity": {
+        "value": null,
+        "unit": "DAY"
+      },
+      "processingTime": {
+        "value": 0,
+        "unit": "DAY"
+      },
+      "fixedCost": 0,
+      "varCost": 0,
+      "failureProb": 0,
+      "region": "EU-South",
+      "lat": null,
+      "lng": null
+    },
+    {
+      "name": "CUS-43",
+      "type": "CUSTOMER",
+      "tierIndex": 6,
+      "capacity": {
+        "value": null,
+        "unit": "DAY"
+      },
+      "processingTime": {
+        "value": 0,
+        "unit": "DAY"
+      },
+      "fixedCost": 0,
+      "varCost": 0,
+      "failureProb": 0,
+      "region": "EU-East",
+      "lat": null,
+      "lng": null
+    },
+    {
+      "name": "CUS-44",
+      "type": "CUSTOMER",
+      "tierIndex": 6,
+      "capacity": {
+        "value": null,
+        "unit": "DAY"
+      },
+      "processingTime": {
+        "value": 0,
+        "unit": "DAY"
+      },
+      "fixedCost": 0,
+      "varCost": 0,
+      "failureProb": 0,
+      "region": "EU-Central",
+      "lat": null,
+      "lng": null
+    },
+    {
+      "name": "CUS-45",
+      "type": "CUSTOMER",
+      "tierIndex": 6,
+      "capacity": {
+        "value": null,
+        "unit": "DAY"
+      },
+      "processingTime": {
+        "value": 0,
+        "unit": "DAY"
+      },
+      "fixedCost": 0,
+      "varCost": 0,
+      "failureProb": 0,
+      "region": "EU-North",
+      "lat": null,
+      "lng": null
+    },
+    {
+      "name": "CUS-46",
+      "type": "CUSTOMER",
+      "tierIndex": 6,
+      "capacity": {
+        "value": null,
+        "unit": "DAY"
+      },
+      "processingTime": {
+        "value": 0,
+        "unit": "DAY"
+      },
+      "fixedCost": 0,
+      "varCost": 0,
+      "failureProb": 0,
+      "region": "EU-East",
+      "lat": null,
+      "lng": null
+    },
+    {
+      "name": "CUS-47",
+      "type": "CUSTOMER",
+      "tierIndex": 6,
+      "capacity": {
+        "value": null,
+        "unit": "DAY"
+      },
+      "processingTime": {
+        "value": 0,
+        "unit": "DAY"
+      },
+      "fixedCost": 0,
+      "varCost": 0,
+      "failureProb": 0,
+      "region": "EU-North",
+      "lat": null,
+      "lng": null
+    }
+  ],
+  "links": [
+    {
+      "source": "SP2-01",
+      "target": "SP1-01",
+      "leadTime": {
+        "value": 4,
+        "unit": "DAY"
+      },
+      "capacity": {
+        "value": 1190,
+        "unit": "DAY"
+      },
+      "unitCost": 0.36,
+      "failureProb": 0.02
+    },
+    {
+      "source": "SP2-01",
+      "target": "SP1-08",
+      "leadTime": {
+        "value": 2,
+        "unit": "DAY"
+      },
+      "capacity": {
+        "value": 1310,
+        "unit": "DAY"
+      },
+      "unitCost": 0.29,
+      "failureProb": 0.01
+    },
+    {
+      "source": "SP2-02",
+      "target": "SP1-04",
+      "leadTime": {
+        "value": 5,
+        "unit": "DAY"
+      },
+      "capacity": {
+        "value": 1810,
+        "unit": "DAY"
+      },
+      "unitCost": 0.20,
+      "failureProb": 0.06
+    },
+    {
+      "source": "SP2-02",
+      "target": "SP1-06",
+      "leadTime": {
+        "value": 2,
+        "unit": "DAY"
+      },
+      "capacity": {
+        "value": 1650,
+        "unit": "DAY"
+      },
+      "unitCost": 0.37,
+      "failureProb": 0.05
+    },
+    {
+      "source": "SP2-03",
+      "target": "SP1-09",
+      "leadTime": {
+        "value": 5,
+        "unit": "DAY"
+      },
+      "capacity": {
+        "value": 1830,
+        "unit": "DAY"
+      },
+      "unitCost": 0.23,
+      "failureProb": 0.01
+    },
+    {
+      "source": "SP2-04",
+      "target": "SP1-03",
+      "leadTime": {
+        "value": 3,
+        "unit": "DAY"
+      },
+      "capacity": {
+        "value": 1470,
+        "unit": "DAY"
+      },
+      "unitCost": 0.50,
+      "failureProb": 0.05
+    },
+    {
+      "source": "SP2-04",
+      "target": "SP1-09",
+      "leadTime": {
+        "value": 4,
+        "unit": "DAY"
+      },
+      "capacity": {
+        "value": 1560,
+        "unit": "DAY"
+      },
+      "unitCost": 0.31,
+      "failureProb": 0.06
+    },
+    {
+      "source": "SP2-05",
+      "target": "SP1-05",
+      "leadTime": {
+        "value": 4,
+        "unit": "DAY"
+      },
+      "capacity": {
+        "value": 2520,
+        "unit": "DAY"
+      },
+      "unitCost": 0.38,
+      "failureProb": 0.06
+    },
+    {
+      "source": "SP2-06",
+      "target": "SP1-04",
+      "leadTime": {
+        "value": 2,
+        "unit": "DAY"
+      },
+      "capacity": {
+        "value": 1760,
+        "unit": "DAY"
+      },
+      "unitCost": 0.35,
+      "failureProb": 0.03
+    },
+    {
+      "source": "SP2-06",
+      "target": "SP1-07",
+      "leadTime": {
+        "value": 4,
+        "unit": "DAY"
+      },
+      "capacity": {
+        "value": 580,
+        "unit": "DAY"
+      },
+      "unitCost": 0.27,
+      "failureProb": 0.06
+    },
+    {
+      "source": "SP2-07",
+      "target": "SP1-06",
+      "leadTime": {
+        "value": 4,
+        "unit": "DAY"
+      },
+      "capacity": {
+        "value": 1600,
+        "unit": "DAY"
+      },
+      "unitCost": 0.32,
+      "failureProb": 0.02
+    },
+    {
+      "source": "SP2-08",
+      "target": "SP1-02",
+      "leadTime": {
+        "value": 5,
+        "unit": "DAY"
+      },
+      "capacity": {
+        "value": 1400,
+        "unit": "DAY"
+      },
+      "unitCost": 0.46,
+      "failureProb": 0.05
+    },
+    {
+      "source": "SP2-09",
+      "target": "SP1-01",
+      "leadTime": {
+        "value": 5,
+        "unit": "DAY"
+      },
+      "capacity": {
+        "value": 1100,
+        "unit": "DAY"
+      },
+      "unitCost": 0.21,
+      "failureProb": 0.04
+    },
+    {
+      "source": "SP2-09",
+      "target": "SP1-03",
+      "leadTime": {
+        "value": 2,
+        "unit": "DAY"
+      },
+      "capacity": {
+        "value": 1600,
+        "unit": "DAY"
+      },
+      "unitCost": 0.49,
+      "failureProb": 0.01
+    },
+    {
+      "source": "SP1-01",
+      "target": "PLC-05",
+      "leadTime": {
+        "value": 2,
+        "unit": "DAY"
+      },
+      "capacity": {
+        "value": 1330,
+        "unit": "DAY"
+      },
+      "unitCost": 0.35,
+      "failureProb": 0.06
+    },
+    {
+      "source": "SP1-02",
+      "target": "PLC-03",
+      "leadTime": {
+        "value": 4,
+        "unit": "DAY"
+      },
+      "capacity": {
+        "value": 1240,
+        "unit": "DAY"
+      },
+      "unitCost": 0.53,
+      "failureProb": 0.02
+    },
+    {
+      "source": "SP1-03",
+      "target": "PLC-04",
+      "leadTime": {
+        "value": 21,
+        "unit": "DAY"
+      },
+      "capacity": {
+        "value": 1000,
+        "unit": "DAY"
+      },
+      "unitCost": 2.33,
+      "failureProb": 0.03
+    },
+    {
+      "source": "SP1-03",
+      "target": "PLC-09",
+      "leadTime": {
+        "value": 21,
+        "unit": "DAY"
+      },
+      "capacity": {
+        "value": 1720,
+        "unit": "DAY"
+      },
+      "unitCost": 2.28,
+      "failureProb": 0.06
+    },
+    {
+      "source": "SP1-04",
+      "target": "PLC-01",
+      "leadTime": {
+        "value": 3,
+        "unit": "DAY"
+      },
+      "capacity": {
+        "value": 1040,
+        "unit": "DAY"
+      },
+      "unitCost": 0.35,
+      "failureProb": 0.05
+    },
+    {
+      "source": "SP1-04",
+      "target": "PLC-03",
+      "leadTime": {
+        "value": 3,
+        "unit": "DAY"
+      },
+      "capacity": {
+        "value": 1220,
+        "unit": "DAY"
+      },
+      "unitCost": 0.50,
+      "failureProb": 0.06
+    },
+    {
+      "source": "SP1-05",
+      "target": "PLC-05",
+      "leadTime": {
+        "value": 5,
+        "unit": "DAY"
+      },
+      "capacity": {
+        "value": 1160,
+        "unit": "DAY"
+      },
+      "unitCost": 0.34,
+      "failureProb": 0.04
+    },
+    {
+      "source": "SP1-05",
+      "target": "PLC-07",
+      "leadTime": {
+        "value": 3,
+        "unit": "DAY"
+      },
+      "capacity": {
+        "value": 1130,
+        "unit": "DAY"
+      },
+      "unitCost": 0.44,
+      "failureProb": 0.06
+    },
+    {
+      "source": "SP1-06",
+      "target": "PLC-04",
+      "leadTime": {
+        "value": 14,
+        "unit": "DAY"
+      },
+      "capacity": {
+        "value": 990,
+        "unit": "DAY"
+      },
+      "unitCost": 2.39,
+      "failureProb": 0.02
+    },
+    {
+      "source": "SP1-06",
+      "target": "PLC-08",
+      "leadTime": {
+        "value": 28,
+        "unit": "DAY"
+      },
+      "capacity": {
+        "value": 1340,
+        "unit": "DAY"
+      },
+      "unitCost": 2.76,
+      "failureProb": 0.01
+    },
+    {
+      "source": "SP1-07",
+      "target": "PLC-02",
+      "leadTime": {
+        "value": 3,
+        "unit": "DAY"
+      },
+      "capacity": {
+        "value": 510,
+        "unit": "DAY"
+      },
+      "unitCost": 0.48,
+      "failureProb": 0.02
+    },
+    {
+      "source": "SP1-08",
+      "target": "PLC-06",
+      "leadTime": {
+        "value": 5,
+        "unit": "DAY"
+      },
+      "capacity": {
+        "value": 1030,
+        "unit": "DAY"
+      },
+      "unitCost": 0.35,
+      "failureProb": 0.01
+    },
+    {
+      "source": "SP1-08",
+      "target": "PLC-07",
+      "leadTime": {
+        "value": 5,
+        "unit": "DAY"
+      },
+      "capacity": {
+        "value": 1410,
+        "unit": "DAY"
+      },
+      "unitCost": 0.50,
+      "failureProb": 0.01
+    },
+    {
+      "source": "SP1-09",
+      "target": "PLC-08",
+      "leadTime": {
+        "value": 3,
+        "unit": "DAY"
+      },
+      "capacity": {
+        "value": 1620,
+        "unit": "DAY"
+      },
+      "unitCost": 0.44,
+      "failureProb": 0.06
+    },
+    {
+      "source": "SP1-09",
+      "target": "PLC-09",
+      "leadTime": {
+        "value": 3,
+        "unit": "DAY"
+      },
+      "capacity": {
+        "value": 1870,
+        "unit": "DAY"
+      },
+      "unitCost": 0.38,
+      "failureProb": 0.04
+    },
+    {
+      "source": "PLC-01",
+      "target": "PLA-09",
+      "leadTime": {
+        "value": 2,
+        "unit": "DAY"
+      },
+      "capacity": {
+        "value": 760,
+        "unit": "DAY"
+      },
+      "unitCost": 0.40,
+      "failureProb": 0.01
+    },
+    {
+      "source": "PLC-02",
+      "target": "PLA-03",
+      "leadTime": {
+        "value": 2,
+        "unit": "DAY"
+      },
+      "capacity": {
+        "value": 720,
+        "unit": "DAY"
+      },
+      "unitCost": 0.22,
+      "failureProb": 0.02
+    },
+    {
+      "source": "PLC-03",
+      "target": "PLA-05",
+      "leadTime": {
+        "value": 3,
+        "unit": "DAY"
+      },
+      "capacity": {
+        "value": 370,
+        "unit": "DAY"
+      },
+      "unitCost": 0.23,
+      "failureProb": 0.01
+    },
+    {
+      "source": "PLC-03",
+      "target": "PLA-07",
+      "leadTime": {
+        "value": 3,
+        "unit": "DAY"
+      },
+      "capacity": {
+        "value": 1000,
+        "unit": "DAY"
+      },
+      "unitCost": 0.30,
+      "failureProb": 0.01
+    },
+    {
+      "source": "PLC-04",
+      "target": "PLA-07",
+      "leadTime": {
+        "value": 1,
+        "unit": "DAY"
+      },
+      "capacity": {
+        "value": 1150,
+        "unit": "DAY"
+      },
+      "unitCost": 0.37,
+      "failureProb": 0.02
+    },
+    {
+      "source": "PLC-05",
+      "target": "PLA-06",
+      "leadTime": {
+        "value": 2,
+        "unit": "DAY"
+      },
+      "capacity": {
+        "value": 1030,
+        "unit": "DAY"
+      },
+      "unitCost": 0.37,
+      "failureProb": 0.03
+    },
+    {
+      "source": "PLC-05",
+      "target": "PLA-08",
+      "leadTime": {
+        "value": 3,
+        "unit": "DAY"
+      },
+      "capacity": {
+        "value": 420,
+        "unit": "DAY"
+      },
+      "unitCost": 0.26,
+      "failureProb": 0.05
+    },
+    {
+      "source": "PLC-06",
+      "target": "PLA-02",
+      "leadTime": {
+        "value": 1,
+        "unit": "DAY"
+      },
+      "capacity": {
+        "value": 710,
+        "unit": "DAY"
+      },
+      "unitCost": 0.23,
+      "failureProb": 0.02
+    },
+    {
+      "source": "PLC-06",
+      "target": "PLA-09",
+      "leadTime": {
+        "value": 2,
+        "unit": "DAY"
+      },
+      "capacity": {
+        "value": 990,
+        "unit": "DAY"
+      },
+      "unitCost": 0.39,
+      "failureProb": 0.04
+    },
+    {
+      "source": "PLC-07",
+      "target": "PLA-04",
+      "leadTime": {
+        "value": 3,
+        "unit": "DAY"
+      },
+      "capacity": {
+        "value": 1070,
+        "unit": "DAY"
+      },
+      "unitCost": 0.28,
+      "failureProb": 0.05
+    },
+    {
+      "source": "PLC-08",
+      "target": "PLA-01",
+      "leadTime": {
+        "value": 2,
+        "unit": "DAY"
+      },
+      "capacity": {
+        "value": 730,
+        "unit": "DAY"
+      },
+      "unitCost": 0.35,
+      "failureProb": 0.02
+    },
+    {
+      "source": "PLC-08",
+      "target": "PLA-03",
+      "leadTime": {
+        "value": 3,
+        "unit": "DAY"
+      },
+      "capacity": {
+        "value": 630,
+        "unit": "DAY"
+      },
+      "unitCost": 0.25,
+      "failureProb": 0.03
+    },
+    {
+      "source": "PLC-08",
+      "target": "PLA-05",
+      "leadTime": {
+        "value": 1,
+        "unit": "DAY"
+      },
+      "capacity": {
+        "value": 290,
+        "unit": "DAY"
+      },
+      "unitCost": 0.28,
+      "failureProb": 0.06
+    },
+    {
+      "source": "PLC-09",
+      "target": "PLA-01",
+      "leadTime": {
+        "value": 3,
+        "unit": "DAY"
+      },
+      "capacity": {
+        "value": 780,
+        "unit": "DAY"
+      },
+      "unitCost": 0.34,
+      "failureProb": 0.03
+    },
+    {
+      "source": "PLC-09",
+      "target": "PLA-06",
+      "leadTime": {
+        "value": 3,
+        "unit": "DAY"
+      },
+      "capacity": {
+        "value": 870,
+        "unit": "DAY"
+      },
+      "unitCost": 0.34,
+      "failureProb": 0.06
+    },
+    {
+      "source": "PLA-01",
+      "target": "DCC-01",
+      "leadTime": {
+        "value": 1,
+        "unit": "DAY"
+      },
+      "capacity": {
+        "value": 420,
+        "unit": "DAY"
+      },
+      "unitCost": 0.29,
+      "failureProb": 0.01
+    },
+    {
+      "source": "PLA-01",
+      "target": "DCC-05",
+      "leadTime": {
+        "value": 2,
+        "unit": "DAY"
+      },
+      "capacity": {
+        "value": 360,
+        "unit": "DAY"
+      },
+      "unitCost": 0.32,
+      "failureProb": 0.01
+    },
+    {
+      "source": "PLA-02",
+      "target": "DCC-04",
+      "leadTime": {
+        "value": 3,
+        "unit": "DAY"
+      },
+      "capacity": {
+        "value": 670,
+        "unit": "DAY"
+      },
+      "unitCost": 0.39,
+      "failureProb": 0.04
+    },
+    {
+      "source": "PLA-03",
+      "target": "DCC-03",
+      "leadTime": {
+        "value": 2,
+        "unit": "DAY"
+      },
+      "capacity": {
+        "value": 560,
+        "unit": "DAY"
+      },
+      "unitCost": 0.23,
+      "failureProb": 0.06
+    },
+    {
+      "source": "PLA-04",
+      "target": "DCC-06",
+      "leadTime": {
+        "value": 2,
+        "unit": "DAY"
+      },
+      "capacity": {
+        "value": 520,
+        "unit": "DAY"
+      },
+      "unitCost": 0.22,
+      "failureProb": 0.04
+    },
+    {
+      "source": "PLA-04",
+      "target": "DCC-09",
+      "leadTime": {
+        "value": 1,
+        "unit": "DAY"
+      },
+      "capacity": {
+        "value": 950,
+        "unit": "DAY"
+      },
+      "unitCost": 0.38,
+      "failureProb": 0.03
+    },
+    {
+      "source": "PLA-05",
+      "target": "DCC-08",
+      "leadTime": {
+        "value": 1,
+        "unit": "DAY"
+      },
+      "capacity": {
+        "value": 350,
+        "unit": "DAY"
+      },
+      "unitCost": 0.47,
+      "failureProb": 0.02
+    },
+    {
+      "source": "PLA-06",
+      "target": "DCC-02",
+      "leadTime": {
+        "value": 3,
+        "unit": "DAY"
+      },
+      "capacity": {
+        "value": 800,
+        "unit": "DAY"
+      },
+      "unitCost": 0.43,
+      "failureProb": 0.02
+    },
+    {
+      "source": "PLA-07",
+      "target": "DCC-02",
+      "leadTime": {
+        "value": 2,
+        "unit": "DAY"
+      },
+      "capacity": {
+        "value": 770,
+        "unit": "DAY"
+      },
+      "unitCost": 0.44,
+      "failureProb": 0.06
+    },
+    {
+      "source": "PLA-07",
+      "target": "DCC-07",
+      "leadTime": {
+        "value": 3,
+        "unit": "DAY"
+      },
+      "capacity": {
+        "value": 240,
+        "unit": "DAY"
+      },
+      "unitCost": 0.38,
+      "failureProb": 0.04
+    },
+    {
+      "source": "PLA-08",
+      "target": "DCC-05",
+      "leadTime": {
+        "value": 3,
+        "unit": "DAY"
+      },
+      "capacity": {
+        "value": 460,
+        "unit": "DAY"
+      },
+      "unitCost": 0.26,
+      "failureProb": 0.03
+    },
+    {
+      "source": "PLA-09",
+      "target": "DCC-09",
+      "leadTime": {
+        "value": 1,
+        "unit": "DAY"
+      },
+      "capacity": {
+        "value": 910,
+        "unit": "DAY"
+      },
+      "unitCost": 0.31,
+      "failureProb": 0.01
+    },
+    {
+      "source": "DCC-01",
+      "target": "DCR-02",
+      "leadTime": {
+        "value": 3,
+        "unit": "DAY"
+      },
+      "capacity": {
+        "value": 410,
+        "unit": "DAY"
+      },
+      "unitCost": 0.32,
+      "failureProb": 0.05
+    },
+    {
+      "source": "DCC-02",
+      "target": "DCR-04",
+      "leadTime": {
+        "value": 1,
+        "unit": "DAY"
+      },
+      "capacity": {
+        "value": 660,
+        "unit": "DAY"
+      },
+      "unitCost": 0.29,
+      "failureProb": 0.05
+    },
+    {
+      "source": "DCC-02",
+      "target": "DCR-05",
+      "leadTime": {
+        "value": 4,
+        "unit": "DAY"
+      },
+      "capacity": {
+        "value": 450,
+        "unit": "DAY"
+      },
+      "unitCost": 0.21,
+      "failureProb": 0.03
+    },
+    {
+      "source": "DCC-03",
+      "target": "DCR-04",
+      "leadTime": {
+        "value": 2,
+        "unit": "DAY"
+      },
+      "capacity": {
+        "value": 660,
+        "unit": "DAY"
+      },
+      "unitCost": 0.30,
+      "failureProb": 0.05
+    },
+    {
+      "source": "DCC-04",
+      "target": "DCR-01",
+      "leadTime": {
+        "value": 1,
+        "unit": "DAY"
+      },
+      "capacity": {
+        "value": 540,
+        "unit": "DAY"
+      },
+      "unitCost": 0.42,
+      "failureProb": 0.05
+    },
+    {
+      "source": "DCC-04",
+      "target": "DCR-08",
+      "leadTime": {
+        "value": 4,
+        "unit": "DAY"
+      },
+      "capacity": {
+        "value": 300,
+        "unit": "DAY"
+      },
+      "unitCost": 0.40,
+      "failureProb": 0.06
+    },
+    {
+      "source": "DCC-05",
+      "target": "DCR-03",
+      "leadTime": {
+        "value": 4,
+        "unit": "DAY"
+      },
+      "capacity": {
+        "value": 400,
+        "unit": "DAY"
+      },
+      "unitCost": 0.23,
+      "failureProb": 0.05
+    },
+    {
+      "source": "DCC-06",
+      "target": "DCR-07",
+      "leadTime": {
+        "value": 3,
+        "unit": "DAY"
+      },
+      "capacity": {
+        "value": 470,
+        "unit": "DAY"
+      },
+      "unitCost": 0.22,
+      "failureProb": 0.03
+    },
+    {
+      "source": "DCC-07",
+      "target": "DCR-08",
+      "leadTime": {
+        "value": 4,
+        "unit": "DAY"
+      },
+      "capacity": {
+        "value": 220,
+        "unit": "DAY"
+      },
+      "unitCost": 0.27,
+      "failureProb": 0.01
+    },
+    {
+      "source": "DCC-08",
+      "target": "DCR-06",
+      "leadTime": {
+        "value": 4,
+        "unit": "DAY"
+      },
+      "capacity": {
+        "value": 310,
+        "unit": "DAY"
+      },
+      "unitCost": 0.44,
+      "failureProb": 0.02
+    },
+    {
+      "source": "DCC-09",
+      "target": "DCR-01",
+      "leadTime": {
+        "value": 1,
+        "unit": "DAY"
+      },
+      "capacity": {
+        "value": 450,
+        "unit": "DAY"
+      },
+      "unitCost": 0.31,
+      "failureProb": 0.02
+    },
+    {
+      "source": "DCC-09",
+      "target": "DCR-02",
+      "leadTime": {
+        "value": 3,
+        "unit": "DAY"
+      },
+      "capacity": {
+        "value": 540,
+        "unit": "DAY"
+      },
+      "unitCost": 0.22,
+      "failureProb": 0.02
+    },
+    {
+      "source": "DCR-01",
+      "target": "CUS-01",
+      "leadTime": {
+        "value": 2,
+        "unit": "DAY"
+      },
+      "capacity": {
+        "value": 50,
+        "unit": "DAY"
+      },
+      "unitCost": 0.13,
+      "failureProb": 0.04
+    },
+    {
+      "source": "DCR-01",
+      "target": "CUS-08",
+      "leadTime": {
+        "value": 2,
+        "unit": "DAY"
+      },
+      "capacity": {
+        "value": 70,
+        "unit": "DAY"
+      },
+      "unitCost": 0.23,
+      "failureProb": 0.06
+    },
+    {
+      "source": "DCR-01",
+      "target": "CUS-11",
+      "leadTime": {
+        "value": 3,
+        "unit": "DAY"
+      },
+      "capacity": {
+        "value": 70,
+        "unit": "DAY"
+      },
+      "unitCost": 0.12,
+      "failureProb": 0.02
+    },
+    {
+      "source": "DCR-01",
+      "target": "CUS-15",
+      "leadTime": {
+        "value": 1,
+        "unit": "DAY"
+      },
+      "capacity": {
+        "value": 70,
+        "unit": "DAY"
+      },
+      "unitCost": 0.35,
+      "failureProb": 0.02
+    },
+    {
+      "source": "DCR-01",
+      "target": "CUS-16",
+      "leadTime": {
+        "value": 2,
+        "unit": "DAY"
+      },
+      "capacity": {
+        "value": 70,
+        "unit": "DAY"
+      },
+      "unitCost": 0.24,
+      "failureProb": 0.06
+    },
+    {
+      "source": "DCR-01",
+      "target": "CUS-35",
+      "leadTime": {
+        "value": 3,
+        "unit": "DAY"
+      },
+      "capacity": {
+        "value": 80,
+        "unit": "DAY"
+      },
+      "unitCost": 0.30,
+      "failureProb": 0.01
+    },
+    {
+      "source": "DCR-01",
+      "target": "CUS-39",
+      "leadTime": {
+        "value": 3,
+        "unit": "DAY"
+      },
+      "capacity": {
+        "value": 50,
+        "unit": "DAY"
+      },
+      "unitCost": 0.10,
+      "failureProb": 0.04
+    },
+    {
+      "source": "DCR-01",
+      "target": "CUS-43",
+      "leadTime": {
+        "value": 3,
+        "unit": "DAY"
+      },
+      "capacity": {
+        "value": 40,
+        "unit": "DAY"
+      },
+      "unitCost": 0.40,
+      "failureProb": 0.06
+    },
+    {
+      "source": "DCR-01",
+      "target": "CUS-47",
+      "leadTime": {
+        "value": 2,
+        "unit": "DAY"
+      },
+      "capacity": {
+        "value": 20,
+        "unit": "DAY"
+      },
+      "unitCost": 0.23,
+      "failureProb": 0.02
+    },
+    {
+      "source": "DCR-02",
+      "target": "CUS-02",
+      "leadTime": {
+        "value": 2,
+        "unit": "DAY"
+      },
+      "capacity": {
+        "value": 70,
+        "unit": "DAY"
+      },
+      "unitCost": 0.26,
+      "failureProb": 0.03
+    },
+    {
+      "source": "DCR-02",
+      "target": "CUS-03",
+      "leadTime": {
+        "value": 3,
+        "unit": "DAY"
+      },
+      "capacity": {
+        "value": 60,
+        "unit": "DAY"
+      },
+      "unitCost": 0.11,
+      "failureProb": 0.05
+    },
+    {
+      "source": "DCR-02",
+      "target": "CUS-04",
+      "leadTime": {
+        "value": 3,
+        "unit": "DAY"
+      },
+      "capacity": {
+        "value": 30,
+        "unit": "DAY"
+      },
+      "unitCost": 0.33,
+      "failureProb": 0.05
+    },
+    {
+      "source": "DCR-02",
+      "target": "CUS-06",
+      "leadTime": {
+        "value": 1,
+        "unit": "DAY"
+      },
+      "capacity": {
+        "value": 20,
+        "unit": "DAY"
+      },
+      "unitCost": 0.24,
+      "failureProb": 0.05
+    },
+    {
+      "source": "DCR-02",
+      "target": "CUS-11",
+      "leadTime": {
+        "value": 2,
+        "unit": "DAY"
+      },
+      "capacity": {
+        "value": 60,
+        "unit": "DAY"
+      },
+      "unitCost": 0.31,
+      "failureProb": 0.01
+    },
+    {
+      "source": "DCR-02",
+      "target": "CUS-22",
+      "leadTime": {
+        "value": 1,
+        "unit": "DAY"
+      },
+      "capacity": {
+        "value": 50,
+        "unit": "DAY"
+      },
+      "unitCost": 0.19,
+      "failureProb": 0.06
+    },
+    {
+      "source": "DCR-02",
+      "target": "CUS-31",
+      "leadTime": {
+        "value": 2,
+        "unit": "DAY"
+      },
+      "capacity": {
+        "value": 60,
+        "unit": "DAY"
+      },
+      "unitCost": 0.11,
+      "failureProb": 0.01
+    },
+    {
+      "source": "DCR-02",
+      "target": "CUS-42",
+      "leadTime": {
+        "value": 1,
+        "unit": "DAY"
+      },
+      "capacity": {
+        "value": 80,
+        "unit": "DAY"
+      },
+      "unitCost": 0.21,
+      "failureProb": 0.01
+    },
+    {
+      "source": "DCR-02",
+      "target": "CUS-45",
+      "leadTime": {
+        "value": 1,
+        "unit": "DAY"
+      },
+      "capacity": {
+        "value": 50,
+        "unit": "DAY"
+      },
+      "unitCost": 0.15,
+      "failureProb": 0.03
+    },
+    {
+      "source": "DCR-03",
+      "target": "CUS-10",
+      "leadTime": {
+        "value": 1,
+        "unit": "DAY"
+      },
+      "capacity": {
+        "value": 50,
+        "unit": "DAY"
+      },
+      "unitCost": 0.25,
+      "failureProb": 0.01
+    },
+    {
+      "source": "DCR-03",
+      "target": "CUS-21",
+      "leadTime": {
+        "value": 2,
+        "unit": "DAY"
+      },
+      "capacity": {
+        "value": 70,
+        "unit": "DAY"
+      },
+      "unitCost": 0.11,
+      "failureProb": 0.02
+    },
+    {
+      "source": "DCR-03",
+      "target": "CUS-22",
+      "leadTime": {
+        "value": 2,
+        "unit": "DAY"
+      },
+      "capacity": {
+        "value": 50,
+        "unit": "DAY"
+      },
+      "unitCost": 0.16,
+      "failureProb": 0.01
+    },
+    {
+      "source": "DCR-03",
+      "target": "CUS-23",
+      "leadTime": {
+        "value": 3,
+        "unit": "DAY"
+      },
+      "capacity": {
+        "value": 80,
+        "unit": "DAY"
+      },
+      "unitCost": 0.24,
+      "failureProb": 0.02
+    },
+    {
+      "source": "DCR-03",
+      "target": "CUS-27",
+      "leadTime": {
+        "value": 3,
+        "unit": "DAY"
+      },
+      "capacity": {
+        "value": 30,
+        "unit": "DAY"
+      },
+      "unitCost": 0.27,
+      "failureProb": 0.04
+    },
+    {
+      "source": "DCR-03",
+      "target": "CUS-28",
+      "leadTime": {
+        "value": 3,
+        "unit": "DAY"
+      },
+      "capacity": {
+        "value": 70,
+        "unit": "DAY"
+      },
+      "unitCost": 0.36,
+      "failureProb": 0.01
+    },
+    {
+      "source": "DCR-03",
+      "target": "CUS-29",
+      "leadTime": {
+        "value": 2,
+        "unit": "DAY"
+      },
+      "capacity": {
+        "value": 80,
+        "unit": "DAY"
+      },
+      "unitCost": 0.37,
+      "failureProb": 0.02
+    },
+    {
+      "source": "DCR-03",
+      "target": "CUS-47",
+      "leadTime": {
+        "value": 2,
+        "unit": "DAY"
+      },
+      "capacity": {
+        "value": 20,
+        "unit": "DAY"
+      },
+      "unitCost": 0.35,
+      "failureProb": 0.06
+    },
+    {
+      "source": "DCR-04",
+      "target": "CUS-01",
+      "leadTime": {
+        "value": 2,
+        "unit": "DAY"
+      },
+      "capacity": {
+        "value": 60,
+        "unit": "DAY"
+      },
+      "unitCost": 0.12,
+      "failureProb": 0.02
+    },
+    {
+      "source": "DCR-04",
+      "target": "CUS-09",
+      "leadTime": {
+        "value": 2,
+        "unit": "DAY"
+      },
+      "capacity": {
+        "value": 40,
+        "unit": "DAY"
+      },
+      "unitCost": 0.20,
+      "failureProb": 0.05
+    },
+    {
+      "source": "DCR-04",
+      "target": "CUS-14",
+      "leadTime": {
+        "value": 1,
+        "unit": "DAY"
+      },
+      "capacity": {
+        "value": 70,
+        "unit": "DAY"
+      },
+      "unitCost": 0.33,
+      "failureProb": 0.02
+    },
+    {
+      "source": "DCR-04",
+      "target": "CUS-20",
+      "leadTime": {
+        "value": 1,
+        "unit": "DAY"
+      },
+      "capacity": {
+        "value": 100,
+        "unit": "DAY"
+      },
+      "unitCost": 0.23,
+      "failureProb": 0.04
+    },
+    {
+      "source": "DCR-04",
+      "target": "CUS-24",
+      "leadTime": {
+        "value": 3,
+        "unit": "DAY"
+      },
+      "capacity": {
+        "value": 80,
+        "unit": "DAY"
+      },
+      "unitCost": 0.39,
+      "failureProb": 0.02
+    },
+    {
+      "source": "DCR-04",
+      "target": "CUS-31",
+      "leadTime": {
+        "value": 2,
+        "unit": "DAY"
+      },
+      "capacity": {
+        "value": 70,
+        "unit": "DAY"
+      },
+      "unitCost": 0.28,
+      "failureProb": 0.05
+    },
+    {
+      "source": "DCR-04",
+      "target": "CUS-34",
+      "leadTime": {
+        "value": 3,
+        "unit": "DAY"
+      },
+      "capacity": {
+        "value": 70,
+        "unit": "DAY"
+      },
+      "unitCost": 0.20,
+      "failureProb": 0.05
+    },
+    {
+      "source": "DCR-04",
+      "target": "CUS-38",
+      "leadTime": {
+        "value": 1,
+        "unit": "DAY"
+      },
+      "capacity": {
+        "value": 60,
+        "unit": "DAY"
+      },
+      "unitCost": 0.31,
+      "failureProb": 0.05
+    },
+    {
+      "source": "DCR-04",
+      "target": "CUS-40",
+      "leadTime": {
+        "value": 1,
+        "unit": "DAY"
+      },
+      "capacity": {
+        "value": 60,
+        "unit": "DAY"
+      },
+      "unitCost": 0.18,
+      "failureProb": 0.01
+    },
+    {
+      "source": "DCR-04",
+      "target": "CUS-45",
+      "leadTime": {
+        "value": 2,
+        "unit": "DAY"
+      },
+      "capacity": {
+        "value": 40,
+        "unit": "DAY"
+      },
+      "unitCost": 0.11,
+      "failureProb": 0.03
+    },
+    {
+      "source": "DCR-04",
+      "target": "CUS-46",
+      "leadTime": {
+        "value": 3,
+        "unit": "DAY"
+      },
+      "capacity": {
+        "value": 30,
+        "unit": "DAY"
+      },
+      "unitCost": 0.26,
+      "failureProb": 0.06
+    },
+    {
+      "source": "DCR-05",
+      "target": "CUS-14",
+      "leadTime": {
+        "value": 2,
+        "unit": "DAY"
+      },
+      "capacity": {
+        "value": 90,
+        "unit": "DAY"
+      },
+      "unitCost": 0.19,
+      "failureProb": 0.03
+    },
+    {
+      "source": "DCR-05",
+      "target": "CUS-17",
+      "leadTime": {
+        "value": 1,
+        "unit": "DAY"
+      },
+      "capacity": {
+        "value": 70,
+        "unit": "DAY"
+      },
+      "unitCost": 0.39,
+      "failureProb": 0.06
+    },
+    {
+      "source": "DCR-05",
+      "target": "CUS-25",
+      "leadTime": {
+        "value": 1,
+        "unit": "DAY"
+      },
+      "capacity": {
+        "value": 50,
+        "unit": "DAY"
+      },
+      "unitCost": 0.35,
+      "failureProb": 0.02
+    },
+    {
+      "source": "DCR-05",
+      "target": "CUS-27",
+      "leadTime": {
+        "value": 1,
+        "unit": "DAY"
+      },
+      "capacity": {
+        "value": 30,
+        "unit": "DAY"
+      },
+      "unitCost": 0.10,
+      "failureProb": 0.03
+    },
+    {
+      "source": "DCR-05",
+      "target": "CUS-30",
+      "leadTime": {
+        "value": 1,
+        "unit": "DAY"
+      },
+      "capacity": {
+        "value": 30,
+        "unit": "DAY"
+      },
+      "unitCost": 0.31,
+      "failureProb": 0.03
+    },
+    {
+      "source": "DCR-05",
+      "target": "CUS-33",
+      "leadTime": {
+        "value": 1,
+        "unit": "DAY"
+      },
+      "capacity": {
+        "value": 40,
+        "unit": "DAY"
+      },
+      "unitCost": 0.38,
+      "failureProb": 0.06
+    },
+    {
+      "source": "DCR-05",
+      "target": "CUS-37",
+      "leadTime": {
+        "value": 2,
+        "unit": "DAY"
+      },
+      "capacity": {
+        "value": 70,
+        "unit": "DAY"
+      },
+      "unitCost": 0.34,
+      "failureProb": 0.06
+    },
+    {
+      "source": "DCR-05",
+      "target": "CUS-38",
+      "leadTime": {
+        "value": 1,
+        "unit": "DAY"
+      },
+      "capacity": {
+        "value": 70,
+        "unit": "DAY"
+      },
+      "unitCost": 0.38,
+      "failureProb": 0.03
+    },
+    {
+      "source": "DCR-05",
+      "target": "CUS-41",
+      "leadTime": {
+        "value": 3,
+        "unit": "DAY"
+      },
+      "capacity": {
+        "value": 30,
+        "unit": "DAY"
+      },
+      "unitCost": 0.28,
+      "failureProb": 0.03
+    },
+    {
+      "source": "DCR-06",
+      "target": "CUS-09",
+      "leadTime": {
+        "value": 1,
+        "unit": "DAY"
+      },
+      "capacity": {
+        "value": 40,
+        "unit": "DAY"
+      },
+      "unitCost": 0.23,
+      "failureProb": 0.05
+    },
+    {
+      "source": "DCR-06",
+      "target": "CUS-13",
+      "leadTime": {
+        "value": 1,
+        "unit": "DAY"
+      },
+      "capacity": {
+        "value": 30,
+        "unit": "DAY"
+      },
+      "unitCost": 0.22,
+      "failureProb": 0.02
+    },
+    {
+      "source": "DCR-06",
+      "target": "CUS-17",
+      "leadTime": {
+        "value": 2,
+        "unit": "DAY"
+      },
+      "capacity": {
+        "value": 80,
+        "unit": "DAY"
+      },
+      "unitCost": 0.15,
+      "failureProb": 0.03
+    },
+    {
+      "source": "DCR-06",
+      "target": "CUS-19",
+      "leadTime": {
+        "value": 2,
+        "unit": "DAY"
+      },
+      "capacity": {
+        "value": 50,
+        "unit": "DAY"
+      },
+      "unitCost": 0.10,
+      "failureProb": 0.04
+    },
+    {
+      "source": "DCR-06",
+      "target": "CUS-26",
+      "leadTime": {
+        "value": 3,
+        "unit": "DAY"
+      },
+      "capacity": {
+        "value": 40,
+        "unit": "DAY"
+      },
+      "unitCost": 0.34,
+      "failureProb": 0.01
+    },
+    {
+      "source": "DCR-06",
+      "target": "CUS-39",
+      "leadTime": {
+        "value": 2,
+        "unit": "DAY"
+      },
+      "capacity": {
+        "value": 50,
+        "unit": "DAY"
+      },
+      "unitCost": 0.39,
+      "failureProb": 0.02
+    },
+    {
+      "source": "DCR-06",
+      "target": "CUS-42",
+      "leadTime": {
+        "value": 2,
+        "unit": "DAY"
+      },
+      "capacity": {
+        "value": 70,
+        "unit": "DAY"
+      },
+      "unitCost": 0.21,
+      "failureProb": 0.06
+    },
+    {
+      "source": "DCR-07",
+      "target": "CUS-03",
+      "leadTime": {
+        "value": 3,
+        "unit": "DAY"
+      },
+      "capacity": {
+        "value": 60,
+        "unit": "DAY"
+      },
+      "unitCost": 0.28,
+      "failureProb": 0.01
+    },
+    {
+      "source": "DCR-07",
+      "target": "CUS-07",
+      "leadTime": {
+        "value": 1,
+        "unit": "DAY"
+      },
+      "capacity": {
+        "value": 70,
+        "unit": "DAY"
+      },
+      "unitCost": 0.29,
+      "failureProb": 0.02
+    },
+    {
+      "source": "DCR-07",
+      "target": "CUS-13",
+      "leadTime": {
+        "value": 2,
+        "unit": "DAY"
+      },
+      "capacity": {
+        "value": 30,
+        "unit": "DAY"
+      },
+      "unitCost": 0.28,
+      "failureProb": 0.04
+    },
+    {
+      "source": "DCR-07",
+      "target": "CUS-18",
+      "leadTime": {
+        "value": 1,
+        "unit": "DAY"
+      },
+      "capacity": {
+        "value": 40,
+        "unit": "DAY"
+      },
+      "unitCost": 0.33,
+      "failureProb": 0.04
+    },
+    {
+      "source": "DCR-07",
+      "target": "CUS-26",
+      "leadTime": {
+        "value": 3,
+        "unit": "DAY"
+      },
+      "capacity": {
+        "value": 40,
+        "unit": "DAY"
+      },
+      "unitCost": 0.37,
+      "failureProb": 0.03
+    },
+    {
+      "source": "DCR-07",
+      "target": "CUS-28",
+      "leadTime": {
+        "value": 3,
+        "unit": "DAY"
+      },
+      "capacity": {
+        "value": 80,
+        "unit": "DAY"
+      },
+      "unitCost": 0.21,
+      "failureProb": 0.05
+    },
+    {
+      "source": "DCR-07",
+      "target": "CUS-36",
+      "leadTime": {
+        "value": 3,
+        "unit": "DAY"
+      },
+      "capacity": {
+        "value": 50,
+        "unit": "DAY"
+      },
+      "unitCost": 0.24,
+      "failureProb": 0.04
+    },
+    {
+      "source": "DCR-07",
+      "target": "CUS-37",
+      "leadTime": {
+        "value": 1,
+        "unit": "DAY"
+      },
+      "capacity": {
+        "value": 70,
+        "unit": "DAY"
+      },
+      "unitCost": 0.21,
+      "failureProb": 0.04
+    },
+    {
+      "source": "DCR-07",
+      "target": "CUS-44",
+      "leadTime": {
+        "value": 3,
+        "unit": "DAY"
+      },
+      "capacity": {
+        "value": 50,
+        "unit": "DAY"
+      },
+      "unitCost": 0.36,
+      "failureProb": 0.01
+    },
+    {
+      "source": "DCR-08",
+      "target": "CUS-05",
+      "leadTime": {
+        "value": 1,
+        "unit": "DAY"
+      },
+      "capacity": {
+        "value": 60,
+        "unit": "DAY"
+      },
+      "unitCost": 0.13,
+      "failureProb": 0.06
+    },
+    {
+      "source": "DCR-08",
+      "target": "CUS-12",
+      "leadTime": {
+        "value": 2,
+        "unit": "DAY"
+      },
+      "capacity": {
+        "value": 30,
+        "unit": "DAY"
+      },
+      "unitCost": 0.14,
+      "failureProb": 0.02
+    },
+    {
+      "source": "DCR-08",
+      "target": "CUS-15",
+      "leadTime": {
+        "value": 1,
+        "unit": "DAY"
+      },
+      "capacity": {
+        "value": 70,
+        "unit": "DAY"
+      },
+      "unitCost": 0.19,
+      "failureProb": 0.02
+    },
+    {
+      "source": "DCR-08",
+      "target": "CUS-32",
+      "leadTime": {
+        "value": 3,
+        "unit": "DAY"
+      },
+      "capacity": {
+        "value": 50,
+        "unit": "DAY"
+      },
+      "unitCost": 0.15,
+      "failureProb": 0.04
+    },
+    {
+      "source": "DCR-08",
+      "target": "CUS-40",
+      "leadTime": {
+        "value": 3,
+        "unit": "DAY"
+      },
+      "capacity": {
+        "value": 70,
+        "unit": "DAY"
+      },
+      "unitCost": 0.20,
+      "failureProb": 0.05
+    }
+  ],
+  "nodeProducts": [
+    {
+      "node": "SP2-01",
+      "product": "Widget",
+      "demand": {
+        "value": 0,
+        "unit": "DAY"
+      },
+      "initialInventory": 10350,
+      "safetyStock": 5175,
+      "holdingCost": {
+        "value": 0.37,
+        "unit": "DAY"
+      }
+    },
+    {
+      "node": "SP2-02",
+      "product": "Widget",
+      "demand": {
+        "value": 0,
+        "unit": "DAY"
+      },
+      "initialInventory": 6444,
+      "safetyStock": 3222,
+      "holdingCost": {
+        "value": 0.50,
+        "unit": "DAY"
+      }
+    },
+    {
+      "node": "SP2-03",
+      "product": "Widget",
+      "demand": {
+        "value": 0,
+        "unit": "DAY"
+      },
+      "initialInventory": 3873,
+      "safetyStock": 1937,
+      "holdingCost": {
+        "value": 0.26,
+        "unit": "DAY"
+      }
+    },
+    {
+      "node": "SP2-04",
+      "product": "Widget",
+      "demand": {
+        "value": 0,
+        "unit": "DAY"
+      },
+      "initialInventory": 5740,
+      "safetyStock": 2870,
+      "holdingCost": {
+        "value": 0.12,
+        "unit": "DAY"
+      }
+    },
+    {
+      "node": "SP2-05",
+      "product": "Widget",
+      "demand": {
+        "value": 0,
+        "unit": "DAY"
+      },
+      "initialInventory": 4908,
+      "safetyStock": 2454,
+      "holdingCost": {
+        "value": 0.28,
+        "unit": "DAY"
+      }
+    },
+    {
+      "node": "SP2-06",
+      "product": "Widget",
+      "demand": {
+        "value": 0,
+        "unit": "DAY"
+      },
+      "initialInventory": 4134,
+      "safetyStock": 2067,
+      "holdingCost": {
+        "value": 0.26,
+        "unit": "DAY"
+      }
+    },
+    {
+      "node": "SP2-07",
+      "product": "Widget",
+      "demand": {
+        "value": 0,
+        "unit": "DAY"
+      },
+      "initialInventory": 8610,
+      "safetyStock": 4305,
+      "holdingCost": {
+        "value": 0.45,
+        "unit": "DAY"
+      }
+    },
+    {
+      "node": "SP2-08",
+      "product": "Widget",
+      "demand": {
+        "value": 0,
+        "unit": "DAY"
+      },
+      "initialInventory": 1956,
+      "safetyStock": 978,
+      "holdingCost": {
+        "value": 0.28,
+        "unit": "DAY"
+      }
+    },
+    {
+      "node": "SP2-09",
+      "product": "Widget",
+      "demand": {
+        "value": 0,
+        "unit": "DAY"
+      },
+      "initialInventory": 5264,
+      "safetyStock": 2632,
+      "holdingCost": {
+        "value": 0.07,
+        "unit": "DAY"
+      }
+    },
+    {
+      "node": "SP1-01",
+      "product": "Widget",
+      "demand": {
+        "value": 0,
+        "unit": "DAY"
+      },
+      "initialInventory": 3788,
+      "safetyStock": 1894,
+      "holdingCost": {
+        "value": 0.42,
+        "unit": "DAY"
+      }
+    },
+    {
+      "node": "SP1-02",
+      "product": "Widget",
+      "demand": {
+        "value": 0,
+        "unit": "DAY"
+      },
+      "initialInventory": 3912,
+      "safetyStock": 1956,
+      "holdingCost": {
+        "value": 0.49,
+        "unit": "DAY"
+      }
+    },
+    {
+      "node": "SP1-03",
+      "product": "Widget",
+      "demand": {
+        "value": 0,
+        "unit": "DAY"
+      },
+      "initialInventory": 7896,
+      "safetyStock": 3948,
+      "holdingCost": {
+        "value": 0.41,
+        "unit": "DAY"
+      }
+    },
+    {
+      "node": "SP1-04",
+      "product": "Widget",
+      "demand": {
+        "value": 0,
+        "unit": "DAY"
+      },
+      "initialInventory": 6890,
+      "safetyStock": 3445,
+      "holdingCost": {
+        "value": 0.15,
+        "unit": "DAY"
+      }
+    },
+    {
+      "node": "SP1-05",
+      "product": "Widget",
+      "demand": {
+        "value": 0,
+        "unit": "DAY"
+      },
+      "initialInventory": 6544,
+      "safetyStock": 3272,
+      "holdingCost": {
+        "value": 0.39,
+        "unit": "DAY"
+      }
+    },
+    {
+      "node": "SP1-06",
+      "product": "Widget",
+      "demand": {
+        "value": 0,
+        "unit": "DAY"
+      },
+      "initialInventory": 2870,
+      "safetyStock": 1435,
+      "holdingCost": {
+        "value": 0.35,
+        "unit": "DAY"
+      }
+    },
+    {
+      "node": "SP1-07",
+      "product": "Widget",
+      "demand": {
+        "value": 0,
+        "unit": "DAY"
+      },
+      "initialInventory": 902,
+      "safetyStock": 451,
+      "holdingCost": {
+        "value": 0.34,
+        "unit": "DAY"
+      }
+    },
+    {
+      "node": "SP1-08",
+      "product": "Widget",
+      "demand": {
+        "value": 0,
+        "unit": "DAY"
+      },
+      "initialInventory": 4308,
+      "safetyStock": 2154,
+      "holdingCost": {
+        "value": 0.22,
+        "unit": "DAY"
+      }
+    },
+    {
+      "node": "SP1-09",
+      "product": "Widget",
+      "demand": {
+        "value": 0,
+        "unit": "DAY"
+      },
+      "initialInventory": 5164,
+      "safetyStock": 2582,
+      "holdingCost": {
+        "value": 0.49,
+        "unit": "DAY"
+      }
+    },
+    {
+      "node": "PLC-01",
+      "product": "Widget",
+      "demand": {
+        "value": 0,
+        "unit": "DAY"
+      },
+      "initialInventory": 2628,
+      "safetyStock": 1314,
+      "holdingCost": {
+        "value": 0.44,
+        "unit": "DAY"
+      }
+    },
+    {
+      "node": "PLC-02",
+      "product": "Widget",
+      "demand": {
+        "value": 0,
+        "unit": "DAY"
+      },
+      "initialInventory": 1804,
+      "safetyStock": 902,
+      "holdingCost": {
+        "value": 0.28,
+        "unit": "DAY"
+      }
+    },
+    {
+      "node": "PLC-03",
+      "product": "Widget",
+      "demand": {
+        "value": 0,
+        "unit": "DAY"
+      },
+      "initialInventory": 2934,
+      "safetyStock": 1467,
+      "holdingCost": {
+        "value": 0.46,
+        "unit": "DAY"
+      }
+    },
+    {
+      "node": "PLC-04",
+      "product": "Widget",
+      "demand": {
+        "value": 0,
+        "unit": "DAY"
+      },
+      "initialInventory": 2421,
+      "safetyStock": 1211,
+      "holdingCost": {
+        "value": 0.16,
+        "unit": "DAY"
+      }
+    },
+    {
+      "node": "PLC-05",
+      "product": "Widget",
+      "demand": {
+        "value": 0,
+        "unit": "DAY"
+      },
+      "initialInventory": 1894,
+      "safetyStock": 947,
+      "holdingCost": {
+        "value": 0.33,
+        "unit": "DAY"
+      }
+    },
+    {
+      "node": "PLC-06",
+      "product": "Widget",
+      "demand": {
+        "value": 0,
+        "unit": "DAY"
+      },
+      "initialInventory": 2382,
+      "safetyStock": 1191,
+      "holdingCost": {
+        "value": 0.41,
+        "unit": "DAY"
+      }
+    },
+    {
+      "node": "PLC-07",
+      "product": "Widget",
+      "demand": {
+        "value": 0,
+        "unit": "DAY"
+      },
+      "initialInventory": 4700,
+      "safetyStock": 2350,
+      "holdingCost": {
+        "value": 0.36,
+        "unit": "DAY"
+      }
+    },
+    {
+      "node": "PLC-08",
+      "product": "Widget",
+      "demand": {
+        "value": 0,
+        "unit": "DAY"
+      },
+      "initialInventory": 2300,
+      "safetyStock": 1150,
+      "holdingCost": {
+        "value": 0.30,
+        "unit": "DAY"
+      }
+    },
+    {
+      "node": "PLC-09",
+      "product": "Widget",
+      "demand": {
+        "value": 0,
+        "unit": "DAY"
+      },
+      "initialInventory": 3516,
+      "safetyStock": 1758,
+      "holdingCost": {
+        "value": 0.16,
+        "unit": "DAY"
+      }
+    },
+    {
+      "node": "PLA-01",
+      "product": "Widget",
+      "demand": {
+        "value": 0,
+        "unit": "DAY"
+      },
+      "initialInventory": 2990,
+      "safetyStock": 1495,
+      "holdingCost": {
+        "value": 0.11,
+        "unit": "DAY"
+      }
+    },
+    {
+      "node": "PLA-02",
+      "product": "Widget",
+      "demand": {
+        "value": 0,
+        "unit": "DAY"
+      },
+      "initialInventory": 2008,
+      "safetyStock": 1004,
+      "holdingCost": {
+        "value": 0.49,
+        "unit": "DAY"
+      }
+    },
+    {
+      "node": "PLA-03",
+      "product": "Widget",
+      "demand": {
+        "value": 0,
+        "unit": "DAY"
+      },
+      "initialInventory": 2706,
+      "safetyStock": 1353,
+      "holdingCost": {
+        "value": 0.22,
+        "unit": "DAY"
+      }
+    },
+    {
+      "node": "PLA-04",
+      "product": "Widget",
+      "demand": {
+        "value": 0,
+        "unit": "DAY"
+      },
+      "initialInventory": 5640,
+      "safetyStock": 2820,
+      "holdingCost": {
+        "value": 0.24,
+        "unit": "DAY"
+      }
+    },
+    {
+      "node": "PLA-05",
+      "product": "Widget",
+      "demand": {
+        "value": 0,
+        "unit": "DAY"
+      },
+      "initialInventory": 500,
+      "safetyStock": 250,
+      "holdingCost": {
+        "value": 0.32,
+        "unit": "DAY"
+      }
+    },
+    {
+      "node": "PLA-06",
+      "product": "Widget",
+      "demand": {
+        "value": 0,
+        "unit": "DAY"
+      },
+      "initialInventory": 1326,
+      "safetyStock": 663,
+      "holdingCost": {
+        "value": 0.18,
+        "unit": "DAY"
+      }
+    },
+    {
+      "node": "PLA-07",
+      "product": "Widget",
+      "demand": {
+        "value": 0,
+        "unit": "DAY"
+      },
+      "initialInventory": 4842,
+      "safetyStock": 2421,
+      "holdingCost": {
+        "value": 0.12,
+        "unit": "DAY"
+      }
+    },
+    {
+      "node": "PLA-08",
+      "product": "Widget",
+      "demand": {
+        "value": 0,
+        "unit": "DAY"
+      },
+      "initialInventory": 1794,
+      "safetyStock": 897,
+      "holdingCost": {
+        "value": 0.31,
+        "unit": "DAY"
+      }
+    },
+    {
+      "node": "PLA-09",
+      "product": "Widget",
+      "demand": {
+        "value": 0,
+        "unit": "DAY"
+      },
+      "initialInventory": 1314,
+      "safetyStock": 657,
+      "holdingCost": {
+        "value": 0.04,
+        "unit": "DAY"
+      }
+    },
+    {
+      "node": "DCC-01",
+      "product": "Widget",
+      "demand": {
+        "value": 0,
+        "unit": "DAY"
+      },
+      "initialInventory": 1348,
+      "safetyStock": 674,
+      "holdingCost": {
+        "value": 0.36,
+        "unit": "DAY"
+      }
+    },
+    {
+      "node": "DCC-02",
+      "product": "Widget",
+      "demand": {
+        "value": 0,
+        "unit": "DAY"
+      },
+      "initialInventory": 1989,
+      "safetyStock": 995,
+      "holdingCost": {
+        "value": 0.34,
+        "unit": "DAY"
+      }
+    },
+    {
+      "node": "DCC-03",
+      "product": "Widget",
+      "demand": {
+        "value": 0,
+        "unit": "DAY"
+      },
+      "initialInventory": 1804,
+      "safetyStock": 902,
+      "holdingCost": {
+        "value": 0.16,
+        "unit": "DAY"
+      }
+    },
+    {
+      "node": "DCC-04",
+      "product": "Widget",
+      "demand": {
+        "value": 0,
+        "unit": "DAY"
+      },
+      "initialInventory": 3012,
+      "safetyStock": 1506,
+      "holdingCost": {
+        "value": 0.18,
+        "unit": "DAY"
+      }
+    },
+    {
+      "node": "DCC-05",
+      "product": "Widget",
+      "demand": {
+        "value": 0,
+        "unit": "DAY"
+      },
+      "initialInventory": 1794,
+      "safetyStock": 897,
+      "holdingCost": {
+        "value": 0.08,
+        "unit": "DAY"
+      }
+    },
+    {
+      "node": "DCC-06",
+      "product": "Widget",
+      "demand": {
+        "value": 0,
+        "unit": "DAY"
+      },
+      "initialInventory": 969,
+      "safetyStock": 485,
+      "holdingCost": {
+        "value": 0.06,
+        "unit": "DAY"
+      }
+    },
+    {
+      "node": "DCC-07",
+      "product": "Widget",
+      "demand": {
+        "value": 0,
+        "unit": "DAY"
+      },
+      "initialInventory": 1152,
+      "safetyStock": 576,
+      "holdingCost": {
+        "value": 0.39,
+        "unit": "DAY"
+      }
+    },
+    {
+      "node": "DCC-08",
+      "product": "Widget",
+      "demand": {
+        "value": 0,
+        "unit": "DAY"
+      },
+      "initialInventory": 500,
+      "safetyStock": 250,
+      "holdingCost": {
+        "value": 0.45,
+        "unit": "DAY"
+      }
+    },
+    {
+      "node": "DCC-09",
+      "product": "Widget",
+      "demand": {
+        "value": 0,
+        "unit": "DAY"
+      },
+      "initialInventory": 1314,
+      "safetyStock": 657,
+      "holdingCost": {
+        "value": 0.12,
+        "unit": "DAY"
+      }
+    },
+    {
+      "node": "DCR-01",
+      "product": "Widget",
+      "demand": {
+        "value": 0,
+        "unit": "DAY"
+      },
+      "initialInventory": 1095,
+      "safetyStock": 548,
+      "holdingCost": {
+        "value": 0.38,
+        "unit": "DAY"
+      }
+    },
+    {
+      "node": "DCR-02",
+      "product": "Widget",
+      "demand": {
+        "value": 0,
+        "unit": "DAY"
+      },
+      "initialInventory": 674,
+      "safetyStock": 337,
+      "holdingCost": {
+        "value": 0.15,
+        "unit": "DAY"
+      }
+    },
+    {
+      "node": "DCR-03",
+      "product": "Widget",
+      "demand": {
+        "value": 0,
+        "unit": "DAY"
+      },
+      "initialInventory": 1196,
+      "safetyStock": 598,
+      "holdingCost": {
+        "value": 0.33,
+        "unit": "DAY"
+      }
+    },
+    {
+      "node": "DCR-04",
+      "product": "Widget",
+      "demand": {
+        "value": 0,
+        "unit": "DAY"
+      },
+      "initialInventory": 1804,
+      "safetyStock": 902,
+      "holdingCost": {
+        "value": 0.46,
+        "unit": "DAY"
+      }
+    },
+    {
+      "node": "DCR-05",
+      "product": "Widget",
+      "demand": {
+        "value": 0,
+        "unit": "DAY"
+      },
+      "initialInventory": 630,
+      "safetyStock": 315,
+      "holdingCost": {
+        "value": 0.07,
+        "unit": "DAY"
+      }
+    },
+    {
+      "node": "DCR-06",
+      "product": "Widget",
+      "demand": {
+        "value": 0,
+        "unit": "DAY"
+      },
+      "initialInventory": 1250,
+      "safetyStock": 625,
+      "holdingCost": {
+        "value": 0.32,
+        "unit": "DAY"
+      }
+    },
+    {
+      "node": "DCR-07",
+      "product": "Widget",
+      "demand": {
+        "value": 0,
+        "unit": "DAY"
+      },
+      "initialInventory": 1938,
+      "safetyStock": 969,
+      "holdingCost": {
+        "value": 0.16,
+        "unit": "DAY"
+      }
+    },
+    {
+      "node": "DCR-08",
+      "product": "Widget",
+      "demand": {
+        "value": 0,
+        "unit": "DAY"
+      },
+      "initialInventory": 1152,
+      "safetyStock": 576,
+      "holdingCost": {
+        "value": 0.02,
+        "unit": "DAY"
+      }
+    },
+    {
+      "node": "CUS-01",
+      "product": "Widget",
+      "demand": {
+        "value": 38,
+        "unit": "DAY"
+      },
+      "initialInventory": 0,
+      "safetyStock": 0,
+      "holdingCost": {
+        "value": 0,
+        "unit": "DAY"
+      }
+    },
+    {
+      "node": "CUS-02",
+      "product": "Widget",
+      "demand": {
+        "value": 58,
+        "unit": "DAY"
+      },
+      "initialInventory": 0,
+      "safetyStock": 0,
+      "holdingCost": {
+        "value": 0,
+        "unit": "DAY"
+      }
+    },
+    {
+      "node": "CUS-03",
+      "product": "Widget",
+      "demand": {
+        "value": 40,
+        "unit": "DAY"
+      },
+      "initialInventory": 0,
+      "safetyStock": 0,
+      "holdingCost": {
+        "value": 0,
+        "unit": "DAY"
+      }
+    },
+    {
+      "node": "CUS-04",
+      "product": "Widget",
+      "demand": {
+        "value": 20,
+        "unit": "DAY"
+      },
+      "initialInventory": 0,
+      "safetyStock": 0,
+      "holdingCost": {
+        "value": 0,
+        "unit": "DAY"
+      }
+    },
+    {
+      "node": "CUS-05",
+      "product": "Widget",
+      "demand": {
+        "value": 39,
+        "unit": "DAY"
+      },
+      "initialInventory": 0,
+      "safetyStock": 0,
+      "holdingCost": {
+        "value": 0,
+        "unit": "DAY"
+      }
+    },
+    {
+      "node": "CUS-06",
+      "product": "Widget",
+      "demand": {
+        "value": 10,
+        "unit": "DAY"
+      },
+      "initialInventory": 0,
+      "safetyStock": 0,
+      "holdingCost": {
+        "value": 0,
+        "unit": "DAY"
+      }
+    },
+    {
+      "node": "CUS-07",
+      "product": "Widget",
+      "demand": {
+        "value": 55,
+        "unit": "DAY"
+      },
+      "initialInventory": 0,
+      "safetyStock": 0,
+      "holdingCost": {
+        "value": 0,
+        "unit": "DAY"
+      }
+    },
+    {
+      "node": "CUS-08",
+      "product": "Widget",
+      "demand": {
+        "value": 49,
+        "unit": "DAY"
+      },
+      "initialInventory": 0,
+      "safetyStock": 0,
+      "holdingCost": {
+        "value": 0,
+        "unit": "DAY"
+      }
+    },
+    {
+      "node": "CUS-09",
+      "product": "Widget",
+      "demand": {
+        "value": 23,
+        "unit": "DAY"
+      },
+      "initialInventory": 0,
+      "safetyStock": 0,
+      "holdingCost": {
+        "value": 0,
+        "unit": "DAY"
+      }
+    },
+    {
+      "node": "CUS-10",
+      "product": "Widget",
+      "demand": {
+        "value": 29,
+        "unit": "DAY"
+      },
+      "initialInventory": 0,
+      "safetyStock": 0,
+      "holdingCost": {
+        "value": 0,
+        "unit": "DAY"
+      }
+    },
+    {
+      "node": "CUS-11",
+      "product": "Widget",
+      "demand": {
+        "value": 45,
+        "unit": "DAY"
+      },
+      "initialInventory": 0,
+      "safetyStock": 0,
+      "holdingCost": {
+        "value": 0,
+        "unit": "DAY"
+      }
+    },
+    {
+      "node": "CUS-12",
+      "product": "Widget",
+      "demand": {
+        "value": 19,
+        "unit": "DAY"
+      },
+      "initialInventory": 0,
+      "safetyStock": 0,
+      "holdingCost": {
+        "value": 0,
+        "unit": "DAY"
+      }
+    },
+    {
+      "node": "CUS-13",
+      "product": "Widget",
+      "demand": {
+        "value": 17,
+        "unit": "DAY"
+      },
+      "initialInventory": 0,
+      "safetyStock": 0,
+      "holdingCost": {
+        "value": 0,
+        "unit": "DAY"
+      }
+    },
+    {
+      "node": "CUS-14",
+      "product": "Widget",
+      "demand": {
+        "value": 59,
+        "unit": "DAY"
+      },
+      "initialInventory": 0,
+      "safetyStock": 0,
+      "holdingCost": {
+        "value": 0,
+        "unit": "DAY"
+      }
+    },
+    {
+      "node": "CUS-15",
+      "product": "Widget",
+      "demand": {
+        "value": 55,
+        "unit": "DAY"
+      },
+      "initialInventory": 0,
+      "safetyStock": 0,
+      "holdingCost": {
+        "value": 0,
+        "unit": "DAY"
+      }
+    },
+    {
+      "node": "CUS-16",
+      "product": "Widget",
+      "demand": {
+        "value": 51,
+        "unit": "DAY"
+      },
+      "initialInventory": 0,
+      "safetyStock": 0,
+      "holdingCost": {
+        "value": 0,
+        "unit": "DAY"
+      }
+    },
+    {
+      "node": "CUS-17",
+      "product": "Widget",
+      "demand": {
+        "value": 56,
+        "unit": "DAY"
+      },
+      "initialInventory": 0,
+      "safetyStock": 0,
+      "holdingCost": {
+        "value": 0,
+        "unit": "DAY"
+      }
+    },
+    {
+      "node": "CUS-18",
+      "product": "Widget",
+      "demand": {
+        "value": 26,
+        "unit": "DAY"
+      },
+      "initialInventory": 0,
+      "safetyStock": 0,
+      "holdingCost": {
+        "value": 0,
+        "unit": "DAY"
+      }
+    },
+    {
+      "node": "CUS-19",
+      "product": "Widget",
+      "demand": {
+        "value": 37,
+        "unit": "DAY"
+      },
+      "initialInventory": 0,
+      "safetyStock": 0,
+      "holdingCost": {
+        "value": 0,
+        "unit": "DAY"
+      }
+    },
+    {
+      "node": "CUS-20",
+      "product": "Widget",
+      "demand": {
+        "value": 58,
+        "unit": "DAY"
+      },
+      "initialInventory": 0,
+      "safetyStock": 0,
+      "holdingCost": {
+        "value": 0,
+        "unit": "DAY"
+      }
+    },
+    {
+      "node": "CUS-21",
+      "product": "Widget",
+      "demand": {
+        "value": 58,
+        "unit": "DAY"
+      },
+      "initialInventory": 0,
+      "safetyStock": 0,
+      "holdingCost": {
+        "value": 0,
+        "unit": "DAY"
+      }
+    },
+    {
+      "node": "CUS-22",
+      "product": "Widget",
+      "demand": {
+        "value": 38,
+        "unit": "DAY"
+      },
+      "initialInventory": 0,
+      "safetyStock": 0,
+      "holdingCost": {
+        "value": 0,
+        "unit": "DAY"
+      }
+    },
+    {
+      "node": "CUS-23",
+      "product": "Widget",
+      "demand": {
+        "value": 49,
+        "unit": "DAY"
+      },
+      "initialInventory": 0,
+      "safetyStock": 0,
+      "holdingCost": {
+        "value": 0,
+        "unit": "DAY"
+      }
+    },
+    {
+      "node": "CUS-24",
+      "product": "Widget",
+      "demand": {
+        "value": 49,
+        "unit": "DAY"
+      },
+      "initialInventory": 0,
+      "safetyStock": 0,
+      "holdingCost": {
+        "value": 0,
+        "unit": "DAY"
+      }
+    },
+    {
+      "node": "CUS-25",
+      "product": "Widget",
+      "demand": {
+        "value": 30,
+        "unit": "DAY"
+      },
+      "initialInventory": 0,
+      "safetyStock": 0,
+      "holdingCost": {
+        "value": 0,
+        "unit": "DAY"
+      }
+    },
+    {
+      "node": "CUS-26",
+      "product": "Widget",
+      "demand": {
+        "value": 27,
+        "unit": "DAY"
+      },
+      "initialInventory": 0,
+      "safetyStock": 0,
+      "holdingCost": {
+        "value": 0,
+        "unit": "DAY"
+      }
+    },
+    {
+      "node": "CUS-27",
+      "product": "Widget",
+      "demand": {
+        "value": 15,
+        "unit": "DAY"
+      },
+      "initialInventory": 0,
+      "safetyStock": 0,
+      "holdingCost": {
+        "value": 0,
+        "unit": "DAY"
+      }
+    },
+    {
+      "node": "CUS-28",
+      "product": "Widget",
+      "demand": {
+        "value": 45,
+        "unit": "DAY"
+      },
+      "initialInventory": 0,
+      "safetyStock": 0,
+      "holdingCost": {
+        "value": 0,
+        "unit": "DAY"
+      }
+    },
+    {
+      "node": "CUS-29",
+      "product": "Widget",
+      "demand": {
+        "value": 52,
+        "unit": "DAY"
+      },
+      "initialInventory": 0,
+      "safetyStock": 0,
+      "holdingCost": {
+        "value": 0,
+        "unit": "DAY"
+      }
+    },
+    {
+      "node": "CUS-30",
+      "product": "Widget",
+      "demand": {
+        "value": 22,
+        "unit": "DAY"
+      },
+      "initialInventory": 0,
+      "safetyStock": 0,
+      "holdingCost": {
+        "value": 0,
+        "unit": "DAY"
+      }
+    },
+    {
+      "node": "CUS-31",
+      "product": "Widget",
+      "demand": {
+        "value": 42,
+        "unit": "DAY"
+      },
+      "initialInventory": 0,
+      "safetyStock": 0,
+      "holdingCost": {
+        "value": 0,
+        "unit": "DAY"
+      }
+    },
+    {
+      "node": "CUS-32",
+      "product": "Widget",
+      "demand": {
+        "value": 31,
+        "unit": "DAY"
+      },
+      "initialInventory": 0,
+      "safetyStock": 0,
+      "holdingCost": {
+        "value": 0,
+        "unit": "DAY"
+      }
+    },
+    {
+      "node": "CUS-33",
+      "product": "Widget",
+      "demand": {
+        "value": 27,
+        "unit": "DAY"
+      },
+      "initialInventory": 0,
+      "safetyStock": 0,
+      "holdingCost": {
+        "value": 0,
+        "unit": "DAY"
+      }
+    },
+    {
+      "node": "CUS-34",
+      "product": "Widget",
+      "demand": {
+        "value": 41,
+        "unit": "DAY"
+      },
+      "initialInventory": 0,
+      "safetyStock": 0,
+      "holdingCost": {
+        "value": 0,
+        "unit": "DAY"
+      }
+    },
+    {
+      "node": "CUS-35",
+      "product": "Widget",
+      "demand": {
+        "value": 48,
+        "unit": "DAY"
+      },
+      "initialInventory": 0,
+      "safetyStock": 0,
+      "holdingCost": {
+        "value": 0,
+        "unit": "DAY"
+      }
+    },
+    {
+      "node": "CUS-36",
+      "product": "Widget",
+      "demand": {
+        "value": 35,
+        "unit": "DAY"
+      },
+      "initialInventory": 0,
+      "safetyStock": 0,
+      "holdingCost": {
+        "value": 0,
+        "unit": "DAY"
+      }
+    },
+    {
+      "node": "CUS-37",
+      "product": "Widget",
+      "demand": {
+        "value": 43,
+        "unit": "DAY"
+      },
+      "initialInventory": 0,
+      "safetyStock": 0,
+      "holdingCost": {
+        "value": 0,
+        "unit": "DAY"
+      }
+    },
+    {
+      "node": "CUS-38",
+      "product": "Widget",
+      "demand": {
+        "value": 44,
+        "unit": "DAY"
+      },
+      "initialInventory": 0,
+      "safetyStock": 0,
+      "holdingCost": {
+        "value": 0,
+        "unit": "DAY"
+      }
+    },
+    {
+      "node": "CUS-39",
+      "product": "Widget",
+      "demand": {
+        "value": 38,
+        "unit": "DAY"
+      },
+      "initialInventory": 0,
+      "safetyStock": 0,
+      "holdingCost": {
+        "value": 0,
+        "unit": "DAY"
+      }
+    },
+    {
+      "node": "CUS-40",
+      "product": "Widget",
+      "demand": {
+        "value": 48,
+        "unit": "DAY"
+      },
+      "initialInventory": 0,
+      "safetyStock": 0,
+      "holdingCost": {
+        "value": 0,
+        "unit": "DAY"
+      }
+    },
+    {
+      "node": "CUS-41",
+      "product": "Widget",
+      "demand": {
+        "value": 19,
+        "unit": "DAY"
+      },
+      "initialInventory": 0,
+      "safetyStock": 0,
+      "holdingCost": {
+        "value": 0,
+        "unit": "DAY"
+      }
+    },
+    {
+      "node": "CUS-42",
+      "product": "Widget",
+      "demand": {
+        "value": 52,
+        "unit": "DAY"
+      },
+      "initialInventory": 0,
+      "safetyStock": 0,
+      "holdingCost": {
+        "value": 0,
+        "unit": "DAY"
+      }
+    },
+    {
+      "node": "CUS-43",
+      "product": "Widget",
+      "demand": {
+        "value": 28,
+        "unit": "DAY"
+      },
+      "initialInventory": 0,
+      "safetyStock": 0,
+      "holdingCost": {
+        "value": 0,
+        "unit": "DAY"
+      }
+    },
+    {
+      "node": "CUS-44",
+      "product": "Widget",
+      "demand": {
+        "value": 35,
+        "unit": "DAY"
+      },
+      "initialInventory": 0,
+      "safetyStock": 0,
+      "holdingCost": {
+        "value": 0,
+        "unit": "DAY"
+      }
+    },
+    {
+      "node": "CUS-45",
+      "product": "Widget",
+      "demand": {
+        "value": 32,
+        "unit": "DAY"
+      },
+      "initialInventory": 0,
+      "safetyStock": 0,
+      "holdingCost": {
+        "value": 0,
+        "unit": "DAY"
+      }
+    },
+    {
+      "node": "CUS-46",
+      "product": "Widget",
+      "demand": {
+        "value": 17,
+        "unit": "DAY"
+      },
+      "initialInventory": 0,
+      "safetyStock": 0,
+      "holdingCost": {
+        "value": 0,
+        "unit": "DAY"
+      }
+    },
+    {
+      "node": "CUS-47",
+      "product": "Widget",
+      "demand": {
+        "value": 13,
+        "unit": "DAY"
+      },
+      "initialInventory": 0,
+      "safetyStock": 0,
+      "holdingCost": {
+        "value": 0,
+        "unit": "DAY"
+      }
+    }
+  ]
+}

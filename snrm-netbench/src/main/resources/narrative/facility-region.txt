@@ -1,0 +1,5 @@
+{name} is based in the {region} region.
+{name} is located in the {region} region.
+{name} sits in the {region} region.
+{name} operates in the {region} region.
+In terms of location, {name} falls within the {region} region.

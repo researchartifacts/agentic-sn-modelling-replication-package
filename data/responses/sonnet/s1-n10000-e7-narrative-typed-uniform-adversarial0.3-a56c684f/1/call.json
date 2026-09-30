@@ -1,0 +1,14 @@
+{
+ "model_alias": "sonnet",
+ "status": "failed",
+ "attempt": 1,
+ "prompt_version": "v1.2 (instruction file v1 + one file per tool call + incremental, brief reasoning)",
+ "failure": "Agent terminated early due to an API error: Autocompact is thrashing: the context refilled to the limit within 3 turns of the previous compact, 3 times in a row. A file being read or a tool output is likely too large for the context window. (error type invalid_request)",
+ "harness": "Claude Cowork subagent (Agent tool), file-writing mode, tools limited by instruction to Read/Write",
+ "candidate_files": [
+  "network_meta.csv",
+  "products.csv"
+ ],
+ "operator_note": "the harness terminated the agent while it was reading the description; network_meta.csv and products.csv had been written, nodes.csv, links.csv and node_products.csv had not; tokens, duration and tool uses were not returned by the harness for a terminated agent",
+ "recorded_at": "2026-09-28T07:55:46+00:00"
+}

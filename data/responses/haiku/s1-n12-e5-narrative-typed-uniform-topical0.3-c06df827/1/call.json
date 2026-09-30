@@ -1,0 +1,25 @@
+{
+ "model_alias": "haiku",
+ "reported_model": "claude-haiku-4-5-20251001",
+ "effort": "default (not configurable by the harness)",
+ "files_read": [
+  "protocol/llm-instructions-v1.md",
+  "data/runs-llm/s1-n12-e5-narrative-typed-uniform-topical0.3-c06df827/description/description.md"
+ ],
+ "tools_used": [
+  "Read",
+  "Write"
+ ],
+ "harness": "Claude Cowork subagent (Agent tool), file-writing mode, tools limited by instruction to Read/Write",
+ "subagent_tokens": 55132,
+ "duration_ms": 42477,
+ "tool_uses": 9,
+ "recorded_at": "2026-09-27T01:12:07+00:00",
+ "candidate_files": [
+  "links.csv",
+  "network_meta.csv",
+  "node_products.csv",
+  "nodes.csv",
+  "products.csv"
+ ]
+}

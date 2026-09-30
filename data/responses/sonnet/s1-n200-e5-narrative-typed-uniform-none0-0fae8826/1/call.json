@@ -1,0 +1,12 @@
+{
+ "model_alias": "sonnet",
+ "reported_model": "claude-sonnet-5 (as reported by the same alias in every other run)",
+ "effort": "default (not configurable by the harness)",
+ "status": "failed",
+ "failure": "Agent terminated early due to an API error: Claude's response exceeded the 64000 output token maximum (max_output_tokens). No candidate files were written.",
+ "harness": "Claude Cowork subagent (Agent tool), file-writing mode, tools limited by instruction to Read/Write",
+ "subagent_tokens": null,
+ "duration_ms": null,
+ "tool_uses": null,
+ "candidate_files": []
+}

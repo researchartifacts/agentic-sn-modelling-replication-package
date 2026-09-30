@@ -1,0 +1,5 @@
+a transport cost of {value} per unit
+a shipping cost of {value} per unit
+a freight cost of {value} per unit
+transport costs of {value} per unit
+a transport cost amounting to {value} per unit

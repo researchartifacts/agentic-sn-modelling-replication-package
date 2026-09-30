@@ -1,0 +1,5 @@
+a variable cost of {value} per unit
+a variable operating cost of {value} per unit
+variable costs of {value} per unit
+a variable cost amounting to {value} per unit
+a variable charge of {value} per unit

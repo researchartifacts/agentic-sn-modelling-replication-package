@@ -1,0 +1,5 @@
+a capacity of {value} units per {unit}
+a maximum throughput of {value} units per {unit}
+a capacity of {value} units every {unit}
+the capacity to handle {value} units per {unit}
+a throughput capacity of {value} units each {unit}

@@ -1,0 +1,915 @@
+{
+  "tool_version": "0.1.0",
+  "verified_at": "2026-09-28T08:05:30Z",
+  "truth": "runs-llm/s1-n50-e5-narrative-typed-uniform-adversarial0.3-fbabfcfe/truth",
+  "candidate": "responses/haiku/s1-n50-e5-narrative-typed-uniform-adversarial0.3-fbabfcfe/1/candidate",
+  "run_id": "s1-n50-e5-narrative-typed-uniform-adversarial0.3-fbabfcfe",
+  "manifest": {
+    "seed": 1,
+    "params": {
+      "seed": 1,
+      "nodes": 50,
+      "echelons": 5,
+      "final-product-name": "Widget",
+      "products": 1,
+      "naming": "typed",
+      "style": "narrative",
+      "order": "by-tier",
+      "units": "uniform",
+      "period-unit": "DAY",
+      "period-value": 1,
+      "horizon": 90,
+      "inbound-links": "1,2",
+      "lateral-links": 0,
+      "attribute-coverage": 1,
+      "noise-type": "adversarial",
+      "noise-ratio": 0.3,
+      "geo": false,
+      "distance-mode": "none",
+      "locale": "plain"
+    },
+    "counts": {
+      "nodes": 50,
+      "links": 64,
+      "products": 1,
+      "node_products": 50,
+      "facts_total": 715,
+      "facts_stated": 715,
+      "sentences_header": 4,
+      "sentences_fact": 145,
+      "sentences_noise": 62,
+      "noise_ratio_actual": 0.2995,
+      "words": 5681,
+      "token_estimate": 7385
+    }
+  },
+  "envelope": {
+    "source": "directory",
+    "files_found": [
+      "network_meta.csv",
+      "nodes.csv",
+      "links.csv",
+      "products.csv",
+      "node_products.csv"
+    ],
+    "files_missing": [],
+    "findings": []
+  },
+  "l0": {
+    "import_valid": true,
+    "error_count": 0,
+    "warning_count": 60,
+    "findings": [
+      {
+        "code": "ROW_WIDTH_MISMATCH",
+        "severity": "WARNING",
+        "file": "nodes.csv",
+        "line": 2,
+        "message": "nodes.csv line 2: has 15 cells but the header has 16; missing trailing cells read as blank"
+      },
+      {
+        "code": "ROW_WIDTH_MISMATCH",
+        "severity": "WARNING",
+        "file": "nodes.csv",
+        "line": 3,
+        "message": "nodes.csv line 3: has 15 cells but the header has 16; missing trailing cells read as blank"
+      },
+      {
+        "code": "ROW_WIDTH_MISMATCH",
+        "severity": "WARNING",
+        "file": "nodes.csv",
+        "line": 4,
+        "message": "nodes.csv line 4: has 15 cells but the header has 16; missing trailing cells read as blank"
+      },
+      {
+        "code": "ROW_WIDTH_MISMATCH",
+        "severity": "WARNING",
+        "file": "nodes.csv",
+        "line": 5,
+        "message": "nodes.csv line 5: has 15 cells but the header has 16; missing trailing cells read as blank"
+      },
+      {
+        "code": "ROW_WIDTH_MISMATCH",
+        "severity": "WARNING",
+        "file": "nodes.csv",
+        "line": 6,
+        "message": "nodes.csv line 6: has 15 cells but the header has 16; missing trailing cells read as blank"
+      },
+      {
+        "code": "ROW_WIDTH_MISMATCH",
+        "severity": "WARNING",
+        "file": "nodes.csv",
+        "line": 7,
+        "message": "nodes.csv line 7: has 15 cells but the header has 16; missing trailing cells read as blank"
+      },
+      {
+        "code": "ROW_WIDTH_MISMATCH",
+        "severity": "WARNING",
+        "file": "nodes.csv",
+        "line": 8,
+        "message": "nodes.csv line 8: has 15 cells but the header has 16; missing trailing cells read as blank"
+      },
+      {
+        "code": "ROW_WIDTH_MISMATCH",
+        "severity": "WARNING",
+        "file": "nodes.csv",
+        "line": 9,
+        "message": "nodes.csv line 9: has 15 cells but the header has 16; missing trailing cells read as blank"
+      },
+      {
+        "code": "ROW_WIDTH_MISMATCH",
+        "severity": "WARNING",
+        "file": "nodes.csv",
+        "line": 10,
+        "message": "nodes.csv line 10: has 15 cells but the header has 16; missing trailing cells read as blank"
+      },
+      {
+        "code": "ROW_WIDTH_MISMATCH",
+        "severity": "WARNING",
+        "file": "nodes.csv",
+        "line": 11,
+        "message": "nodes.csv line 11: has 15 cells but the header has 16; missing trailing cells read as blank"
+      },
+      {
+        "code": "ROW_WIDTH_MISMATCH",
+        "severity": "WARNING",
+        "file": "nodes.csv",
+        "line": 12,
+        "message": "nodes.csv line 12: has 15 cells but the header has 16; missing trailing cells read as blank"
+      },
+      {
+        "code": "ROW_WIDTH_MISMATCH",
+        "severity": "WARNING",
+        "file": "nodes.csv",
+        "line": 13,
+        "message": "nodes.csv line 13: has 15 cells but the header has 16; missing trailing cells read as blank"
+      },
+      {
+        "code": "ROW_WIDTH_MISMATCH",
+        "severity": "WARNING",
+        "file": "nodes.csv",
+        "line": 14,
+        "message": "nodes.csv line 14: has 15 cells but the header has 16; missing trailing cells read as blank"
+      },
+      {
+        "code": "ROW_WIDTH_MISMATCH",
+        "severity": "WARNING",
+        "file": "nodes.csv",
+        "line": 15,
+        "message": "nodes.csv line 15: has 15 cells but the header has 16; missing trailing cells read as blank"
+      },
+      {
+        "code": "ROW_WIDTH_MISMATCH",
+        "severity": "WARNING",
+        "file": "nodes.csv",
+        "line": 16,
+        "message": "nodes.csv line 16: has 15 cells but the header has 16; missing trailing cells read as blank"
+      },
+      {
+        "code": "ROW_WIDTH_MISMATCH",
+        "severity": "WARNING",
+        "file": "nodes.csv",
+        "line": 17,
+        "message": "nodes.csv line 17: has 15 cells but the header has 16; missing trailing cells read as blank"
+      },
+      {
+        "code": "ROW_WIDTH_MISMATCH",
+        "severity": "WARNING",
+        "file": "nodes.csv",
+        "line": 18,
+        "message": "nodes.csv line 18: has 15 cells but the header has 16; missing trailing cells read as blank"
+      },
+      {
+        "code": "ROW_WIDTH_MISMATCH",
+        "severity": "WARNING",
+        "file": "nodes.csv",
+        "line": 19,
+        "message": "nodes.csv line 19: has 15 cells but the header has 16; missing trailing cells read as blank"
+      },
+      {
+        "code": "ROW_WIDTH_MISMATCH",
+        "severity": "WARNING",
+        "file": "nodes.csv",
+        "line": 20,
+        "message": "nodes.csv line 20: has 15 cells but the header has 16; missing trailing cells read as blank"
+      },
+      {
+        "code": "ROW_WIDTH_MISMATCH",
+        "severity": "WARNING",
+        "file": "nodes.csv",
+        "line": 21,
+        "message": "nodes.csv line 21: has 15 cells but the header has 16; missing trailing cells read as blank"
+      },
+      {
+        "code": "ROW_WIDTH_MISMATCH",
+        "severity": "WARNING",
+        "file": "nodes.csv",
+        "line": 22,
+        "message": "nodes.csv line 22: has 15 cells but the header has 16; missing trailing cells read as blank"
+      },
+      {
+        "code": "ROW_WIDTH_MISMATCH",
+        "severity": "WARNING",
+        "file": "nodes.csv",
+        "line": 23,
+        "message": "nodes.csv line 23: has 15 cells but the header has 16; missing trailing cells read as blank"
+      },
+      {
+        "code": "ROW_WIDTH_MISMATCH",
+        "severity": "WARNING",
+        "file": "nodes.csv",
+        "line": 24,
+        "message": "nodes.csv line 24: has 15 cells but the header has 16; missing trailing cells read as blank"
+      },
+      {
+        "code": "ROW_WIDTH_MISMATCH",
+        "severity": "WARNING",
+        "file": "nodes.csv",
+        "line": 25,
+        "message": "nodes.csv line 25: has 15 cells but the header has 16; missing trailing cells read as blank"
+      },
+      {
+        "code": "ROW_WIDTH_MISMATCH",
+        "severity": "WARNING",
+        "file": "nodes.csv",
+        "line": 26,
+        "message": "nodes.csv line 26: has 15 cells but the header has 16; missing trailing cells read as blank"
+      },
+      {
+        "code": "ROW_WIDTH_MISMATCH",
+        "severity": "WARNING",
+        "file": "nodes.csv",
+        "line": 27,
+        "message": "nodes.csv line 27: has 15 cells but the header has 16; missing trailing cells read as blank"
+      },
+      {
+        "code": "ROW_WIDTH_MISMATCH",
+        "severity": "WARNING",
+        "file": "nodes.csv",
+        "line": 28,
+        "message": "nodes.csv line 28: has 15 cells but the header has 16; missing trailing cells read as blank"
+      },
+      {
+        "code": "ROW_WIDTH_MISMATCH",
+        "severity": "WARNING",
+        "file": "nodes.csv",
+        "line": 29,
+        "message": "nodes.csv line 29: has 15 cells but the header has 16; missing trailing cells read as blank"
+      },
+      {
+        "code": "ROW_WIDTH_MISMATCH",
+        "severity": "WARNING",
+        "file": "nodes.csv",
+        "line": 30,
+        "message": "nodes.csv line 30: has 15 cells but the header has 16; missing trailing cells read as blank"
+      },
+      {
+        "code": "ROW_WIDTH_MISMATCH",
+        "severity": "WARNING",
+        "file": "nodes.csv",
+        "line": 31,
+        "message": "nodes.csv line 31: has 15 cells but the header has 16; missing trailing cells read as blank"
+      },
+      {
+        "code": "ROW_WIDTH_MISMATCH",
+        "severity": "WARNING",
+        "file": "nodes.csv",
+        "line": 32,
+        "message": "nodes.csv line 32: has 15 cells but the header has 16; missing trailing cells read as blank"
+      },
+      {
+        "code": "ROW_WIDTH_MISMATCH",
+        "severity": "WARNING",
+        "file": "nodes.csv",
+        "line": 33,
+        "message": "nodes.csv line 33: has 15 cells but the header has 16; missing trailing cells read as blank"
+      },
+      {
+        "code": "ROW_WIDTH_MISMATCH",
+        "severity": "WARNING",
+        "file": "nodes.csv",
+        "line": 34,
+        "message": "nodes.csv line 34: has 15 cells but the header has 16; missing trailing cells read as blank"
+      },
+      {
+        "code": "ROW_WIDTH_MISMATCH",
+        "severity": "WARNING",
+        "file": "nodes.csv",
+        "line": 35,
+        "message": "nodes.csv line 35: has 15 cells but the header has 16; missing trailing cells read as blank"
+      },
+      {
+        "code": "ROW_WIDTH_MISMATCH",
+        "severity": "WARNING",
+        "file": "nodes.csv",
+        "line": 36,
+        "message": "nodes.csv line 36: has 15 cells but the header has 16; missing trailing cells read as blank"
+      },
+      {
+        "code": "ROW_WIDTH_MISMATCH",
+        "severity": "WARNING",
+        "file": "nodes.csv",
+        "line": 37,
+        "message": "nodes.csv line 37: has 15 cells but the header has 16; missing trailing cells read as blank"
+      },
+      {
+        "code": "ROW_WIDTH_MISMATCH",
+        "severity": "WARNING",
+        "file": "nodes.csv",
+        "line": 38,
+        "message": "nodes.csv line 38: has 15 cells but the header has 16; missing trailing cells read as blank"
+      },
+      {
+        "code": "ROW_WIDTH_MISMATCH",
+        "severity": "WARNING",
+        "file": "nodes.csv",
+        "line": 39,
+        "message": "nodes.csv line 39: has 15 cells but the header has 16; missing trailing cells read as blank"
+      },
+      {
+        "code": "ROW_WIDTH_MISMATCH",
+        "severity": "WARNING",
+        "file": "nodes.csv",
+        "line": 40,
+        "message": "nodes.csv line 40: has 15 cells but the header has 16; missing trailing cells read as blank"
+      },
+      {
+        "code": "ROW_WIDTH_MISMATCH",
+        "severity": "WARNING",
+        "file": "nodes.csv",
+        "line": 41,
+        "message": "nodes.csv line 41: has 15 cells but the header has 16; missing trailing cells read as blank"
+      },
+      {
+        "code": "ROW_WIDTH_MISMATCH",
+        "severity": "WARNING",
+        "file": "nodes.csv",
+        "line": 42,
+        "message": "nodes.csv line 42: has 15 cells but the header has 16; missing trailing cells read as blank"
+      },
+      {
+        "code": "ROW_WIDTH_MISMATCH",
+        "severity": "WARNING",
+        "file": "nodes.csv",
+        "line": 43,
+        "message": "nodes.csv line 43: has 15 cells but the header has 16; missing trailing cells read as blank"
+      },
+      {
+        "code": "ROW_WIDTH_MISMATCH",
+        "severity": "WARNING",
+        "file": "nodes.csv",
+        "line": 44,
+        "message": "nodes.csv line 44: has 15 cells but the header has 16; missing trailing cells read as blank"
+      },
+      {
+        "code": "ROW_WIDTH_MISMATCH",
+        "severity": "WARNING",
+        "file": "nodes.csv",
+        "line": 45,
+        "message": "nodes.csv line 45: has 15 cells but the header has 16; missing trailing cells read as blank"
+      },
+      {
+        "code": "ROW_WIDTH_MISMATCH",
+        "severity": "WARNING",
+        "file": "nodes.csv",
+        "line": 46,
+        "message": "nodes.csv line 46: has 15 cells but the header has 16; missing trailing cells read as blank"
+      },
+      {
+        "code": "ROW_WIDTH_MISMATCH",
+        "severity": "WARNING",
+        "file": "nodes.csv",
+        "line": 47,
+        "message": "nodes.csv line 47: has 15 cells but the header has 16; missing trailing cells read as blank"
+      },
+      {
+        "code": "ROW_WIDTH_MISMATCH",
+        "severity": "WARNING",
+        "file": "nodes.csv",
+        "line": 48,
+        "message": "nodes.csv line 48: has 15 cells but the header has 16; missing trailing cells read as blank"
+      },
+      {
+        "code": "ROW_WIDTH_MISMATCH",
+        "severity": "WARNING",
+        "file": "nodes.csv",
+        "line": 49,
+        "message": "nodes.csv line 49: has 15 cells but the header has 16; missing trailing cells read as blank"
+      },
+      {
+        "code": "ROW_WIDTH_MISMATCH",
+        "severity": "WARNING",
+        "file": "nodes.csv",
+        "line": 50,
+        "message": "nodes.csv line 50: has 15 cells but the header has 16; missing trailing cells read as blank"
+      },
+      {
+        "code": "ROW_WIDTH_MISMATCH",
+        "severity": "WARNING",
+        "file": "nodes.csv",
+        "line": 51,
+        "message": "nodes.csv line 51: has 15 cells but the header has 16; missing trailing cells read as blank"
+      },
+      {
+        "code": "LATERAL_LINK",
+        "severity": "WARNING",
+        "file": "links.csv",
+        "line": 21,
+        "element": "DCC-01->DCR-01",
+        "message": "link DCC-01 -> DCR-01 joins two DC nodes (lateral)"
+      },
+      {
+        "code": "LATERAL_LINK",
+        "severity": "WARNING",
+        "file": "links.csv",
+        "line": 22,
+        "element": "DCC-02->DCR-04",
+        "message": "link DCC-02 -> DCR-04 joins two DC nodes (lateral)"
+      },
+      {
+        "code": "LATERAL_LINK",
+        "severity": "WARNING",
+        "file": "links.csv",
+        "line": 23,
+        "element": "DCC-02->DCR-05",
+        "message": "link DCC-02 -> DCR-05 joins two DC nodes (lateral)"
+      },
+      {
+        "code": "LATERAL_LINK",
+        "severity": "WARNING",
+        "file": "links.csv",
+        "line": 24,
+        "element": "DCC-03->DCR-03",
+        "message": "link DCC-03 -> DCR-03 joins two DC nodes (lateral)"
+      },
+      {
+        "code": "LATERAL_LINK",
+        "severity": "WARNING",
+        "file": "links.csv",
+        "line": 25,
+        "element": "DCC-04->DCR-05",
+        "message": "link DCC-04 -> DCR-05 joins two DC nodes (lateral)"
+      },
+      {
+        "code": "LATERAL_LINK",
+        "severity": "WARNING",
+        "file": "links.csv",
+        "line": 26,
+        "element": "DCC-05->DCR-04",
+        "message": "link DCC-05 -> DCR-04 joins two DC nodes (lateral)"
+      },
+      {
+        "code": "LATERAL_LINK",
+        "severity": "WARNING",
+        "file": "links.csv",
+        "line": 27,
+        "element": "DCC-05->DCR-06",
+        "message": "link DCC-05 -> DCR-06 joins two DC nodes (lateral)"
+      },
+      {
+        "code": "LATERAL_LINK",
+        "severity": "WARNING",
+        "file": "links.csv",
+        "line": 28,
+        "element": "DCC-06->DCR-02",
+        "message": "link DCC-06 -> DCR-02 joins two DC nodes (lateral)"
+      },
+      {
+        "code": "LATERAL_LINK",
+        "severity": "WARNING",
+        "file": "links.csv",
+        "line": 29,
+        "element": "DCC-06->DCR-06",
+        "message": "link DCC-06 -> DCR-06 joins two DC nodes (lateral)"
+      },
+      {
+        "code": "LATERAL_LINK",
+        "severity": "WARNING",
+        "file": "links.csv",
+        "line": 30,
+        "element": "DCC-07->DCR-01",
+        "message": "link DCC-07 -> DCR-01 joins two DC nodes (lateral)"
+      }
+    ],
+    "snrm": null,
+    "import_valid_snrm": null,
+    "disagreements": []
+  },
+  "l1": {
+    "nodes": {
+      "truth": 50,
+      "candidate": 50,
+      "matched": 50,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "links": {
+      "truth": 64,
+      "candidate": 64,
+      "matched": 64,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "recall_conditional": 1.0
+    },
+    "products": {
+      "truth": 1,
+      "candidate": 1,
+      "matched": 1,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "node_products": {
+      "truth": 50,
+      "candidate": 50,
+      "matched": 50,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "node_type_accuracy": 1.0,
+    "structure_f1": 1.0,
+    "missing_nodes": [],
+    "extra_nodes": [],
+    "missing_links": [],
+    "extra_links": [],
+    "reversed_links": []
+  },
+  "l2": {
+    "fact_recall": 0.9986013986013986,
+    "fact_precision": 0.9986013986013986,
+    "per_field": {
+      "network_meta.name": {
+        "stated": 1,
+        "correct": 0,
+        "correct_blank": 0,
+        "convention_ok": 0,
+        "omitted": 0,
+        "wrong": 1,
+        "wrong_unit": 0,
+        "wrong_type": 0,
+        "wrong_direction": 0,
+        "filled_unstated": 0,
+        "convention_violation": 0,
+        "decoy_absorbed": 0
+      },
+      "network_meta.period_length": {
+        "stated": 1,
+        "correct": 1,
+        "correct_blank": 0,
+        "convention_ok": 0,
+        "omitted": 0,
+        "wrong": 0,
+        "wrong_unit": 0,
+        "wrong_type": 0,
+        "wrong_direction": 0,
+        "filled_unstated": 0,
+        "convention_violation": 0,
+        "decoy_absorbed": 0
+      },
+      "network_meta.horizon_periods": {
+        "stated": 1,
+        "correct": 1,
+        "correct_blank": 0,
+        "convention_ok": 0,
+        "omitted": 0,
+        "wrong": 0,
+        "wrong_unit": 0,
+        "wrong_type": 0,
+        "wrong_direction": 0,
+        "filled_unstated": 0,
+        "convention_violation": 0,
+        "decoy_absorbed": 0
+      },
+      "network_meta.rounding_policy": {
+        "stated": 1,
+        "correct": 1,
+        "correct_blank": 0,
+        "convention_ok": 0,
+        "omitted": 0,
+        "wrong": 0,
+        "wrong_unit": 0,
+        "wrong_type": 0,
+        "wrong_direction": 0,
+        "filled_unstated": 0,
+        "convention_violation": 0,
+        "decoy_absorbed": 0
+      },
+      "products.exists": {
+        "stated": 1,
+        "correct": 1,
+        "correct_blank": 0,
+        "convention_ok": 0,
+        "omitted": 0,
+        "wrong": 0,
+        "wrong_unit": 0,
+        "wrong_type": 0,
+        "wrong_direction": 0,
+        "filled_unstated": 0,
+        "convention_violation": 0,
+        "decoy_absorbed": 0
+      },
+      "products.unit_value": {
+        "stated": 1,
+        "correct": 1,
+        "correct_blank": 0,
+        "convention_ok": 0,
+        "omitted": 0,
+        "wrong": 0,
+        "wrong_unit": 0,
+        "wrong_type": 0,
+        "wrong_direction": 0,
+        "filled_unstated": 0,
+        "convention_violation": 0,
+        "decoy_absorbed": 0
+      },
+      "nodes.exists": {
+        "stated": 50,
+        "correct": 50,
+        "correct_blank": 0,
+        "convention_ok": 0,
+        "omitted": 0,
+        "wrong": 0,
+        "wrong_unit": 0,
+        "wrong_type": 0,
+        "wrong_direction": 0,
+        "filled_unstated": 0,
+        "convention_violation": 0,
+        "decoy_absorbed": 0
+      },
+      "nodes.region": {
+        "stated": 50,
+        "correct": 50,
+        "correct_blank": 0,
+        "convention_ok": 0,
+        "omitted": 0,
+        "wrong": 0,
+        "wrong_unit": 0,
+        "wrong_type": 0,
+        "wrong_direction": 0,
+        "filled_unstated": 0,
+        "convention_violation": 0,
+        "decoy_absorbed": 0
+      },
+      "nodes.capacity": {
+        "stated": 27,
+        "correct": 27,
+        "correct_blank": 0,
+        "convention_ok": 23,
+        "omitted": 0,
+        "wrong": 0,
+        "wrong_unit": 0,
+        "wrong_type": 0,
+        "wrong_direction": 0,
+        "filled_unstated": 0,
+        "convention_violation": 0,
+        "decoy_absorbed": 0
+      },
+      "nodes.processing_time": {
+        "stated": 27,
+        "correct": 27,
+        "correct_blank": 0,
+        "convention_ok": 23,
+        "omitted": 0,
+        "wrong": 0,
+        "wrong_unit": 0,
+        "wrong_type": 0,
+        "wrong_direction": 0,
+        "filled_unstated": 0,
+        "convention_violation": 0,
+        "decoy_absorbed": 0
+      },
+      "nodes.fixed_cost": {
+        "stated": 27,
+        "correct": 27,
+        "correct_blank": 0,
+        "convention_ok": 23,
+        "omitted": 0,
+        "wrong": 0,
+        "wrong_unit": 0,
+        "wrong_type": 0,
+        "wrong_direction": 0,
+        "filled_unstated": 0,
+        "convention_violation": 0,
+        "decoy_absorbed": 0
+      },
+      "nodes.var_cost": {
+        "stated": 27,
+        "correct": 27,
+        "correct_blank": 0,
+        "convention_ok": 23,
+        "omitted": 0,
+        "wrong": 0,
+        "wrong_unit": 0,
+        "wrong_type": 0,
+        "wrong_direction": 0,
+        "filled_unstated": 0,
+        "convention_violation": 0,
+        "decoy_absorbed": 0
+      },
+      "nodes.failure_prob": {
+        "stated": 27,
+        "correct": 27,
+        "correct_blank": 0,
+        "convention_ok": 23,
+        "omitted": 0,
+        "wrong": 0,
+        "wrong_unit": 0,
+        "wrong_type": 0,
+        "wrong_direction": 0,
+        "filled_unstated": 0,
+        "convention_violation": 0,
+        "decoy_absorbed": 0
+      },
+      "nodes.geo": {
+        "stated": 0,
+        "correct": 0,
+        "correct_blank": 50,
+        "convention_ok": 0,
+        "omitted": 0,
+        "wrong": 0,
+        "wrong_unit": 0,
+        "wrong_type": 0,
+        "wrong_direction": 0,
+        "filled_unstated": 0,
+        "convention_violation": 0,
+        "decoy_absorbed": 0
+      },
+      "links.exists": {
+        "stated": 64,
+        "correct": 64,
+        "correct_blank": 0,
+        "convention_ok": 0,
+        "omitted": 0,
+        "wrong": 0,
+        "wrong_unit": 0,
+        "wrong_type": 0,
+        "wrong_direction": 0,
+        "filled_unstated": 0,
+        "convention_violation": 0,
+        "decoy_absorbed": 0
+      },
+      "links.lead_time": {
+        "stated": 64,
+        "correct": 64,
+        "correct_blank": 0,
+        "convention_ok": 0,
+        "omitted": 0,
+        "wrong": 0,
+        "wrong_unit": 0,
+        "wrong_type": 0,
+        "wrong_direction": 0,
+        "filled_unstated": 0,
+        "convention_violation": 0,
+        "decoy_absorbed": 0
+      },
+      "links.capacity": {
+        "stated": 64,
+        "correct": 64,
+        "correct_blank": 0,
+        "convention_ok": 0,
+        "omitted": 0,
+        "wrong": 0,
+        "wrong_unit": 0,
+        "wrong_type": 0,
+        "wrong_direction": 0,
+        "filled_unstated": 0,
+        "convention_violation": 0,
+        "decoy_absorbed": 0
+      },
+      "links.unit_cost": {
+        "stated": 64,
+        "correct": 64,
+        "correct_blank": 0,
+        "convention_ok": 0,
+        "omitted": 0,
+        "wrong": 0,
+        "wrong_unit": 0,
+        "wrong_type": 0,
+        "wrong_direction": 0,
+        "filled_unstated": 0,
+        "convention_violation": 0,
+        "decoy_absorbed": 0
+      },
+      "links.failure_prob": {
+        "stated": 64,
+        "correct": 64,
+        "correct_blank": 0,
+        "convention_ok": 0,
+        "omitted": 0,
+        "wrong": 0,
+        "wrong_unit": 0,
+        "wrong_type": 0,
+        "wrong_direction": 0,
+        "filled_unstated": 0,
+        "convention_violation": 0,
+        "decoy_absorbed": 0
+      },
+      "node_products.exists": {
+        "stated": 50,
+        "correct": 50,
+        "correct_blank": 0,
+        "convention_ok": 0,
+        "omitted": 0,
+        "wrong": 0,
+        "wrong_unit": 0,
+        "wrong_type": 0,
+        "wrong_direction": 0,
+        "filled_unstated": 0,
+        "convention_violation": 0,
+        "decoy_absorbed": 0
+      },
+      "node_products.demand": {
+        "stated": 23,
+        "correct": 23,
+        "correct_blank": 0,
+        "convention_ok": 27,
+        "omitted": 0,
+        "wrong": 0,
+        "wrong_unit": 0,
+        "wrong_type": 0,
+        "wrong_direction": 0,
+        "filled_unstated": 0,
+        "convention_violation": 0,
+        "decoy_absorbed": 0
+      },
+      "node_products.initial_inventory": {
+        "stated": 27,
+        "correct": 27,
+        "correct_blank": 0,
+        "convention_ok": 23,
+        "omitted": 0,
+        "wrong": 0,
+        "wrong_unit": 0,
+        "wrong_type": 0,
+        "wrong_direction": 0,
+        "filled_unstated": 0,
+        "convention_violation": 0,
+        "decoy_absorbed": 0
+      },
+      "node_products.safety_stock": {
+        "stated": 27,
+        "correct": 27,
+        "correct_blank": 0,
+        "convention_ok": 23,
+        "omitted": 0,
+        "wrong": 0,
+        "wrong_unit": 0,
+        "wrong_type": 0,
+        "wrong_direction": 0,
+        "filled_unstated": 0,
+        "convention_violation": 0,
+        "decoy_absorbed": 0
+      },
+      "node_products.holding_cost": {
+        "stated": 27,
+        "correct": 27,
+        "correct_blank": 0,
+        "convention_ok": 23,
+        "omitted": 0,
+        "wrong": 0,
+        "wrong_unit": 0,
+        "wrong_type": 0,
+        "wrong_direction": 0,
+        "filled_unstated": 0,
+        "convention_violation": 0,
+        "decoy_absorbed": 0
+      }
+    },
+    "fabricated": {
+      "nodes": [],
+      "links": [],
+      "products": [],
+      "node_products": []
+    },
+    "convention_violations": [],
+    "mismatches": [
+      {
+        "kind": "meta",
+        "entity": "network_meta",
+        "field": "name",
+        "class": "wrong",
+        "truth": "Widget supply network",
+        "truth_unit": null,
+        "candidate": "Widget",
+        "candidate_unit": null,
+        "sentence": 1
+      }
+    ],
+    "settings": {
+      "tolerance": 0.000001,
+      "lenient_numbers": false
+    }
+  },
+  "decoys": {
+    "decoy_total": 62,
+    "decoy_entities_absorbed": [],
+    "decoy_values_absorbed": []
+  },
+  "l3": null,
+  "composite": {
+    "ncs": 0.9993006993006993
+  }
+}
